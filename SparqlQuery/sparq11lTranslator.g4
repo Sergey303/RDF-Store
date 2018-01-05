@@ -26,7 +26,7 @@ options	{ 	 }
     using SparqlQuery.SparqlClasses.GraphPattern.Triples.Path;
 	using RDFCommon;				 
 	using RDFCommon.OVns;
-
+	using RDFCommon.OVns.general;
 	
 }
 

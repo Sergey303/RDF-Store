@@ -11,17 +11,10 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Compile Include="obj\Release\sparq11lTranslatorLexer.cs" />
-    <Compile Include="obj\Release\sparq11lTranslatorParser.cs" />
-  </ItemGroup>
-
-  <ItemGroup>
     <Content Include="obj\project.assets.json" />
   </ItemGroup>
 
   <ItemGroup>
-    <None Include="obj\Release\sparq11lTranslator.tokens" />
-    <None Include="obj\Release\sparq11lTranslatorLexer.tokens" />
     <None Include="obj\SparqlQuery.csproj.nuget.cache" />
     <None Include="obj\SparqlQuery.csproj.nuget.g.props" />
     <None Include="obj\SparqlQuery.csproj.nuget.g.targets" />
@@ -30,6 +23,8 @@
 
   <ItemGroup>
     <PackageReference Include="Antlr4" Version="4.6.4" />
+    <PackageReference Include="Antlr4.CodeGenerator" Version="4.6.4" />
+    <PackageReference Include="Antlr4.Runtime" Version="4.6.4" />
   </ItemGroup>
 
   <ItemGroup>
@@ -40,6 +35,10 @@
     <Reference Include="Microsoft.CSharp">
       <HintPath>C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.7\Microsoft.CSharp.dll</HintPath>
     </Reference>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="obj\Release\" />
   </ItemGroup>
 
 </Project>

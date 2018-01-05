@@ -2,7 +2,6 @@
 using Antlr4.Runtime;
 using RDFCommon;
 using RDFCommon.Interfaces;
-using SparqlQuery.obj.Release;
 
 namespace SparqlQuery.SparqlClasses
 {
