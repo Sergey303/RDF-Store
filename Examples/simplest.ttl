@@ -1,0 +1,12 @@
+<id1><type><contry>
+<id1> <name> "Россия"
+<id2><type><person>
+<id2> <name> "Владимир Владимирович"
+<id3><type><person>
+<id3> <name> "Дмитрий Анатольевич"
+<id4><type><paticipation>
+<id4> <partticipant> <id2>
+<id4> <in-org> <id1>
+<id5><type><paticipation>
+<id5> <participant> <id3>
+<id5> <in-org> <id1>

@@ -1,0 +1,2 @@
+?book = <http://example.org/book/book1> , ?title = "SPARQL Tutorial" , ?price = "42^http://www.w3.org/2001/XMLSchema#integer"
+?book = <http://example.org/book/book2> , ?title = "The Semantic Web" , ?price = "23^^http://www.w3.org/2001/XMLSchema#integer"

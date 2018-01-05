@@ -1,0 +1,2 @@
+?x = <http://example.com/b> , ?n = 3.0
+?x = <http://example.com/a> , ?n = 1

@@ -1,0 +1,4 @@
+?title = "SPARQL Query Language Tutorial"
+?title = "SPARQL"
+?title = "SPARQL Protocol Tutorial"
+?title = "SPARQL (updated)"

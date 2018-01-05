@@ -1,0 +1,2 @@
+?s = <http://example/carol>
+?s = <http://example/alice>

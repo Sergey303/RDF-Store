@@ -1,0 +1,3 @@
+?person = <http://example/y>
+?person = <http://example/z>
+?person = <http://example/s>

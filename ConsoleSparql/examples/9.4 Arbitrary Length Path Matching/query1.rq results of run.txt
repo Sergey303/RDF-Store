@@ -1,0 +1,8 @@
+{ "head": { "vars": [ "?x",
+"?type",
+"b7082544-c3b2-4e8e-9f61-e9ed8c69aa40" ] }, "results": { "bindings" : [{"?x" : { "type" : "uri", "value" : "http://example/x" },
+"?type" : { "type" : "uri", "value" : "http://example/type1" }},
+{"?x" : { "type" : "uri", "value" : "http://example/x" },
+"?type" : { "type" : "uri", "value" : "http://example/type2" }},
+{"?x" : { "type" : "uri", "value" : "http://example/x" },
+"?type" : { "type" : "uri", "value" : "http://example/type3" }}] } }

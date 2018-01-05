@@ -1,0 +1,84 @@
+10.1 BIND Assigning to Variables query1.rq parse  213,429ms
+10.1 BIND Assigning to Variables query1.rq run  12,3741ms
+10.1 BIND Assigning to Variables query2.rq parse  3,309ms
+10.1 BIND Assigning to Variables query2.rq run  0,5068ms
+10.2.2 VALUES Examples query1.rq parse  7,1236ms
+10.2.2 VALUES Examples query1.rq run  3,2903ms
+10.2.2 VALUES Examples query2.rq parse  8,5438ms
+10.2.2 VALUES Examples query2.rq run  2,5464ms
+10.2.2 VALUES Examples query3.rq parse  0,3468ms
+10.2.2 VALUES Examples query3.rq run  1,8566ms
+11.1 Aggregate Example query1.rq parse  25,8336ms
+11.1 Aggregate Example query1.rq run  3,1649ms
+12 Subqueries query1.rq parse  4,3565ms
+12 Subqueries query1.rq run  0,2155ms
+12 Subqueries query2.rq parse  0,4753ms
+12 Subqueries query2.rq run  0,0225ms
+15.3 Duplicate Solutions query1.rq parse  0,8247ms
+15.3 Duplicate Solutions query1.rq run  0,0174ms
+15.3 Duplicate Solutions query2.rq parse  1,8937ms
+15.3 Duplicate Solutions query2.rq run  0,0202ms
+15.3 Duplicate Solutions query3.rq parse  1,8955ms
+15.3 Duplicate Solutions query3.rq run  0,023ms
+15.4 OFFSET query1.rq parse  6,6721ms
+15.4 OFFSET query1.rq run  0,4676ms
+16.2 CONSTRUCT query1.rq parse  10,7954ms
+16.2 CONSTRUCT query1.rq run  11,367ms
+16.2.3 Solution Modifiers and CONSTRUCT query1.rq parse  9,0066ms
+16.2.3 Solution Modifiers and CONSTRUCT query1.rq run  2,4466ms
+17.4.1.1 bound query1.rq parse  4,3386ms
+17.4.1.1 bound query1.rq run  1,2796ms
+17.4.1.1 bound query2.rq parse  0,8273ms
+17.4.1.1 bound query2.rq run  0,0427ms
+2.5 Creating Values with Expressions query1.rq parse  4,3795ms
+2.5 Creating Values with Expressions query1.rq run  0,0299ms
+2.5 Creating Values with Expressions query2.rq parse  0,3238ms
+2.5 Creating Values with Expressions query2.rq run  0,0238ms
+2.6 Building RDF Graphs query1.rq parse  1,3584ms
+2.6 Building RDF Graphs query1.rq run  0,2856ms
+3.1 Restricting the Value of Strings query1.rq parse  2,4466ms
+3.1 Restricting the Value of Strings query1.rq run  0,0975ms
+3.1 Restricting the Value of Strings query2.rq parse  0,6847ms
+3.1 Restricting the Value of Strings query2.rq run  0,0263ms
+3.2 Restricting Numeric Values query1.rq parse  1,2302ms
+3.2 Restricting Numeric Values query1.rq run  0,0235ms
+6.1 Optional Pattern Matching query1.rq parse  1,2363ms
+6.1 Optional Pattern Matching query1.rq run  0,0215ms
+6.2 Constraints in Optional Pattern Matching query1.rq parse  0,3824ms
+6.2 Constraints in Optional Pattern Matching query1.rq run  0,0243ms
+6.3 Multiple Optional Graph Patterns query1.rq parse  0,5562ms
+6.3 Multiple Optional Graph Patterns query1.rq run  0,023ms
+7 Matching Alternatives query1.rq parse  1,3362ms
+7 Matching Alternatives query1.rq run  0,0312ms
+7 Matching Alternatives query2.rq parse  0,3186ms
+7 Matching Alternatives query2.rq run  0,0332ms
+7 Matching Alternatives query3.rq parse  0,6701ms
+7 Matching Alternatives query3.rq run  0,0322ms
+8.1.1 Testing For the Absence of a Pattern query1.rq parse  3,6024ms
+8.1.1 Testing For the Absence of a Pattern query1.rq run  0,0511ms
+8.1.2 Testing For the Presence of a Pattern query1.rq parse  0,8401ms
+8.1.2 Testing For the Presence of a Pattern query1.rq run  0,0227ms
+8.2 Removing Possible Solutions query1.rq parse  1,5235ms
+8.2 Removing Possible Solutions query1.rq run  1,1882ms
+8.3.1 Example Sharing of variables query1.rq parse  2,0161ms
+8.3.1 Example Sharing of variables query1.rq run  0,0378ms
+8.3.1 Example Sharing of variables query2.rq parse  0,2572ms
+8.3.1 Example Sharing of variables query2.rq run  0,0353ms
+8.3.2 Example Fixed pattern query1.rq parse  0,6586ms
+8.3.2 Example Fixed pattern query1.rq run  0,0222ms
+8.3.2 Example Fixed pattern query2.rq parse  0,378ms
+8.3.2 Example Fixed pattern query2.rq run  1,329ms
+8.3.3 Example Inner FILTERs query1.rq parse  1,1268ms
+8.3.3 Example Inner FILTERs query1.rq run  0,0371ms
+8.3.3 Example Inner FILTERs query2.rq parse  0,4418ms
+8.3.3 Example Inner FILTERs query2.rq run  0,0299ms
+9.3 Property Paths and Equivalent Patterns query1.rq parse  2,197ms
+9.3 Property Paths and Equivalent Patterns query1.rq run  0,0181ms
+9.3 Property Paths and Equivalent Patterns query2.rq parse  0,4308ms
+9.3 Property Paths and Equivalent Patterns query2.rq run  0,0197ms
+9.3 Property Paths and Equivalent Patterns query3.rq parse  0,782ms
+9.3 Property Paths and Equivalent Patterns query3.rq run  0,0268ms
+9.4 Arbitrary Length Path Matching query1.rq parse  3,1058ms
+9.4 Arbitrary Length Path Matching query1.rq run  9,7544ms
+9.4 Arbitrary Length Path Matching query2.rq parse  1,9779ms
+9.4 Arbitrary Length Path Matching query2.rq run  3,0702ms

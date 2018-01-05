@@ -1,0 +1,20 @@
+<ns:sparql xmlns:ns="http://www.w3.org/2005/sparql-results#">
+  <ns:head>
+    <ns:variable ns:name="?book" />
+    <ns:variable ns:name="?title" />
+    <ns:variable ns:name="?price" />
+  </ns:head>
+  <ns:results>
+    <ns:result>
+      <ns:binding ns:name="?book">
+        <ns:uri>http://example.org/book/book1</ns:uri>
+      </ns:binding>
+      <ns:binding ns:name="?title">
+        <ns:literal>SPARQL Tutorial</ns:literal>
+      </ns:binding>
+      <ns:binding ns:name="?price">
+        <ns:literal ns:type="http://www.w3.org/2001/XMLSchema#integer">42</ns:literal>
+      </ns:binding>
+    </ns:result>
+  </ns:results>
+</ns:sparql>

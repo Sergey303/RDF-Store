@@ -1,0 +1,1 @@
+{ http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/datafromratingsite1/reviewer1 : { System.Linq.Enumerable+WhereSelectEnumerableIterator`2[System.Linq.IGrouping`2[RDFCommon.IPredicateNode,RDFCommon.Triple`3[RDFCommon.ISubjectNode,RDFCommon.IPredicateNode,RDFCommon.IObjectNode]],System.String] } }

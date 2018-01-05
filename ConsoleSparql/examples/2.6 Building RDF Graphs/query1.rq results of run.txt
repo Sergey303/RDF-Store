@@ -1,0 +1,2 @@
+{ "http://iis.nsk.su/.well-known/genid/blank/b" : { "http://xmlns.com/foaf/0.1/name" : { "type" : "literal", "value" : "Bob" } },
+"http://iis.nsk.su/.well-known/genid/blank/a" : { "http://xmlns.com/foaf/0.1/name" : { "type" : "literal", "value" : "Alice" } } }

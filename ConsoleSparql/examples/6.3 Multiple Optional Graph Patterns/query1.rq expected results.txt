@@ -1,0 +1,2 @@
+?name = "Alice" , ?hpage = <mailto:alice@example.com>
+?name = "Bob" , ?mbox = <mailto:alice@work.example>

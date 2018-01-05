@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<SparqlQuery type="SparqlQuery.SparqlClasses.Query.SparqlQuery">
+  <triple type="SparqlQuery.SparqlClasses.GraphPattern.Triples.SparqlTriple" graph="default">
+    <var type="SparqlQuery.SparqlClasses.GraphPattern.Triples.Node.VariableNode" name="?s" n="0" />
+    <var type="SparqlQuery.SparqlClasses.GraphPattern.Triples.Node.VariableNode" name="?p" n="1" />
+    <LanguagedString lang="ru">kl</LanguagedString>
+  </triple>
+  <Filter type="SparqlQuery.SparqlClasses.Expressions.SparqlFilter">
+    <greather type="SparqlQuery.SparqlClasses.Expressions.SparqlBinaryExpression`1[RDFCommon.OVns.OV_bool]">
+      <var type="SparqlQuery.SparqlClasses.GraphPattern.Triples.Node.VariableNode" name="?s" n="0" />
+      <Int>0</Int>
+    </greather>
+  </Filter>
+  <select type="SparqlQuery.SparqlClasses.SolutionModifier.SparqlSelect" all="True" reduce="False" distinct="False" />
+</SparqlQuery>

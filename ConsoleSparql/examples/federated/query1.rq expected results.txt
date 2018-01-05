@@ -1,0 +1,5 @@
+sub query
+
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX dc:   <http://purl.org/dc/elements/1.1/>
+PREFIX xsd:   <http://www.w3.org/2001/XMLSchema#> SELECT * WHERE { {  ?x foaf:givenName  ?givenName } }  VALUES (?x ?date) { (_:b "04.04.2005 4:04:04 +00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>) }
