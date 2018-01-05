@@ -1,0 +1,2 @@
+C:\Users\Admin\Source\Repos\next\RDF-Store\SparqlQuery\obj\Debug\sparq11lTranslatorLexer.cs
+C:\Users\Admin\Source\Repos\next\RDF-Store\SparqlQuery\obj\Debug\sparq11lTranslatorParser.cs

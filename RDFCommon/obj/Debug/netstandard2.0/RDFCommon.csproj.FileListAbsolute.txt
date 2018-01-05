@@ -6,15 +6,7 @@ G:\IIS\projects 2018\RDF Store\RDFCommon\bin\Debug\netstandard2.0\RDFCommon.deps
 G:\IIS\projects 2018\RDF Store\RDFCommon\bin\Debug\netstandard2.0\RDFCommon.dll
 G:\IIS\projects 2018\RDF Store\RDFCommon\bin\Debug\netstandard2.0\RDFCommon.pdb
 G:\IIS\projects 2018\RDF Store\RDFCommon\bin\Debug\netstandard2.0\Microsoft.CSharp.dll
-G:\IIS\projects 2018\RDF Store\RDFCommon\bin\Debug\netstandard2.0\Polar.CellIndexes.dll
-G:\IIS\projects 2018\RDF Store\RDFCommon\bin\Debug\netstandard2.0\Polar.Cells.dll
-G:\IIS\projects 2018\RDF Store\RDFCommon\bin\Debug\netstandard2.0\Polar.DB.dll
-G:\IIS\projects 2018\RDF Store\RDFCommon\bin\Debug\netstandard2.0\Polar.PagedStreams.dll
 G:\IIS\projects 2018\RDF Store\RDFCommon\bin\Debug\netstandard2.0\System.Dynamic.dll
-G:\IIS\projects 2018\RDF Store\RDFCommon\bin\Debug\netstandard2.0\Polar.CellIndexes.pdb
-G:\IIS\projects 2018\RDF Store\RDFCommon\bin\Debug\netstandard2.0\Polar.Cells.pdb
-G:\IIS\projects 2018\RDF Store\RDFCommon\bin\Debug\netstandard2.0\Polar.DB.pdb
-G:\IIS\projects 2018\RDF Store\RDFCommon\bin\Debug\netstandard2.0\Polar.PagedStreams.pdb
 G:\IIS\projects 2018\RDF Store\RDFCommon\bin\Debug\netstandard2.0\Microsoft.CSharp.xml
 G:\IIS\projects 2018\RDF Store\RDFCommon\obj\Debug\netstandard2.0\RDFCommon.csprojResolveAssemblyReference.cache
 G:\IIS\projects 2018\RDF Store\RDFCommon\obj\Debug\netstandard2.0\RDFCommon.csproj.CoreCompileInputs.cache

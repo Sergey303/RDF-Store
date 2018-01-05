@@ -26,66 +26,9 @@
           "build/netstandard2.0/NETStandard.Library.targets": {}
         }
       },
-      "Polar.CellIndexes/1.0.0": {
-        "type": "project",
-        "framework": ".NETStandard,Version=v2.0",
-        "dependencies": {
-          "Polar.Cells": "1.0.0",
-          "Polar.DB": "1.0.0"
-        },
-        "compile": {
-          "bin/placeholder/Polar.CellIndexes.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/Polar.CellIndexes.dll": {}
-        }
-      },
-      "Polar.Cells/1.0.0": {
-        "type": "project",
-        "framework": ".NETStandard,Version=v2.0",
-        "dependencies": {
-          "Polar.DB": "1.0.0"
-        },
-        "compile": {
-          "bin/placeholder/Polar.Cells.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/Polar.Cells.dll": {}
-        }
-      },
-      "Polar.DB/1.0.0": {
-        "type": "project",
-        "framework": ".NETStandard,Version=v2.0",
-        "compile": {
-          "bin/placeholder/Polar.DB.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/Polar.DB.dll": {}
-        }
-      },
-      "Polar.PagedStreams/1.0.0": {
-        "type": "project",
-        "framework": ".NETStandard,Version=v2.0",
-        "dependencies": {
-          "Polar.Cells": "1.0.0",
-          "Polar.DB": "1.0.0"
-        },
-        "compile": {
-          "bin/placeholder/Polar.PagedStreams.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/Polar.PagedStreams.dll": {}
-        }
-      },
       "RDFCommon/1.0.0": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
-        "dependencies": {
-          "Polar.CellIndexes": "1.0.0",
-          "Polar.Cells": "1.0.0",
-          "Polar.DB": "1.0.0",
-          "Polar.PagedStreams": "1.0.0"
-        },
         "compile": {
           "bin/placeholder/RDFCommon.dll": {}
         },
@@ -236,26 +179,6 @@
         "netstandard.library.2.0.0.nupkg.sha512",
         "netstandard.library.nuspec"
       ]
-    },
-    "Polar.CellIndexes/1.0.0": {
-      "type": "project",
-      "path": "../Polar.CellIndexes/Polar.CellIndexes.csproj",
-      "msbuildProject": "../Polar.CellIndexes/Polar.CellIndexes.csproj"
-    },
-    "Polar.Cells/1.0.0": {
-      "type": "project",
-      "path": "../Polar.Cells/Polar.Cells.csproj",
-      "msbuildProject": "../Polar.Cells/Polar.Cells.csproj"
-    },
-    "Polar.DB/1.0.0": {
-      "type": "project",
-      "path": "../Polar.DB/Polar.DB.csproj",
-      "msbuildProject": "../Polar.DB/Polar.DB.csproj"
-    },
-    "Polar.PagedStreams/1.0.0": {
-      "type": "project",
-      "path": "../Polar.PagedStreams/Polar.PagedStreams.csproj",
-      "msbuildProject": "../Polar.PagedStreams/Polar.PagedStreams.csproj"
     },
     "RDFCommon/1.0.0": {
       "type": "project",

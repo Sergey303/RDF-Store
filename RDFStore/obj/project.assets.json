@@ -80,12 +80,6 @@
       "RDFCommon/1.0.0": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
-        "dependencies": {
-          "Polar.CellIndexes": "1.0.0",
-          "Polar.Cells": "1.0.0",
-          "Polar.DB": "1.0.0",
-          "Polar.PagedStreams": "1.0.0"
-        },
         "compile": {
           "bin/placeholder/RDFCommon.dll": {}
         },
@@ -284,6 +278,10 @@
   "projectFileDependencyGroups": {
     ".NETStandard,Version=v2.0": [
       "NETStandard.Library >= 2.0.0",
+      "Polar.CellIndexes >= 1.0.0",
+      "Polar.Cells >= 1.0.0",
+      "Polar.DB >= 1.0.0",
+      "Polar.PagedStreams >= 1.0.0",
       "RDFCommon >= 1.0.0",
       "RDFTurtleParser >= 1.0.0"
     ]
@@ -326,6 +324,18 @@
             },
             "G:\\IIS\\projects 2018\\RDF Store\\RDFTurtleParser\\RDFTurtleParser.csproj": {
               "projectPath": "G:\\IIS\\projects 2018\\RDF Store\\RDFTurtleParser\\RDFTurtleParser.csproj"
+            },
+            "G:\\IIS\\projects 2018\\RDF Store\\Polar.PagedStreams\\Polar.PagedStreams.csproj": {
+              "projectPath": "G:\\IIS\\projects 2018\\RDF Store\\Polar.PagedStreams\\Polar.PagedStreams.csproj"
+            },
+            "G:\\IIS\\projects 2018\\RDF Store\\Polar.DB\\Polar.DB.csproj": {
+              "projectPath": "G:\\IIS\\projects 2018\\RDF Store\\Polar.DB\\Polar.DB.csproj"
+            },
+            "G:\\IIS\\projects 2018\\RDF Store\\Polar.Cells\\Polar.Cells.csproj": {
+              "projectPath": "G:\\IIS\\projects 2018\\RDF Store\\Polar.Cells\\Polar.Cells.csproj"
+            },
+            "G:\\IIS\\projects 2018\\RDF Store\\Polar.CellIndexes\\Polar.CellIndexes.csproj": {
+              "projectPath": "G:\\IIS\\projects 2018\\RDF Store\\Polar.CellIndexes\\Polar.CellIndexes.csproj"
             }
           }
         }

@@ -214,3 +214,5 @@ G:\IIS\projects 2018\RDF Store\ConsoleSparql\bin\Debug\Polar.DB.pdb
 G:\IIS\projects 2018\RDF Store\ConsoleSparql\bin\Debug\Polar.Cells.pdb
 G:\IIS\projects 2018\RDF Store\ConsoleSparql\bin\Debug\RDFTurtleParser.pdb
 G:\IIS\projects 2018\RDF Store\ConsoleSparql\bin\Debug\Polar.CellIndexes.pdb
+G:\IIS\projects 2018\RDF Store\ConsoleSparql\bin\Debug\Polar.PagedStreams.dll
+G:\IIS\projects 2018\RDF Store\ConsoleSparql\bin\Debug\Polar.PagedStreams.pdb
