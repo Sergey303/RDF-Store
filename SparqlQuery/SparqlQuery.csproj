@@ -30,7 +30,6 @@
 
   <ItemGroup>
     <PackageReference Include="Antlr4" Version="4.6.4" />
-    <PackageReference Include="Antlr4.Runtime" Version="4.6.4" />
   </ItemGroup>
 
   <ItemGroup>
