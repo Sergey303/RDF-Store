@@ -1,0 +1,3 @@
+{ "head": { "vars": [ "?property",
+"?hasValue",
+"?isValueOf" ] }, "results": { "bindings" : [] } }

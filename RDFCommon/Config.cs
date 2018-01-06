@@ -20,8 +20,8 @@ namespace RDFCommon
         /// </summary>
         public static string TurtleFileFullPath
         {
-            get => parameters["ttl file full path"];
-            set => parameters["ttl file full path"] = value;
+            get => parameters.TryGetValue("ttl file path",out var v) ? v : null;
+            set => parameters["ttl file path"] = value;
         }
         /// <summary>
         /// путь к файлам базы данных
@@ -36,7 +36,7 @@ namespace RDFCommon
         /// ”казаны значени€ по умолчанию
         /// затем они переназначаютс€ из ini файла, затем параметрами при запуске
         /// </summary>
-        private static Dictionary<string, string> parameters = new Dictionary<string, string>() {{"source_data_folder_path", "examples\\" }, {"ttl file name", "1M.ttl"}, {"data base", "../Databases/" } };
+        private static Dictionary<string, string> parameters = new Dictionary<string, string>() {{"source_data_folder_path", "examples\\" }, {"ttl file path", "1M.ttl"}, {"data base", "../Databases/" } };
 
         /// <summary>
         /// ѕопытка загрузить файл config.ini, если успешно, то из него берутс€ параметры и записываютс€ в <code>this.parameters</code>
@@ -122,12 +122,9 @@ namespace RDFCommon
             //проверка наличи€ файла ttl по уже указнанному пути
             if (File.Exists(TurtleFileFullPath)) return;
             // если его нет, то поиск по пути TurtleFileFullPath относительно Source_data_folder_path
-            if (File.Exists(Source_data_folder_path + TurtleFileFullPath))
+            //if (File.Exists(Source_data_folder_path + TurtleFileFullPath)) 
                 TurtleFileFullPath = Source_data_folder_path + TurtleFileFullPath;
-            else
-            {
-                throw new FileNotFoundException(TurtleFileFullPath);
-            }
+            
         }
     }
 }
