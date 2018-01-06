@@ -1,3 +1,0 @@
-{ "head": { "vars": [ "?name",
-"?g",
-"?x" ] }, "results": { "bindings" : [] } }

@@ -1,26 +1,19 @@
 ﻿using System;
 using System.IO;
-using RDFStore;
 using System.Xml.Serialization;
+using RDFCommon;
+using RDFStore;
 using SparqlQuery.SparqlClasses;
 
-namespace ConsoleSparql
+namespace ConsoleSparqlCore
 {
     class Program
     {
         static void Main(string[] args)
         {
-
-            //string path = "../../../Databases/Store/";
-            //Console.WriteLine("Start SparqlConsole");
-            //Console.WriteLine("Creating Store");
-
-            ////Store store = new Store(path);
-            //RDFRamStore store = new RDFRamStore();
-            //store.ReloadFrom(Config.Source_data_folder_path+"1M.ttl");
-            ////store.Start();
-           
-            SparqlTesting.RunBerlinsWithConstants();
+            Config.Load(args);
+         
+            BSBMwithConstants.Run();
 
         }
 

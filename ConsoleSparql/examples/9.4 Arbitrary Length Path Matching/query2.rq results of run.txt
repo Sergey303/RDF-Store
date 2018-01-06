@@ -1,3 +1,0 @@
-{ "head": { "vars": [ "?person" ] }, "results": { "bindings" : [{"?person" : { "type" : "uri", "value" : "http://example/y" }},
-{"?person" : { "type" : "uri", "value" : "http://example/z" }},
-{"?person" : { "type" : "uri", "value" : "http://example/s" }}] } }

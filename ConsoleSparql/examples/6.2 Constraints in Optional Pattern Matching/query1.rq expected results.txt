@@ -1,2 +1,0 @@
-?title = "SPARQL Tutorial"
-?title = "The Semantic Web" , ?price = 23

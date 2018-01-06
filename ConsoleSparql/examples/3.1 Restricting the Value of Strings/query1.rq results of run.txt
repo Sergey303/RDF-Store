@@ -1,2 +1,0 @@
-{ "head": { "vars": [ "?title",
-"?x" ] }, "results": { "bindings" : [{"?title" : { "type" : "literal", "value" : "SPARQL Tutorial" }}] } }

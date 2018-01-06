@@ -1,3 +1,0 @@
-@prefix foaf: <http://xmlns.com/foaf/0.1/> .
-_:x foaf:name "Alice" .
-_:y foaf:name "Eve" .

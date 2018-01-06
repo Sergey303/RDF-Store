@@ -1,4 +1,4 @@
-﻿namespace Testing.examples.bsbm.queries.parameters
+﻿namespace ConsoleSparqlCore.examples.bsbm.queries.parameters
 {
     class Sarr
     {

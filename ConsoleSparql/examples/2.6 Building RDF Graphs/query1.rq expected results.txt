@@ -1,2 +1,0 @@
-_:x <http://xmlns.com/foaf/0.1/name> "Alice" .
-_:y <http://xmlns.com/foaf/0.1/name> "Bob" .

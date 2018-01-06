@@ -5,7 +5,7 @@ using RDFCommon;
 using RDFCommon.Interfaces;
 using RDFCommon.OVns;
 
-namespace ConsoleSparql
+namespace ConsoleSparqlCore
 {
     public  class BSBmParams
     {

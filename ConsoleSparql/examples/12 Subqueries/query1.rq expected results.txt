@@ -1,2 +1,0 @@
-?y = <http://people.example/bob> , ?minName = "B. Bar" 
-?y = <http://people.example/carol> , ?minName = "C. Baz"

@@ -1,3 +1,0 @@
-?x = <http://example/x> , ?type = <http://example/type1>
-?x = <http://example/x> , ?type = <http://example/type2>
-?x = <http://example/x> , ?type = <http://example/type3>

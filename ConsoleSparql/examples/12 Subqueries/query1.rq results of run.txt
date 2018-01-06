@@ -1,4 +1,0 @@
-{ "head": { "vars": [ "?y",
-"?minName",
-"?name" ] }, "results": { "bindings" : [{"?minName" : { "type" : "literal", "value" : "B. Bar" }},
-{"?minName" : { "type" : "literal", "value" : "C. Baz" }}] } }

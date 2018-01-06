@@ -1,2 +1,0 @@
-?s = <http://example/order> , ?x = 5
-?s = <http://example/order> , ?x = 5
