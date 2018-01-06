@@ -5,16 +5,18 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="In memory\**" />
+    <EmbeddedResource Remove="In memory\**" />
+    <None Remove="In memory\**" />
+  </ItemGroup>
+
+  <ItemGroup>
     <ProjectReference Include="..\Polar.CellIndexes\Polar.CellIndexes.csproj" />
     <ProjectReference Include="..\Polar.Cells\Polar.Cells.csproj" />
     <ProjectReference Include="..\Polar.DB\Polar.DB.csproj" />
     <ProjectReference Include="..\Polar.PagedStreams\Polar.PagedStreams.csproj" />
     <ProjectReference Include="..\RDFCommon\RDFCommon.csproj" />
     <ProjectReference Include="..\RDFTurtleParser\RDFTurtleParser.csproj" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <Folder Include="In memory\" />
   </ItemGroup>
 
 </Project>

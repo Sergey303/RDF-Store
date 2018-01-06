@@ -5,7 +5,6 @@ namespace RDFStore
 {
    public class RDFRamStore :RamListOfTriplesGraph, IStore
     {
-
         public IStoreNamedGraphs NamedGraphs { get; }
         public void ClearAll()
         {

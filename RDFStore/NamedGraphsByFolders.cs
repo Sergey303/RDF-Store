@@ -9,7 +9,6 @@ namespace RDFStore
 {
     public class NamedGraphsByFolders : RdfNamedGraphs
     {
-
         public NamedGraphsByFolders(DirectoryInfo directory, NodeGenerator ng, Func<DirectoryInfo, IGraph> graphCtor, Action<DirectoryInfo> graphDrop)
             : base(ng, s => graphCtor(new DirectoryInfo(directory + "/named graph " + CodeGraphName2DirName(s))), s=> graphDrop(new DirectoryInfo(directory + "/named graph " + CodeGraphName2DirName(s))))
         {

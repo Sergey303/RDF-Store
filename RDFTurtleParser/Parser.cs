@@ -8,9 +8,6 @@ using RDFCommon.OVns.numeric;
 
 namespace RDFTurtleParser
 {
-
-
-
     public class Parser {
 	public const int _EOF = 0;
 	public const int _iriref = 1;

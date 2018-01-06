@@ -3,8 +3,6 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27130.2010
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleSparql", "ConsoleSparql\ConsoleSparql.csproj", "{D9232822-FAC1-450D-A6E9-A4F08B7E1C47}"
-EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Polar.CellIndexes", "Polar.CellIndexes\Polar.CellIndexes.csproj", "{77851EE8-98E1-4327-8844-7F9502EA6425}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Polar.Cells", "Polar.Cells\Polar.Cells.csproj", "{05F93BF9-E8CF-4EED-BA1E-C85B0B4D5F83}"
@@ -23,7 +21,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTestRDFStore", "UnitTes
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SparqlQuery", "SparqlQuery\SparqlQuery.csproj", "{93C63961-9248-4563-99F8-EA52F5434B94}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleSparqlCore", "ConsoleSparqlCore\ConsoleSparqlCore.csproj", "{696E4B3D-F766-44AC-B7AC-E8FB270B316D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConsoleSparqlCore", "ConsoleSparqlCore\ConsoleSparqlCore.csproj", "{696E4B3D-F766-44AC-B7AC-E8FB270B316D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,14 +31,6 @@ Global
 		Release|x86 = Release|x86
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{D9232822-FAC1-450D-A6E9-A4F08B7E1C47}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{D9232822-FAC1-450D-A6E9-A4F08B7E1C47}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{D9232822-FAC1-450D-A6E9-A4F08B7E1C47}.Debug|x86.ActiveCfg = Debug|Any CPU
-		{D9232822-FAC1-450D-A6E9-A4F08B7E1C47}.Debug|x86.Build.0 = Debug|Any CPU
-		{D9232822-FAC1-450D-A6E9-A4F08B7E1C47}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{D9232822-FAC1-450D-A6E9-A4F08B7E1C47}.Release|Any CPU.Build.0 = Release|Any CPU
-		{D9232822-FAC1-450D-A6E9-A4F08B7E1C47}.Release|x86.ActiveCfg = Release|Any CPU
-		{D9232822-FAC1-450D-A6E9-A4F08B7E1C47}.Release|x86.Build.0 = Release|Any CPU
 		{77851EE8-98E1-4327-8844-7F9502EA6425}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{77851EE8-98E1-4327-8844-7F9502EA6425}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{77851EE8-98E1-4327-8844-7F9502EA6425}.Debug|x86.ActiveCfg = Debug|Any CPU

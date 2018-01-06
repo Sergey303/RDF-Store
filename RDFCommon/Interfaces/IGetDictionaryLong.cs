@@ -1,5 +1,4 @@
-﻿using RDFCommon.long_dictionary;
-
+﻿
 namespace RDFCommon.Interfaces
 {
     public interface IGetDictionaryLong<TKey, TValue>
@@ -10,7 +9,7 @@ namespace RDFCommon.Interfaces
         IGetLongStream<TValue> Values { get; }
 
         bool ContainsKey(TKey key);
-        KeyValueHash<TKey, TValue, ulong> TryGetValue(KeyValueHash<TKey, TValue, ulong> key);
+        //KeyValueHash<TKey, TValue, ulong> TryGetValue(KeyValueHash<TKey, TValue, ulong> key);
         bool TryGetValue(TKey key, out TValue value);
         void FreeMemory();
         ulong Count { get; }

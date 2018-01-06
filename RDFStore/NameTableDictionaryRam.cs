@@ -2,7 +2,6 @@
 using System.Collections.Generic;
 using System.Text;
 using RDFCommon.Interfaces;
-using RDFCommon.long_dictionary;
 
 namespace RDFStore
 {
@@ -60,20 +59,7 @@ namespace RDFStore
             return ContainsKey(key);
         }
 
-        public KeyValueHash<string, int, ulong> TryGetValue(KeyValueHash<string, int, ulong> key)
-        {
-            int value;
-            if (code.TryGetValue(key.Key, out value))
-            {
-                key.HasValue = true;
-                key.Value = value;
-            }
-            else
-            {
-                key.HasValue = false;
-            }
-            return key;
-        }
+     
 
         public bool TryGetValue(string key, out int value)
         {

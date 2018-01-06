@@ -9,7 +9,7 @@
 {"property" : { "type" : "uri", "value" : "http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/vocabulary/price" },
 "hasValue" : { "type" : "literal", "value" : "7683.53", "datatype" : "http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/vocabulary/USD"}},
 {"property" : { "type" : "uri", "value" : "http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/vocabulary/validFrom" },
-"hasValue" : { "type" : "literal", "value" : "20.03.2008 0:00:00 +07:00", "datatype" : "http://www.w3.org/2001/XMLSchema#dayTimeDuration"}},
+"hasValue" : { "type" : "literal", "value" : "20.03.2008 0:00:00 +06:00", "datatype" : "http://www.w3.org/2001/XMLSchema#dayTimeDuration"}},
 {"property" : { "type" : "uri", "value" : "http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/vocabulary/validTo" },
 "hasValue" : { "type" : "literal", "value" : "11.09.2008 0:00:00 +07:00", "datatype" : "http://www.w3.org/2001/XMLSchema#dayTimeDuration"}},
 {"property" : { "type" : "uri", "value" : "http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/vocabulary/deliveryDays" },

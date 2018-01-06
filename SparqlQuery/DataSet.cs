@@ -11,13 +11,10 @@ namespace SparqlQuery
         public DataSet(IEnumerable<ObjectVariants> gs)
             :base(gs)
         {
-            
-
         }
 
         public DataSet()                 
         {
-            
         }
 
         public XmlSchema GetSchema()

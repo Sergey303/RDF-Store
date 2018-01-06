@@ -7,7 +7,6 @@ namespace RDFStore
 {
    public class TextObjectIndex 
     {
-
        private Dictionary<string, List<long>> nametable;
         //TableView spOffset;
         //private TableView Strings;

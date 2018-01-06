@@ -64,7 +64,7 @@ namespace RDFStore
 
         public void ActivateCache()
         {
-            (_ng.coding_table as NametableLinearBuffered)?.ActivateCache();
+            //(_ng.coding_table as NametableLinearBuffered)?.ActivateCache();
           //  table.ActivateCache();
             ps_index.ActivateCache();
             po_index.ActivateCache();
@@ -223,12 +223,12 @@ namespace RDFStore
 
         public void FromTurtle(string fullName)
         {
-            AddTriples(1000*1000, new TripleGeneratorBufferedParallel(fullName, null));
+            AddTriples(1000*1000, new TripleGeneratorBuffered(fullName, null));
         }
 
         public void FromTurtle(long iri_Count, Stream inputStream)
         {
-            AddTriples(iri_Count, new TripleGeneratorBufferedParallel(inputStream, null));
+            AddTriples(iri_Count, new TripleGeneratorBuffered(inputStream, null));
          
         }
 

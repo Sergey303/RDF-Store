@@ -104,7 +104,7 @@ namespace RDFStore
 
         public void FromTurtle(long count, string fileName)
         {
-            var generator = new TripleGeneratorBufferedParallel(fileName, Name);
+            var generator = new TripleGeneratorBuffered(fileName, Name);
             generator.Start(list => triples.AddRange(
                 list.Select(
                     t =>    
