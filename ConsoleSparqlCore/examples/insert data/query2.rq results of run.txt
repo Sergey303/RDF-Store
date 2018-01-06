@@ -1,0 +1,64 @@
+<ns:sparql xmlns:ns="http://www.w3.org/2005/sparql-results#">
+  <ns:head>
+    <ns:variable ns:name="?x" />
+    <ns:variable ns:name="?y" />
+    <ns:variable ns:name="?z" />
+  </ns:head>
+  <ns:results>
+    <ns:result>
+      <ns:binding ns:name="?x">
+        <ns:uri>http://purl.org/dc/elements/1.1/a</ns:uri>
+      </ns:binding>
+      <ns:binding ns:name="?y">
+        <ns:uri>http://xmlns.com/foaf/0.1/givenName</ns:uri>
+      </ns:binding>
+      <ns:binding ns:name="?z">
+        <ns:literal>Alice</ns:literal>
+      </ns:binding>
+    </ns:result>
+    <ns:result>
+      <ns:binding ns:name="?x">
+        <ns:uri>http://purl.org/dc/elements/1.1/b</ns:uri>
+      </ns:binding>
+      <ns:binding ns:name="?y">
+        <ns:uri>http://xmlns.com/foaf/0.1/givenName</ns:uri>
+      </ns:binding>
+      <ns:binding ns:name="?z">
+        <ns:literal>Bob</ns:literal>
+      </ns:binding>
+    </ns:result>
+    <ns:result>
+      <ns:binding ns:name="?x">
+        <ns:uri>http://purl.org/dc/elements/1.1/c</ns:uri>
+      </ns:binding>
+      <ns:binding ns:name="?y">
+        <ns:uri>http://xmlns.com/foaf/0.1/givenName</ns:uri>
+      </ns:binding>
+      <ns:binding ns:name="?z">
+        <ns:literal>Carol</ns:literal>
+      </ns:binding>
+    </ns:result>
+    <ns:result>
+      <ns:binding ns:name="?x">
+        <ns:uri>http://purl.org/dc/elements/1.1/d</ns:uri>
+      </ns:binding>
+      <ns:binding ns:name="?y">
+        <ns:uri>http://xmlns.com/foaf/0.1/givenName</ns:uri>
+      </ns:binding>
+      <ns:binding ns:name="?z">
+        <ns:literal>Dmitriy</ns:literal>
+      </ns:binding>
+    </ns:result>
+    <ns:result>
+      <ns:binding ns:name="?x">
+        <ns:uri>http://purl.org/dc/elements/1.1/b</ns:uri>
+      </ns:binding>
+      <ns:binding ns:name="?y">
+        <ns:uri>http://purl.org/dc/elements/1.1/date</ns:uri>
+      </ns:binding>
+      <ns:binding ns:name="?z">
+        <ns:literal ns:type="http://www.w3.org/2001/XMLSchema#dateTime">2005-04-04T11:04:04+07:00</ns:literal>
+      </ns:binding>
+    </ns:result>
+  </ns:results>
+</ns:sparql>

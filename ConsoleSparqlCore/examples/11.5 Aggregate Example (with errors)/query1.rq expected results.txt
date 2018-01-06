@@ -1,0 +1,3 @@
+?g = <http://example.com/data/#x> , ?avg = 2.5 , ?c = 2.5
+?g = <http://example.com/data/#y> , ?avg = 
+?g = <http://example.com/data/#z> , ?avg = 2.5 , ?c = 2.5

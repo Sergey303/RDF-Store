@@ -1,0 +1,11 @@
+{ "head": { "vars": [ "?product",
+"?productLabel" ] }, "results": { "bindings" : [{"?product" : { "type" : "uri", "value" : "http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/datafromproducer15/product709" },
+"?productLabel" : { "type" : "literal", "value" : "jacinth medusoids" }},
+{"?product" : { "type" : "uri", "value" : "http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/datafromproducer24/product1106" },
+"?productLabel" : { "type" : "literal", "value" : "policewoman" }},
+{"?product" : { "type" : "uri", "value" : "http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/datafromproducer40/product1847" },
+"?productLabel" : { "type" : "literal", "value" : "recessively garments hotelkeeper" }},
+{"?product" : { "type" : "uri", "value" : "http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/datafromproducer23/product1072" },
+"?productLabel" : { "type" : "literal", "value" : "supermolecular" }},
+{"?product" : { "type" : "uri", "value" : "http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/datafromproducer54/product2512" },
+"?productLabel" : { "type" : "literal", "value" : "wheelers womby jailor" }}] } }

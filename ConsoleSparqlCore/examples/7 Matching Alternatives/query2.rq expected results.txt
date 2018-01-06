@@ -1,0 +1,4 @@
+?x = "SPARQL Query Language Tutorial"
+?x = "SPARQL"
+?y = "SPARQL Protocol Tutorial"
+?y = "SPARQL (updated)"

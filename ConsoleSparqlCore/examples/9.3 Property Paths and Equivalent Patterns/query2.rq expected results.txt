@@ -1,0 +1,2 @@
+?s = <http://example/order> , ?_a = <http://example/z1> , ?x = 5
+?s = <http://example/order> , ?_a = <http://example/z2> , ?x = 5

@@ -1,0 +1,8 @@
+{ "head": { "vars": [ "?s",
+"?p",
+"?o",
+"?x",
+"?y",
+"?z" ] }, "results": { "bindings" : [{"?s" : { "type" : "uri", "value" : "http://example/a" },
+"?p" : { "type" : "uri", "value" : "http://example/b" },
+"?o" : { "type" : "uri", "value" : "http://example/c" }}] } }

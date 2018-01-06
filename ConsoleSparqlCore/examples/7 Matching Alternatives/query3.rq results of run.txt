@@ -1,0 +1,6 @@
+{ "head": { "vars": [ "?title",
+"?author",
+"?book" ] }, "results": { "bindings" : [{"?title" : { "type" : "literal", "value" : "SPARQL Query Language Tutorial" },
+"?author" : { "type" : "literal", "value" : "Alice" }},
+{"?title" : { "type" : "literal", "value" : "SPARQL Protocol Tutorial" },
+"?author" : { "type" : "literal", "value" : "Bob" }}] } }

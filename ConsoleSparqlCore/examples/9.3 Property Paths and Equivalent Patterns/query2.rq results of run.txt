@@ -1,0 +1,8 @@
+{ "head": { "vars": [ "?s",
+"?_a",
+"?x" ] }, "results": { "bindings" : [{"?s" : { "type" : "uri", "value" : "http://example/order" },
+"?_a" : { "type" : "uri", "value" : "http://example/z1" },
+"?x" : { "type" : "literal", "value" : "5", "datatype": "http://www.w3.org/2001/XMLSchema#integer" }},
+{"?s" : { "type" : "uri", "value" : "http://example/order" },
+"?_a" : { "type" : "uri", "value" : "http://example/z2" },
+"?x" : { "type" : "literal", "value" : "5", "datatype": "http://www.w3.org/2001/XMLSchema#integer" }}] } }

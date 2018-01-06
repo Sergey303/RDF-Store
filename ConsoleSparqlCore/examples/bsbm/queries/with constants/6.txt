@@ -1,0 +1,2 @@
+{ "head": { "vars": [ "?product",
+"?label" ] }, "results": { "bindings" : [] } }

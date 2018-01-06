@@ -1,0 +1,4 @@
+{ "head": { "vars": [ "?name",
+"?g",
+"?x" ] }, "results": { "bindings" : [{"?name" : { "type" : "literal", "value" : "Alice" }},
+{"?name" : { "type" : "literal", "value" : "Bob" }}] } }

@@ -1,0 +1,8 @@
+{ "head": { "vars": [ "?offer",
+"?price",
+"?vendor",
+"?deliveryDays",
+"?date" ] }, "results": { "bindings" : [{"?offer" : { "type" : "uri", "value" : "http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromVendor21/Offer36055" },
+"?price" : { "type" : "literal", "value" : "3294.69", "datatype": "http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/vocabulary/USD" }},
+{"?offer" : { "type" : "uri", "value" : "http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromVendor21/Offer37478" },
+"?price" : { "type" : "literal", "value" : "4120.17", "datatype": "http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/vocabulary/USD" }}] } }

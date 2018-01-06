@@ -8,7 +8,7 @@ namespace RDFCommon
 
       static Config()
       {
-          using (StreamReader file=new StreamReader("../../../config.ini"))
+          using (StreamReader file=new StreamReader("../config.ini"))
           {
               while (!file.EndOfStream)
               {

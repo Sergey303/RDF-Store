@@ -1,0 +1,3 @@
+?name = "Alice" , ?mbox = <mailto:alice@example.com>
+?name = "Alice" , ?mbox = <mailto:alice@work.example>
+?name = "Bob"

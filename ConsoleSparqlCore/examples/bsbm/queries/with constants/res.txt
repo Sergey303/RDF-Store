@@ -1,0 +1,30 @@
+@prefix ns0: http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromRatingSite1/
+@prefix ns1: http://www.w3.org/1999/02/22-rdf-syntax-ns#
+@prefix ns2: http://xmlns.com/foaf/0.1/
+@prefix ns3: http://purl.org/dc/elements/1.1/
+@prefix ns4: http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/vocabulary/
+@prefix ns5: http://downlode.org/rdf/iso-3166/countries#
+@prefix ns6: http://www.w3.org/2001/XMLSchema#
+@prefix ns7: http://purl.org/stuff/rev#
+
+ns0:Reviewer1 ns1:type ns2:Person
+ns0:Reviewer1 ns3:publisher ns0:RatingSite1
+ns0:Reviewer1 ns4:country ns5:US
+ns0:Reviewer1 ns3:date "05.09.2008 0:00:00"^^ns6:date
+ns0:Reviewer1 ns2:name "Ruggiero-Delane"
+ns0:Reviewer1 ns2:mbox_sha1sum "fb3efd92e3c7a8d775a895ba476e11a3e8f3fac"
+ns0:Review6 ns7:reviewer ns0:Reviewer1
+ns0:Review8 ns7:reviewer ns0:Reviewer1
+ns0:Review12 ns7:reviewer ns0:Reviewer1
+ns0:Review7 ns7:reviewer ns0:Reviewer1
+ns0:Review3 ns7:reviewer ns0:Reviewer1
+ns0:Review9 ns7:reviewer ns0:Reviewer1
+ns0:Review5 ns7:reviewer ns0:Reviewer1
+ns0:Review1 ns7:reviewer ns0:Reviewer1
+ns0:Review13 ns7:reviewer ns0:Reviewer1
+ns0:Review10 ns7:reviewer ns0:Reviewer1
+ns0:Review11 ns7:reviewer ns0:Reviewer1
+ns0:Review2 ns7:reviewer ns0:Reviewer1
+ns0:Review14 ns7:reviewer ns0:Reviewer1
+ns0:Review15 ns7:reviewer ns0:Reviewer1
+ns0:Review4 ns7:reviewer ns0:Reviewer1

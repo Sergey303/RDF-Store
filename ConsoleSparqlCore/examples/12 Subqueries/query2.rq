@@ -1,0 +1,5 @@
+PREFIX : <http://people.example/>
+SELECT ?y (MIN(?name) AS ?minName)
+WHERE {
+  ?y :name ?name .
+} GROUP BY ?y

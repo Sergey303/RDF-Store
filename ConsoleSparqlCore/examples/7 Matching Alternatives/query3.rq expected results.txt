@@ -1,0 +1,2 @@
+?title = "SPARQL Query Language Tutorial" , ?author = "Alice"
+?title = "SPARQL Protocol Tutorial" , ?author = "Bob"

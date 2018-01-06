@@ -1,0 +1,3 @@
+{ "head": { "vars": [ "?x",
+"?total",
+"1fc80df3-d266-460a-940c-5d15a60a5ecc" ] }, "results": { "bindings" : [{"?total" : { "type" : "literal", "value" : "10", "datatype": "http://www.w3.org/2001/XMLSchema#integer" }}] } }

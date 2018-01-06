@@ -1,0 +1,16 @@
+<ns:sparql xmlns:ns="http://www.w3.org/2005/sparql-results#">
+  <ns:head>
+    <ns:variable ns:name="?lprice" />
+    <ns:variable ns:name="?totalPrice" />
+    <ns:variable ns:name="?org" />
+    <ns:variable ns:name="?auth" />
+    <ns:variable ns:name="?book" />
+  </ns:head>
+  <ns:results>
+    <ns:result>
+      <ns:binding ns:name="?totalPrice">
+        <ns:literal ns:type="http://www.w3.org/2001/XMLSchema#integer">21</ns:literal>
+      </ns:binding>
+    </ns:result>
+  </ns:results>
+</ns:sparql>

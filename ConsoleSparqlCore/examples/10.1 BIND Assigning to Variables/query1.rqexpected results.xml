@@ -1,0 +1,19 @@
+<ns:sparql xmlns:ns="http://www.w3.org/2005/sparql-results#">
+  <ns:head>
+    <ns:variable ns:name="?title" />
+    <ns:variable ns:name="?price" />
+    <ns:variable ns:name="?x" />
+    <ns:variable ns:name="?p" />
+    <ns:variable ns:name="?discount" />
+  </ns:head>
+  <ns:results>
+    <ns:result>
+      <ns:binding ns:name="?title">
+        <ns:literal>The Semantic Web</ns:literal>
+      </ns:binding>
+      <ns:binding ns:name="?price">
+        <ns:literal ns:type="http://www.w3.org/2001/XMLSchema#decimal">17.25</ns:literal>
+      </ns:binding>
+    </ns:result>
+  </ns:results>
+</ns:sparql>

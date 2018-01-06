@@ -1,0 +1,24 @@
+<ns:sparql xmlns:ns="http://www.w3.org/2005/sparql-results#">
+  <ns:head>
+    <ns:variable ns:name="?y" />
+    <ns:variable ns:name="?name" />
+    <ns:variable ns:name="?minName" />
+  </ns:head>
+  <ns:results>
+    <ns:result>
+      <ns:binding ns:name="?minName">
+        <ns:literal>A. Foo</ns:literal>
+      </ns:binding>
+    </ns:result>
+    <ns:result>
+      <ns:binding ns:name="?minName">
+        <ns:literal>B. Bar</ns:literal>
+      </ns:binding>
+    </ns:result>
+    <ns:result>
+      <ns:binding ns:name="?minName">
+        <ns:literal>C. Baz</ns:literal>
+      </ns:binding>
+    </ns:result>
+  </ns:results>
+</ns:sparql>

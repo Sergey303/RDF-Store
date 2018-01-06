@@ -1,0 +1,2000 @@
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer37/Product1669
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer42/Product2014
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer3/Product130
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer6/Product213
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer55/Product2608
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer43/Product2033
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer16/Product730
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer42/Product2006
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer33/Product1488
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer30/Product1354
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer9/Product448
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer9/Product430
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer42/Product2019
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer58/Product2709
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer1/Product14
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer58/Product2658
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer22/Product1010
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer4/Product155
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer59/Product2765
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer21/Product957
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer13/Product606
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer35/Product1563
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer36/Product1594
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer11/Product501
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer31/Product1402
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer60/Product2776
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer21/Product988
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer3/Product135
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer24/Product1127
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer20/Product946
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer13/Product601
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer7/Product310
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer59/Product2759
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer13/Product601
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer37/Product1703
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer47/Product2217
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer14/Product648
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer6/Product228
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer30/Product1362
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer1/Product51
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer58/Product2702
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer9/Product445
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer50/Product2320
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer30/Product1349
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer5/Product200
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer41/Product1889
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer59/Product2767
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer26/Product1199
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer36/Product1592
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer21/Product992
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer1/Product23
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer60/Product2794
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer36/Product1609
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer37/Product1628
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer26/Product1214
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer32/Product1448
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer32/Product1476
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer26/Product1228
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer58/Product2717
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer31/Product1383
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer37/Product1649
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer28/Product1300
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer15/Product689
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer14/Product653
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer20/Product925
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer50/Product2329
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer12/Product562
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer22/Product1011
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer48/Product2238
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer28/Product1304
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer13/Product631
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer42/Product1991
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer13/Product589
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer57/Product2643
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer25/Product1152
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer50/Product2341
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer5/Product183
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer11/Product487
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer59/Product2726
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer1/Product30
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer35/Product1577
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer45/Product2128
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer21/Product972
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer41/Product1924
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer2/Product88
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer54/Product2554
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer50/Product2390
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer32/Product1465
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer4/Product160
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer10/Product453
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer14/Product668
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer50/Product2335
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer51/Product2428
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer31/Product1409
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer36/Product1605
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer39/Product1798
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer48/Product2242
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer36/Product1601
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer9/Product413
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer54/Product2553
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer25/Product1145
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer4/Product147
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer45/Product2135
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer7/Product291
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer5/Product194
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer10/Product473
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer19/Product877
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer57/Product2637
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer50/Product2326
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer55/Product2592
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer46/Product2151
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer43/Product2026
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer44/Product2086
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer10/Product471
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer39/Product1821
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer22/Product1007
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer42/Product2014
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer26/Product1205
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer38/Product1729
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer61/Product2829
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer14/Product653
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer33/Product1489
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer6/Product267
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer4/Product162
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer59/Product2750
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer5/Product208
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer46/Product2173
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer26/Product1230
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer34/Product1553
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer13/Product592
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer29/Product1334
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer39/Product1774
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer39/Product1814
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer28/Product1294
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer50/Product2382
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer11/Product535
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer16/Product772
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer60/Product2796
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer23/Product1061
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer14/Product646
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer16/Product761
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer16/Product736
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer55/Product2568
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer5/Product180
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer38/Product1739
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer6/Product247
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer23/Product1066
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer41/Product1916
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer23/Product1082
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer33/Product1499
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer1/Product31
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer29/Product1329
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer43/Product2026
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer58/Product2679
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer25/Product1165
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer39/Product1817
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer37/Product1676
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer60/Product2793
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer53/Product2503
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer37/Product1697
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer37/Product1689
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer7/Product295
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer29/Product1337
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer1/Product1
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer23/Product1057
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer20/Product921
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer12/Product563
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer35/Product1586
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer16/Product754
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer7/Product284
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer16/Product769
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer43/Product2041
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer26/Product1225
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer61/Product2799
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer1/Product2
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer47/Product2182
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer41/Product1938
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer16/Product769
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer46/Product2150
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer46/Product2165
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer54/Product2528
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer46/Product2168
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer28/Product1296
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer16/Product764
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer6/Product269
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer19/Product871
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer33/Product1496
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer51/Product2441
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer47/Product2182
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer22/Product1038
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer49/Product2298
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer29/Product1328
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer50/Product2326
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer49/Product2285
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer29/Product1325
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer15/Product695
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer46/Product2160
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer22/Product1029
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer27/Product1255
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer58/Product2713
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer61/Product2846
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer43/Product2058
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer47/Product2200
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer42/Product1980
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer37/Product1698
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer50/Product2377
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer5/Product205
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer59/Product2728
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer39/Product1819
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer55/Product2573
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer8/Product374
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer54/Product2530
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer51/Product2448
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer30/Product1360
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer17/Product818
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer50/Product2395
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer9/Product427
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer7/Product299
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer1/Product12
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer35/Product1586
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer42/Product1970
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer25/Product1180
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer1/Product11
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer25/Product1178
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer39/Product1814
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer3/Product102
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer28/Product1308
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer22/Product1025
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer16/Product733
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer49/Product2298
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer37/Product1659
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer32/Product1436
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer25/Product1182
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer10/Product467
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer16/Product734
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer50/Product2349
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer3/Product100
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer41/Product1924
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer42/Product1949
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer55/Product2593
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer61/Product2825
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer11/Product539
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer53/Product2481
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer45/Product2097
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer25/Product1159
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer19/Product898
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer2/Product85
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer7/Product305
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer16/Product785
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer55/Product2603
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer3/Product113
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer1/Product30
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer47/Product2188
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer26/Product1219
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer26/Product1242
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer28/Product1303
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer55/Product2578
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer49/Product2292
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer37/Product1663
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer14/Product676
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer16/Product733
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer42/Product2011
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer18/Product844
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer48/Product2264
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer53/Product2480
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer3/Product123
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer41/Product1944
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer33/Product1515
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer33/Product1497
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer13/Product594
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer2/Product72
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer37/Product1651
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer50/Product2337
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer8/Product334
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer33/Product1518
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer19/Product884
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer20/Product928
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer43/Product2054
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer32/Product1448
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer58/Product2698
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer9/Product446
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer2/Product90
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer13/Product603
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer37/Product1686
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer47/Product2192
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer12/Product561
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer5/Product210
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer13/Product628
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer57/Product2654
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer48/Product2272
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer42/Product1981
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer61/Product2822
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer9/Product413
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer51/Product2419
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer33/Product1525
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer18/Product844
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer54/Product2549
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer33/Product1498
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer26/Product1197
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer14/Product645
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer13/Product595
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer51/Product2439
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer44/Product2086
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer55/Product2608
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer13/Product614
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer1/Product41
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer32/Product1457
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer18/Product855
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer25/Product1135
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer15/Product696
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer42/Product2020
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer60/Product2792
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer9/Product416
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer33/Product1495
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer11/Product497
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer32/Product1459
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer42/Product1950
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer5/Product191
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer8/Product363
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer4/Product152
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer42/Product1978
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer22/Product1018
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer21/Product977
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer1/Product27
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer41/Product1936
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer18/Product839
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer33/Product1517
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer43/Product2036
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer1/Product45
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer30/Product1375
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer11/Product511
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer35/Product1573
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer50/Product2340
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer59/Product2767
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer48/Product2276
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer42/Product2018
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer17/Product825
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer46/Product2151
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer59/Product2727
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer26/Product1219
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer26/Product1245
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer7/Product311
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer55/Product2596
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer7/Product325
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer37/Product1658
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer14/Product671
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer10/Product467
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer51/Product2411
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer3/Product109
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer32/Product1457
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer42/Product2023
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer16/Product739
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer31/Product1403
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer50/Product2357
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer20/Product908
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer20/Product940
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer13/Product593
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer3/Product94
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer17/Product821
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer61/Product2803
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer49/Product2311
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer50/Product2330
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer8/Product343
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer35/Product1572
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer7/Product283
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer21/Product958
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer36/Product1621
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer46/Product2171
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer38/Product1735
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer55/Product2598
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer9/Product450
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer58/Product2676
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer58/Product2679
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer59/Product2770
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer8/Product374
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer16/Product786
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer53/Product2479
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer61/Product2838
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer23/Product1055
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer25/Product1156
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer37/Product1686
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer57/Product2642
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer37/Product1661
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer32/Product1456
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer48/Product2242
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer6/Product212
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer50/Product2362
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer21/Product982
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer33/Product1536
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer35/Product1580
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer25/Product1185
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer12/Product561
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer37/Product1712
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer50/Product2370
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer51/Product2446
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer24/Product1114
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer29/Product1319
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer46/Product2154
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer51/Product2447
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer5/Product202
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer40/Product1830
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer16/Product726
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer6/Product213
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer6/Product262
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer2/Product82
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer54/Product2535
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer11/Product487
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer8/Product351
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer49/Product2306
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer31/Product1409
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer58/Product2684
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer49/Product2287
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer49/Product2289
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer9/Product400
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer46/Product2145
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer3/Product125
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer54/Product2506
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer21/Product961
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer60/Product2797
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer15/Product705
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer59/Product2763
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer25/Product1158
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer41/Product1940
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer12/Product544
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer17/Product812
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer50/Product2376
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer4/Product170
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer40/Product1871
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer16/Product733
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer59/Product2764
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer16/Product724
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer6/Product242
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer30/Product1349
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer58/Product2676
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer25/Product1180
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer15/Product722
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer41/Product1903
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer23/Product1078
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer59/Product2762
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer42/Product2002
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer33/Product1523
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer48/Product2228
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer4/Product175
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer8/Product342
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer43/Product2048
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer9/Product448
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer20/Product915
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer53/Product2486
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer3/Product117
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer15/Product683
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer19/Product885
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer5/Product199
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer9/Product385
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer29/Product1316
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer36/Product1607
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer52/Product2462
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer45/Product2133
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer33/Product1509
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer11/Product500
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer31/Product1397
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer7/Product292
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer18/Product844
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer29/Product1325
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer8/Product348
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer46/Product2169
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer32/Product1426
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer2/Product84
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer32/Product1467
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer41/Product1933
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer22/Product1029
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer13/Product594
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer20/Product928
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer47/Product2199
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer17/Product815
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer42/Product2018
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer29/Product1335
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer22/Product1035
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer58/Product2689
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer1/Product55
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer19/Product893
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer15/Product687
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer29/Product1310
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer16/Product728
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer50/Product2331
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer52/Product2456
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer59/Product2754
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer11/Product539
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer39/Product1768
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer33/Product1511
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer21/Product970
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer16/Product728
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer22/Product1036
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer16/Product737
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer27/Product1284
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer17/Product825
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer5/Product180
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer23/Product1090
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer23/Product1095
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer43/Product2064
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer27/Product1271
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer40/Product1868
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer44/Product2073
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer49/Product2314
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer60/Product2793
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer61/Product2825
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer55/Product2583
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer48/Product2234
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer25/Product1165
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer17/Product803
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer3/Product118
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer39/Product1805
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer37/Product1630
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer3/Product112
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer34/Product1546
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer48/Product2247
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer13/Product629
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer30/Product1375
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer54/Product2563
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer60/Product2779
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer33/Product1529
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer28/Product1289
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer21/Product982
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer48/Product2247
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer37/Product1690
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer3/Product102
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer17/Product821
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer23/Product1077
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer23/Product1055
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer27/Product1274
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer7/Product324
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer55/Product2571
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer42/Product1960
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer60/Product2775
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer12/Product567
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer41/Product1904
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer9/Product391
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer15/Product713
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer36/Product1596
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer53/Product2499
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer16/Product726
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer57/Product2655
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer32/Product1476
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer9/Product411
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer16/Product745
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer45/Product2139
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer7/Product277
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer48/Product2256
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer33/Product1508
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer33/Product1497
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer48/Product2273
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer50/Product2362
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer19/Product858
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer59/Product2741
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer4/Product169
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer45/Product2116
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer55/Product2615
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer12/Product547
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer33/Product1489
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer11/Product485
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer25/Product1178
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer37/Product1710
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer35/Product1563
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer23/Product1082
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer13/Product601
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer42/Product2019
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer29/Product1310
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer34/Product1553
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer9/Product451
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer4/Product143
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer16/Product758
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer25/Product1191
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer35/Product1577
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer55/Product2613
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer47/Product2186
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer11/Product519
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer37/Product1646
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer58/Product2692
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer49/Product2294
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer39/Product1761
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer1/Product50
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer17/Product794
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer31/Product1391
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer13/Product609
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer61/Product2847
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer25/Product1166
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer12/Product571
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer45/Product2141
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer27/Product1279
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer50/Product2393
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer17/Product805
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer60/Product2788
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer21/Product986
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer3/Product135
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer57/Product2645
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer50/Product2379
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer2/Product86
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer20/Product953
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer35/Product1586
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer25/Product1158
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer37/Product1631
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer32/Product1426
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer54/Product2521
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer40/Product1868
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer51/Product2428
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer29/Product1310
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer49/Product2293
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer28/Product1292
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer57/Product2651
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer61/Product2831
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer38/Product1720
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer46/Product2178
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer59/Product2730
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer11/Product532
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer14/Product656
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer21/Product994
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer49/Product2318
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer13/Product612
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer38/Product1741
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer6/Product260
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer48/Product2226
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer16/Product783
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer20/Product904
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer29/Product1313
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer20/Product913
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer39/Product1788
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer39/Product1800
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer45/Product2116
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer10/Product470
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer14/Product671
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer59/Product2730
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer61/Product2832
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer9/Product441
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer39/Product1785
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer48/Product2224
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer14/Product662
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer53/Product2490
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer19/Product881
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer53/Product2492
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer9/Product396
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer61/Product2831
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer51/Product2420
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer37/Product1654
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer59/Product2721
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer15/Product698
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer7/Product275
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer58/Product2706
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer48/Product2246
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer5/Product179
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer9/Product438
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer20/Product900
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer12/Product550
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer48/Product2234
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer33/Product1522
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer50/Product2380
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer51/Product2415
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer9/Product442
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer33/Product1504
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer9/Product402
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer22/Product1002
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer45/Product2106
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer38/Product1735
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer48/Product2253
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer42/Product1970
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer37/Product1634
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer6/Product246
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer33/Product1511
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer45/Product2134
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer26/Product1242
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer33/Product1521
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer18/Product835
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer60/Product2796
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer25/Product1185
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer19/Product857
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer2/Product86
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer49/Product2291
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer4/Product156
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer9/Product422
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer49/Product2299
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer23/Product1094
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer40/Product1871
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer11/Product491
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer37/Product1707
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer32/Product1432
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer34/Product1544
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer21/Product973
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer20/Product927
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer25/Product1185
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer14/Product639
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer47/Product2201
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer38/Product1737
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer16/Product723
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer37/Product1672
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer19/Product868
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer58/Product2670
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer28/Product1293
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer23/Product1100
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer50/Product2391
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer10/Product459
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer8/Product366
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer14/Product674
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer41/Product1918
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer54/Product2531
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer20/Product903
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer25/Product1189
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer50/Product2362
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer3/Product126
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer22/Product1042
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer31/Product1400
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer22/Product1024
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer3/Product119
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer9/Product415
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer51/Product2408
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer54/Product2552
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer6/Product259
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer16/Product771
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer15/Product717
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer9/Product444
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer21/Product971
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer39/Product1791
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer54/Product2534
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer44/Product2081
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer51/Product2416
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer51/Product2428
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer30/Product1353
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer40/Product1864
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer9/Product439
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer37/Product1712
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer55/Product2610
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer3/Product125
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer50/Product2390
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer4/Product165
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer32/Product1425
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer26/Product1218
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer48/Product2276
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer7/Product299
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer5/Product192
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer37/Product1632
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer33/Product1513
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer12/Product563
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer46/Product2169
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer40/Product1829
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer58/Product2684
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer9/Product405
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer11/Product516
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer18/Product851
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer16/Product758
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer11/Product492
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer42/Product1958
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer23/Product1045
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer58/Product2674
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer43/Product2060
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer29/Product1338
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer47/Product2216
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer10/Product479
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer12/Product575
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer27/Product1252
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer29/Product1317
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer26/Product1193
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer27/Product1252
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer47/Product2182
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer38/Product1743
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer49/Product2318
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer41/Product1888
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer41/Product1886
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer1/Product59
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer48/Product2242
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer49/Product2292
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer1/Product11
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer5/Product188
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer50/Product2375
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer47/Product2217
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer19/Product891
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer48/Product2243
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer50/Product2360
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer41/Product1920
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer28/Product1305
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer12/Product542
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer45/Product2107
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer39/Product1789
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer13/Product629
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer39/Product1746
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer27/Product1276
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer52/Product2474
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer58/Product2657
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer9/Product419
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer43/Product2063
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer4/Product141
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer11/Product540
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer50/Product2398
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer9/Product410
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer7/Product289
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer9/Product405
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer9/Product420
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer11/Product536
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer16/Product765
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer25/Product1156
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer41/Product1884
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer9/Product438
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer41/Product1909
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer57/Product2655
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer9/Product406
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer60/Product2778
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer57/Product2629
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer14/Product667
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer58/Product2711
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer13/Product624
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer32/Product1468
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer32/Product1463
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer11/Product493
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer7/Product307
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer51/Product2406
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer5/Product204
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer37/Product1649
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer56/Product2622
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer54/Product2528
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer51/Product2406
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer10/Product459
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer9/Product409
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer41/Product1922
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer15/Product704
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer19/Product875
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer26/Product1248
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer30/Product1373
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer32/Product1458
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer14/Product657
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer37/Product1642
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer33/Product1531
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer5/Product191
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer19/Product879
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer40/Product1871
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer38/Product1729
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer39/Product1787
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer50/Product2327
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer16/Product769
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer22/Product1015
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer48/Product2267
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer36/Product1594
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer43/Product2052
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer23/Product1066
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer50/Product2362
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer35/Product1581
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer46/Product2153
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer11/Product493
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer17/Product805
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer23/Product1074
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer23/Product1080
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer20/Product945
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer30/Product1368
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer15/Product721
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer22/Product1042
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer4/Product164
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer47/Product2181
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer36/Product1620
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer1/Product3
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer19/Product861
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer55/Product2590
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer22/Product1012
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer9/Product401
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer59/Product2718
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer38/Product1743
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer42/Product1981
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer43/Product2061
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer46/Product2162
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer36/Product1591
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer55/Product2604
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer61/Product2846
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer48/Product2270
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer50/Product2338
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer17/Product822
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer47/Product2216
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer50/Product2388
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer6/Product233
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer12/Product560
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer10/Product466
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer61/Product2825
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer13/Product596
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer54/Product2530
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer17/Product817
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer7/Product307
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer39/Product1800
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer37/Product1666
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer48/Product2257
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer5/Product201
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer38/Product1730
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer39/Product1801
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer51/Product2453
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer21/Product960
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer60/Product2771
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer24/Product1123
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer15/Product683
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer22/Product1024
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer19/Product874
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer39/Product1780
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer16/Product786
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer38/Product1713
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer9/Product405
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer26/Product1196
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer25/Product1143
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer36/Product1621
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer25/Product1187
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer15/Product714
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer25/Product1173
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer42/Product1984
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer47/Product2197
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer16/Product769
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer41/Product1890
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer3/Product103
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer3/Product125
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer3/Product131
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer27/Product1275
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer43/Product2043
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer15/Product708
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer61/Product2799
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer2/Product61
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer1/Product52
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer18/Product842
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer38/Product1738
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer37/Product1691
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer11/Product532
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer45/Product2116
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer32/Product1437
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer15/Product710
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer39/Product1768
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer2/Product77
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer25/Product1191
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer58/Product2706
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer55/Product2597
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer51/Product2419
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer14/Product656
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer57/Product2632
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer43/Product2035
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer26/Product1226
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer45/Product2115
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer38/Product1730
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer37/Product1700
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer29/Product1328
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer4/Product161
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer5/Product194
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer42/Product2025
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer50/Product2390
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer37/Product1681
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer37/Product1676
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer44/Product2072
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer32/Product1438
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer17/Product821
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer59/Product2721
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer51/Product2436
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer29/Product1321
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer47/Product2211
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer23/Product1058
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer6/Product269
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer39/Product1751
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer47/Product2201
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer9/Product424
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer40/Product1825
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer48/Product2266
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer52/Product2471
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer23/Product1092
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer20/Product942
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer49/Product2294
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer39/Product1782
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer3/Product109
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer23/Product1070
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer30/Product1347
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer58/Product2665
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer50/Product2340
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer35/Product1574
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer45/Product2143
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer55/Product2593
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer50/Product2351
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer50/Product2383
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer41/Product1902
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer25/Product1137
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer24/Product1111
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer6/Product228
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer55/Product2593
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer22/Product1013
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer61/Product2834
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer5/Product209
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer54/Product2553
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer57/Product2636
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer22/Product1021
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer42/Product1950
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer61/Product2836
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer55/Product2582
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer26/Product1248
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer35/Product1578
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer37/Product1670
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer23/Product1069
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer42/Product1998
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer9/Product429
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer14/Product649
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer31/Product1411
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer14/Product653
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer1/Product33
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer43/Product2066
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer40/Product1839
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer4/Product156
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer39/Product1808
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer50/Product2361
+"16.05.2008 0:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
