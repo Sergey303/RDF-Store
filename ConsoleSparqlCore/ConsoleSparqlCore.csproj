@@ -6,6 +6,12 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="examples\**" />
+    <EmbeddedResource Remove="examples\**" />
+    <None Remove="examples\**" />
+  </ItemGroup>
+
+  <ItemGroup>
     <ProjectReference Include="..\RDFStore\RDFStore.csproj" />
     <ProjectReference Include="..\SparqlQuery\SparqlQuery.csproj" />
   </ItemGroup>

@@ -36,7 +36,7 @@ namespace RDFCommon.Interfaces
         /// <param name="obj">Object</param>
         /// <param name="pred">Predicate</param>
         /// <returns></returns>
-        IEnumerable<ObjectVariants> GetSubjects(ObjectVariants pred, ObjectVariants obj);
+        IEnumerable<ObjectVariants> GetTriplesWithPredicateObject(ObjectVariants pred, ObjectVariants obj);
 
         IEnumerable<T> GetTriples<T>(Func<ObjectVariants, ObjectVariants, ObjectVariants, T> returns);
 

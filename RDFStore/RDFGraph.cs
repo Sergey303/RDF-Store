@@ -250,7 +250,7 @@ namespace RDFStore
                     .Select(uri => NodeGenerator.GetUri(uri));
         }
 
-        public IEnumerable<ObjectVariants> GetSubjects(ObjectVariants pred, ObjectVariants obj)
+        public IEnumerable<ObjectVariants> GetTriplesWithPredicateObject(ObjectVariants pred, ObjectVariants obj)
         {
             return po_index.GetRecordsWithKeys(((OV_iriint) pred).code, obj)
                 .Cast<object[]>()

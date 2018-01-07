@@ -1,6 +1,7 @@
 using System;
 using System.Collections;
 using System.IO;
+using System.Text;
 
 namespace RDFTurtleParser {
 
@@ -289,7 +290,7 @@ public class Scanner {
 	
 	public Scanner (string fileName) {
 		try {
-			Stream stream = new FileStream(fileName, FileMode.Open, FileAccess.Read, FileShare.Read);
+			Stream stream = new StreamReader(fileName, Encoding.UTF8).BaseStream;// new FileStream(fileName, FileMode.Open, FileAccess.Read, FileShare.Read);
 			buffer = new Buffer(stream, false);
 			Init();
 		} catch (IOException) {

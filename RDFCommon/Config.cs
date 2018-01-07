@@ -5,6 +5,10 @@ using System.Linq;
 
 namespace RDFCommon
 {
+
+    /// <summary>
+    /// значения параметров заданы по умолчяанию относительно .sln, чтобы считать из ini файла и из аргументов при запуске нужно вызвать <code>Load(string[] args=null)</code>
+    /// </summary>
     public static class Config
     {
         /// <summary>
@@ -12,31 +16,55 @@ namespace RDFCommon
         /// </summary>
         private static string Source_data_folder_path
         {
-            get => parameters["source_data_folder_path"];
+            get
+            {
+                if (!parameters["source_data_folder_path"].EndsWith("\\") &&
+                    !parameters["source_data_folder_path"].EndsWith("/"))
+                    parameters["source_data_folder_path"] += "/";
+                return parameters["source_data_folder_path"];
+            }
             set => parameters["source_data_folder_path"] = value;
         }
+
         /// <summary>
         /// путь к ttl файлу
         /// </summary>
         public static string TurtleFileFullPath
         {
-            get => parameters.TryGetValue("ttl file path",out var v) ? v : null;
+            get
+            {
+                var v = parameters["ttl file path"];
+                //проверка наличия файла ttl по уже указнанному пути
+                if (File.Exists(v)) return v;
+                // если его нет, то поиск по пути TurtleFileFullPath относительно Source_data_folder_path
+                //if (File.Exists(Source_data_folder_path + TurtleFileFullPath)) 
+                TurtleFileFullPath = v = Source_data_folder_path + v;
+                return v;
+            }
             set => parameters["ttl file path"] = value;
         }
+
         /// <summary>
         /// путь к файлам базы данных
         /// </summary>
         public static string DatabaseFolder
         {
-            get => parameters["data base"];
+            get
+            {
+                if (!parameters["data base"].EndsWith("\\") &&
+                    !parameters["data base"].EndsWith("/"))
+                    parameters["data base"] += "/";
+                return parameters["data base"] + Random.Next() + "\\";
+            }
             set => parameters["data base"] = value;
         }
+
         /// <summary>
         /// словарь пар: имя параметра -> значение.
         /// Указаны значения по умолчанию
         /// затем они переназначаются из ini файла, затем параметрами при запуске
         /// </summary>
-        private static Dictionary<string, string> parameters = new Dictionary<string, string>() {{"source_data_folder_path", "examples\\" }, {"ttl file path", "1M.ttl"}, {"data base", "../Databases/" } };
+        private static Dictionary<string, string> parameters = new Dictionary<string, string>() {{"source_data_folder_path", "ConsoleSparqlCore\\examples\\" }, {"ttl file path", "simplest.ttl" }, {"data base", "/Databases/" } };
 
         /// <summary>
         /// Попытка загрузить файл config.ini, если успешно, то из него берутся параметры и записываются в <code>this.parameters</code>
@@ -83,11 +111,13 @@ namespace RDFCommon
         /// </summary>
         private static readonly char[] splitChars = new[] {'#', '=', ' ', '\n', '\r'};
 
+        private static readonly Random Random = new Random();
+
         /// <summary>
         /// Сначала параметры имеют значения по умолчанию, затем назначаются из ini файла, если он есть, затем назначаются указанные при запуске из <code>args</code>
         /// </summary>
         /// <param name="args">параметры указываемые при запуске программы</param>
-        public static void Load(string[] args)
+        public static void Load(string[] args=null)
         {
             TryLoadIni();
             if (args != null)
@@ -109,21 +139,12 @@ namespace RDFCommon
                     }
                     if (args[i] == "-h")
                     {
-                        Console.WriteLine("-dtll source turtle data folder full path were .ttl file. Default project path");
+                        Console.WriteLine("-dtll source turtle data folder full path were .ttl file, by default ConsoleSparqlCore\\examples\\ relative .sln");
                         Console.WriteLine("-tll turtle file path full or relative dtll");
-                        Console.WriteLine("-db database folder path full or relative project");
+                        Console.WriteLine("-db database folder path full or relative .sln");
                     }
                 }
             }
-            
-            if (!Source_data_folder_path.EndsWith("\\") &&
-                !Source_data_folder_path.EndsWith("/"))
-                Source_data_folder_path += "/";
-            //проверка наличия файла ttl по уже указнанному пути
-            if (File.Exists(TurtleFileFullPath)) return;
-            // если его нет, то поиск по пути TurtleFileFullPath относительно Source_data_folder_path
-            //if (File.Exists(Source_data_folder_path + TurtleFileFullPath)) 
-                TurtleFileFullPath = Source_data_folder_path + TurtleFileFullPath;
             
         }
     }

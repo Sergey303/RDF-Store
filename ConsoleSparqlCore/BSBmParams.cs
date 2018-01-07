@@ -14,24 +14,24 @@ namespace ConsoleSparqlCore
         public BSBmParams(IStore store)
         {
             this.store = store;
-            _products = Enumerable.ToArray<ObjectVariants>(this.store.GetSubjects(store.NodeGenerator.GetUri("http://www.w3.org/1999/02/22-rdf-syntax-ns#type"),
+            _products = Enumerable.ToArray<ObjectVariants>(this.store.GetTriplesWithPredicateObject(store.NodeGenerator.GetUri("http://www.w3.org/1999/02/22-rdf-syntax-ns#type"),
                 store.NodeGenerator.GetUri("http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/vocabulary/Product")));
             _productCount = _products.Count();
 
-            _offers = Enumerable.ToArray<ObjectVariants>(this.store.GetSubjects(
+            _offers = Enumerable.ToArray<ObjectVariants>(this.store.GetTriplesWithPredicateObject(
                 store.NodeGenerator.GetUri("http://www.w3.org/1999/02/22-rdf-syntax-ns#type"),
                 store.NodeGenerator.GetUri("http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/vocabulary/Offer")));
             _offersCount = _offers.Count();
 
-            _review = Enumerable.ToArray<ObjectVariants>(this.store.GetSubjects(
+            _review = Enumerable.ToArray<ObjectVariants>(this.store.GetTriplesWithPredicateObject(
                 store.NodeGenerator.GetUri("http://www.w3.org/1999/02/22-rdf-syntax-ns#type"),
                 store.NodeGenerator.GetUri("http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/vocabulary/Review")));
             _reviewCount = _review.Count();
-            _productFeature = Enumerable.ToArray<ObjectVariants>(this.store.GetSubjects(
+            _productFeature = Enumerable.ToArray<ObjectVariants>(this.store.GetTriplesWithPredicateObject(
                 store.NodeGenerator.GetUri("http://www.w3.org/1999/02/22-rdf-syntax-ns#type"),
                 store.NodeGenerator.GetUri("http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/vocabulary/ProductFeature")));
             _productFeatureCount = _productFeature.Count();
-            _productType = Enumerable.ToArray<ObjectVariants>(this.store.GetSubjects(
+            _productType = Enumerable.ToArray<ObjectVariants>(this.store.GetTriplesWithPredicateObject(
                 store.NodeGenerator.GetUri("http://www.w3.org/1999/02/22-rdf-syntax-ns#type"),
                 store.NodeGenerator.GetUri("http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/vocabulary/ProductType")));
             _productTypeCount = _productType.Count();

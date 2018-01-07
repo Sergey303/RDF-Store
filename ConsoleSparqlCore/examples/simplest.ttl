@@ -1,9 +1,10 @@
+п»ї<?xml version="1.0" encoding="utf-8"?>
 <id1><type><contry>
-<id1> <name> "Россия"
+<id1> <name> "Р РѕСЃСЃРёСЏ"
 <id2><type><person>
-<id2> <name> "Владимир Владимирович"
+<id2> <name> "Р’Р»Р°РґРёРјРёСЂ Р’Р»Р°РґРёРјРёСЂРѕРІРёС‡"
 <id3><type><person>
-<id3> <name> "Дмитрий Анатольевич"
+<id3> <name> "Р”РјРёС‚СЂРёР№ РђРЅР°С‚РѕР»СЊРµРІРёС‡"
 <id4><type><paticipation>
 <id4> <partticipant> <id2>
 <id4> <in-org> <id1>
