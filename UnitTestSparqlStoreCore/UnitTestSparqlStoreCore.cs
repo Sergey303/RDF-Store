@@ -3,6 +3,7 @@ using System.IO;
 using System.Linq;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using RDFCommon;
+using RDFCommon.Interfaces;
 using RDFCommon.OVns;
 using RDFCommon.OVns.general;
 using RDFStore;
@@ -12,17 +13,17 @@ namespace UnitTestSparqlStoreCore
     [TestClass]
     public class UnitTestSparqlStoreCore
     {
-        private Store _store;
-        private string _dataDirectory;
+        private static IStore _store;
+        private static string _dataDirectory;
 
         [ClassInitialize]
-        public void TestLoad()
+        public static void TestLoad(TestContext context)
         {
             var turtleFilePath = @"..\..\..\..\" + Config.TurtleFileFullPath;
             _dataDirectory = @"..\..\..\..\" + Config.DatabaseFolder;
-            //var store = new RDFRamStore(); 
+            _store = new RDFRamStore(); 
             _dataDirectory = @"..\..\..\" + Config.DatabaseFolder;
-            _store = new Store(_dataDirectory);
+            //_store = new Store(_dataDirectory);
             _store.ReloadFrom(turtleFilePath);
             //store.BuildIndexes();
         }
@@ -37,11 +38,13 @@ namespace UnitTestSparqlStoreCore
 
             var id1IriString = new OV_iri("id1");
             var nameIriString = new OV_iri("name");
+            var inOrgIriString = new OV_iri("in-org");
             var typeIriString = new OV_iri("http://www.w3.org/1999/02/22-rdf-syntax-ns#type");
             // получаем коды и iri_Coded
             Assert.IsTrue(_store.NodeGenerator.TryGetUri(id1IriString, out var id1));
             Assert.IsTrue(_store.NodeGenerator.TryGetUri(nameIriString, out var name));
             Assert.IsTrue(_store.NodeGenerator.TryGetUri(typeIriString, out var type));
+            Assert.IsTrue(_store.NodeGenerator.TryGetUri(inOrgIriString, out var inOrg));
 
             var triplesWithSubjectPredicate = _store.GetTriplesWithSubjectPredicate(id1, name);
             Assert.AreEqual(1, triplesWithSubjectPredicate.Count());
@@ -65,25 +68,28 @@ namespace UnitTestSparqlStoreCore
             var triplesWithWrongSubject = _store.GetTriplesWithSubject(literalRussia).ToList();
             Assert.AreEqual(0, triplesWithWrongSubject.Count);
 
-            var triplesWithType = _store.GetTriplesWithPredicate(type).ToList();
-            Assert.AreEqual(5, triplesWithType.Count);
+            var triplesWithType = _store.GetTriplesWithPredicate(name).ToList();
+            Assert.AreEqual(3, triplesWithType.Count);
             var triplesWithWrongPredicate = _store.GetTriplesWithPredicate(id1).ToList();
             Assert.AreEqual(0, triplesWithWrongPredicate.Count);
 
             var triplesWithRussia = _store.GetTriplesWithObject(literalRussia).ToList();
-            Assert.AreEqual(1, triplesWithType.Count);
-            var id1NameRussia = triplesWithType.First();
+            Assert.AreEqual(1, triplesWithRussia.Count);
+            var id1NameRussia = triplesWithRussia.First();
             Assert.AreEqual(id1,id1NameRussia.Subject);
             Assert.AreEqual(name,id1NameRussia.Predicate);
             Assert.AreEqual(literalRussia,id1NameRussia.Object);
             var triplesWithId1Object = _store.GetTriplesWithObject(id1).ToList();
-            Assert.AreEqual(1, triplesWithId1Object.Count);
-            var tripleWithId1Obj = triplesWithId1Object.First();
-            Assert.AreEqual(id1, tripleWithId1Obj.Subject);
-            
+            Assert.AreEqual(2, triplesWithId1Object.Count);
+            foreach (var tripleWithId1Obj in triplesWithId1Object)
+            {
+                Assert.AreEqual(id1, tripleWithId1Obj.Object);
+                Assert.AreEqual(inOrg, tripleWithId1Obj.Predicate);
+            }
+
         }
         [ClassCleanup]
-        public void TestEndingCleanup()
+        public static void TestEndingCleanup()
         {
             if (Directory.Exists(_dataDirectory))
                 Directory.Delete(_dataDirectory, true);

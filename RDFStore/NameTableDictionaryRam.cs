@@ -8,7 +8,7 @@ namespace RDFStore
     class NameTableDictionaryRam: INametable, IGetDictionaryLong<string, int>
     {
         private Dictionary<string, int> code=new Dictionary<string, int>();
-        private List<string> decode=new List<string>();
+        private List<string> decode = new List<string>();
         public void Clear()
         {
             code.Clear();

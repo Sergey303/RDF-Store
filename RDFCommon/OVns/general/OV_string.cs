@@ -30,19 +30,14 @@ namespace RDFCommon.OVns.general
         // override object.Equals
         public override bool Equals(object obj)
         {
-            //       
-            // See the full list of guidelines at
-            //   http://go.microsoft.com/fwlink/?LinkID=85237  
-            // and also the guidance for operator== at
-            //   http://go.microsoft.com/fwlink/?LinkId=85238
-            //
-
+       
             if (obj == null || GetType() != obj.GetType())
             {
                 return false;
             }
 
-            return value == ((OV_string)obj).value;
+            var @equals = value == ((OV_string)obj).value;
+            return @equals;
 
         }
 

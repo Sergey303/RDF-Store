@@ -59,7 +59,7 @@ namespace RDFStore
 
         public IEnumerable<TripleOVStruct> GetTriplesWithObject(ObjectVariants o)
         {
-            return triples.Where(triple => triple.Object.Equals(o)).Select(triple => new TripleOVStruct(triple.Subject, triple.Predicate, null)); 
+            return triples.Where(triple => triple.Object.Equals(o)).Select(triple => new TripleOVStruct(triple.Subject, triple.Predicate, o)); 
         }
 
         public IEnumerable<T> GetTriples<T>(Func<ObjectVariants, ObjectVariants, ObjectVariants, T> returns)
@@ -99,7 +99,7 @@ namespace RDFStore
 
         public bool Any()
         {
-            throw new NotImplementedException();
+           return triples.Count > 0;
         }
 
         public void FromTurtle(long count, string fileName)

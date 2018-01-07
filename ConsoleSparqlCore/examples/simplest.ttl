@@ -1,5 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<id1><type><contry>
+﻿<id1><type><contry>
 <id1> <name> "Россия"
 <id2><type><person>
 <id2> <name> "Владимир Владимирович"

@@ -49,7 +49,12 @@ namespace Polar.CellIndexes
         }
         public IEnumerable<PaEntry> Elements() { return table_cell.Root.Elements(); }
 
-        // ???
+        // метод для добавления элементов в таблицу.
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <param name="values"></param>
+        /// <returns></returns>
         public IEnumerable<TableRow> Add(IEnumerable<object> values)
         {
             return values.Select(el => new object[] {false, el})
