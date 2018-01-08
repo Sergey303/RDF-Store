@@ -25,10 +25,10 @@ namespace ConsoleSparqlCore
 
 
             RunTests();
-            if (Directory.Exists(_dataDirectory))
-            {
-                Directory.Delete(_dataDirectory, true);
-            }
+            //if (Directory.Exists(_dataDirectory))
+            //{
+            //    Directory.Delete(_dataDirectory, true);
+            //}
         }
 
         private static void RunTests()
