@@ -14,6 +14,11 @@ namespace ConsoleSparqlCore
 
         static void Main(string[] args)
         {
+            //Main1(args);
+            Main2(args);
+        }
+        static void Main1(string[] args)
+        {
             //Config.Load(args);
             Console.WriteLine(Path.GetFullPath("..\\"));
             var turtleFilePath = @"..\" + Config.TurtleFileFullPath;
@@ -112,6 +117,60 @@ namespace ConsoleSparqlCore
                 // var formatter=new BinaryFormatter();
                 formatter.Serialize(stream.BaseStream, sparqlQuery);
             }
+        }
+
+        public static void Main2(string[] args)
+        {
+            Random rnd = new Random();
+            System.Diagnostics.Stopwatch sw = new System.Diagnostics.Stopwatch();
+            Console.WriteLine("Start RDF-Store Main2()");
+            string mag_path = "mag_data/";
+            string mag_data = mag_path + "mag_data.ttl";
+            bool toload = false;
+            if (!Directory.Exists(mag_path)) { toload = true; Directory.CreateDirectory(mag_path); }
+            FileStream fs = File.Open(mag_data, FileMode.OpenOrCreate, FileAccess.ReadWrite);
+            TextWriter tw = new StreamWriter(fs);
+            _dataDirectory = mag_path;
+            Store stor = new Store(mag_path);
+            int nelements = 1_000_000;
+
+            if (toload)
+            {
+                sw.Restart();
+                tw.WriteLine("@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .");
+                tw.WriteLine("@prefix iis: <http://www.iis.nsk.su/> .");
+
+                for (int i = 0; i < nelements; i++)
+                {
+                    tw.WriteLine($"<p{i}> ");
+                    tw.WriteLine($"\trdf:type <person>;");
+                    tw.WriteLine($"\tiis:name \"pupkin{i}\";");
+                    tw.WriteLine($"\t<age> \"{(double)(rnd.NextDouble() * 100)}\".");
+                }
+                tw.Flush();
+                fs.Close();
+                sw.Stop();
+                Console.WriteLine($"data {nelements} build ok. duration={sw.ElapsedMilliseconds}");
+
+                sw.Restart();
+                //var stor = new Store(mag_path);
+                stor.ReloadFrom(mag_data);
+                ((Store)stor).BuildIndexes();
+                sw.Stop();
+                Console.WriteLine($"data {nelements} load ok. duration={sw.ElapsedMilliseconds}");
+            }
+
+            int nprobe = 100;
+
+            sw.Restart();
+            for (int j=0; j<nprobe; j++)
+            {
+                string squery = "select * { <p"+ rnd.Next(nelements) +"> ?p ?o }";
+                var r1 = stor.ParseRunSparql(squery).ToCommaSeparatedValues();
+                //Console.WriteLine(r1);
+            }
+            sw.Stop();
+            Console.WriteLine($"{nprobe} selects from {nelements} elements. duration={sw.ElapsedMilliseconds}");
         }
     }
 }

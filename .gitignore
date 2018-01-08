@@ -28,3 +28,5 @@ UnitTestRDFStore/obj
 config.ini
 config.ini
 /Databases
+/ConsoleSparqlCore/output.txt
+/ConsoleSparqlCore/mag_data
