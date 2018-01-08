@@ -20,7 +20,7 @@ namespace RDFCommon
             {
                 if (!parameters["source_data_folder_path"].EndsWith("\\") &&
                     !parameters["source_data_folder_path"].EndsWith("/"))
-                    parameters["source_data_folder_path"] += "/";
+                    parameters["source_data_folder_path"] += "\\";
                 return parameters["source_data_folder_path"];
             }
             set => parameters["source_data_folder_path"] = value;

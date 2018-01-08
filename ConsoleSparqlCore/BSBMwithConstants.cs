@@ -2,6 +2,7 @@ using System;
 using System.Diagnostics;
 using System.IO;
 using System.Linq;
+using RDFCommon;
 using RDFCommon.Interfaces;
 using RDFStore;
 using SparqlQuery.SparqlClasses;
@@ -21,9 +22,9 @@ namespace ConsoleSparqlCore
             
             // var Store = new Store("../../../Databases/int based/");
             var Store = new RDFRamStore();
-            
+            Store.ReloadFrom(@"..\..\..\"+Config.TurtleFileFullPath);
             //разогрев транслятора и интерпретатора
-            SparqlQueryParser.Parse((IStore) Store, BSBMSampleQueries.sq5);
+          //  SparqlQueryParser.Parse((IStore) Store, BSBMSampleQueries.sq5);
 
             for (int i = 0; i < 12; i++)
             {
