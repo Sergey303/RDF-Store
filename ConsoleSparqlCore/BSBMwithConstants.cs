@@ -34,7 +34,7 @@ namespace ConsoleSparqlCore
                 GC.Collect();
                 timer.Restart();
 
-                var sparqlQuery = SparqlQueryParser.Parse((IStore) Store, readAllText);
+                var sparqlQuery = SparqlQueryParser.ParseSparql((IStore) Store, readAllText);
 
                 timer.Stop();
                 totalparseMS[i] += timer.GetTimeWthLast2Digits();

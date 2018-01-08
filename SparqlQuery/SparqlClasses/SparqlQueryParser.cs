@@ -2,6 +2,7 @@
 using Antlr4.Runtime;
 using RDFCommon;
 using RDFCommon.Interfaces;
+using SparqlQuery.SparqlClasses.Query.Result;
 
 namespace SparqlQuery.SparqlClasses
 {
@@ -9,7 +10,7 @@ namespace SparqlQuery.SparqlClasses
 
     public static class SparqlQueryParser
     {
-        public static SparqlQuery Parse(IStore store, string sparqlString)
+        public static SparqlQuery ParseSparql(this IStore store, string sparqlString)
         {
             ICharStream input = new AntlrInputStream(sparqlString);
 
@@ -25,7 +26,10 @@ namespace SparqlQuery.SparqlClasses
 
         }
 
-        public static SparqlQuery Parse(IStore store, Stream sparql)
+        public static SparqlResultSet ParseRunSparql(this IStore store, string sparqlString) => store.ParseSparql(sparqlString).Run();
+        public static SparqlResultSet ParseRunSparql(this IStore store, Stream sparqlString) => store.ParseSparql(sparqlString).Run();
+
+        public static SparqlQuery ParseSparql(this IStore store, Stream sparql)
         {
 
             ICharStream input = new AntlrInputStream(sparql);

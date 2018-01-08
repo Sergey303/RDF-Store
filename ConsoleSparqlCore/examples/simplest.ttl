@@ -5,7 +5,7 @@
 <id3><type><person>
 <id3> <name> "Дмитрий Анатольевич"
 <id4><type><paticipation>
-<id4> <partticipant> <id2>
+<id4> <participant> <id2>
 <id4> <in-org> <id1>
 <id5><type><paticipation>
 <id5> <participant> <id3>

@@ -58,7 +58,7 @@ namespace ConsoleSparqlCore
                     SparqlQuery.SparqlClasses.Query.SparqlQuery sparqlQuery = null;
                   //  if (i == 0)
                     {
-                        sparqlQuery = SparqlQueryParser.Parse(Store, readAllText);
+                        sparqlQuery = SparqlQueryParser.ParseSparql(Store, readAllText);
                     }
 
                     totalparseMS[i] += timer.GetTimeWthLast2Digits();
@@ -105,7 +105,7 @@ namespace ConsoleSparqlCore
 
             var Store = new Store("../../../Databases/int based/");
             Store.ReloadFrom(Config.TurtleFileFullPath);
-            SparqlQueryParser.Parse((IStore) Store, BSBMSampleQueries.sq5);
+            SparqlQueryParser.ParseSparql((IStore) Store, BSBMSampleQueries.sq5);
             //Store.Start();
             //Store.Warmup();
             for (int i = 0; i < 12; i++)
@@ -125,7 +125,7 @@ namespace ConsoleSparqlCore
                     for (int j = 0; j < count; j++)
                     {
                         string q = BSBmParams.QueryReadParameters(qparams, streamParameters);
-                        var sparqlResults = SparqlQueryParser.Parse((IStore) Store, q).Run();
+                        var sparqlResults = SparqlQueryParser.ParseSparql((IStore) Store, q).Run();
 
                         timer.Start();
                         sparqlResults.Results.Count();
@@ -145,7 +145,7 @@ namespace ConsoleSparqlCore
                         r.WriteLine("qps " + (int) (1000.0/l));
                         string q = BSBmParams.QueryReadParameters(qparams, streamParameters);
                         r.WriteLine("next results count: {0}",
-                            SparqlQueryParser.Parse((IStore) Store, q).Run().Results.Count());
+                            SparqlQueryParser.ParseSparql((IStore) Store, q).Run().Results.Count());
                     }
                 }
             }
@@ -154,7 +154,7 @@ namespace ConsoleSparqlCore
         public static void OneBerlinParametrized(IStore store, int i, int count)
         {
 
-          SparqlQueryParser.Parse(store, BSBMSampleQueries.sq5);      
+          SparqlQueryParser.ParseSparql(store, BSBMSampleQueries.sq5);      
            store.Warmup();
             using (StreamReader streamQueryParameters = new StreamReader(string.Format(
                 @"..\..\..\Testing\examples\bsbm\queries\parameters\param values for{0}m {1} query.txt", 1, i)))
@@ -173,7 +173,7 @@ namespace ConsoleSparqlCore
 
                     Stopwatch timer = new Stopwatch();
                     timer.Restart();
-                    var sparqlQuery = SparqlQueryParser.Parse(store, consted);
+                    var sparqlQuery = SparqlQueryParser.ParseSparql(store, consted);
                     timer.Stop();
 
                     double time1 = timer.GetTimeWthLast2Digits();
@@ -218,7 +218,7 @@ namespace ConsoleSparqlCore
        public static void OneLUMB(IStore store, int i, int count)
        {
 
-           SparqlQueryParser.Parse(store, BSBMSampleQueries.sq5);
+           SparqlQueryParser.ParseSparql(store, BSBMSampleQueries.sq5);
            store.Warmup();
            {
                var file = new FileInfo(string.Format(@"..\..\..\Testing\examples\lubm\q ({0}).rq", i));
@@ -231,7 +231,7 @@ namespace ConsoleSparqlCore
                {         
                    Stopwatch timer = new Stopwatch();
                    timer.Restart();
-                   var sparqlQuery = SparqlQueryParser.Parse(store, q);
+                   var sparqlQuery = SparqlQueryParser.ParseSparql(store, q);
                    timer.Stop();
 
                    double time1 = timer.GetTimeWthLast2Digits();

@@ -25,6 +25,7 @@ namespace ConsoleSparqlCore
 
 
             RunTests();
+            
             //if (Directory.Exists(_dataDirectory))
             //{
             //    Directory.Delete(_dataDirectory, true);
@@ -43,55 +44,61 @@ namespace ConsoleSparqlCore
             string q6 = @"Select * {<id1> ?p ""Россия""}";
             string q7 = @"Select * {<id1> <name> ?o}";
 
-            var sq1 = SparqlQueryParser.Parse(_store, q1);
-            var sq2 = SparqlQueryParser.Parse(_store, q2);
-            var sq3 = SparqlQueryParser.Parse(_store, q3);
-            var sq4 = SparqlQueryParser.Parse(_store, q4);
-            var sq5 = SparqlQueryParser.Parse(_store, q5);
-            var sq6 = SparqlQueryParser.Parse(_store, q6);
-            var sq7 = SparqlQueryParser.Parse(_store, q7);
+            string q8 = @"Select * 
+{?org <name> ""Россия"" ;
+      <type> <contry> . 
+?pat   <in-org> ?org ;
+        <participant> ?person .
+?person <name> ?name ;
+        <type> <person> . }";
+          //  string q9 = @"Select * {<id1> <name> ?o}";
 
-            var r1 = sq1.Run().ToCommaSeparatedValues();
-            var r2 = sq2.Run().ToCommaSeparatedValues();
-            var r3 = sq3.Run().ToCommaSeparatedValues();
-            var r4 = sq4.Run().ToCommaSeparatedValues();
-            var r5 = sq5.Run().ToCommaSeparatedValues();
-            var r6 = sq6.Run().ToCommaSeparatedValues();
-            var r7 = sq7.Run().ToCommaSeparatedValues();
 
             Console.WriteLine(q1);
             Console.WriteLine();
+            var r1 = _store.ParseRunSparql(q1).ToCommaSeparatedValues();
             Console.WriteLine(r1);
             Console.WriteLine();
             Console.WriteLine(q2);
             Console.WriteLine();
+            var r2 = _store.ParseRunSparql(q2).ToCommaSeparatedValues();
             Console.WriteLine(r2);
             Console.WriteLine();
             Console.WriteLine(q3);
             Console.WriteLine();
+            var r3 = _store.ParseRunSparql(q3).ToCommaSeparatedValues();
             Console.WriteLine(r3);
             Console.WriteLine();
             Console.WriteLine(q4);
             Console.WriteLine();
+            var r4 = _store.ParseRunSparql(q4).ToCommaSeparatedValues();
             Console.WriteLine(r4);
             Console.WriteLine();
             Console.WriteLine(q5);
             Console.WriteLine();
+            var r5 = _store.ParseRunSparql(q5).ToCommaSeparatedValues();
             Console.WriteLine(r5);
             Console.WriteLine();
             Console.WriteLine(q6);
             Console.WriteLine();
+            var r6 = _store.ParseRunSparql(q6).ToCommaSeparatedValues();
             Console.WriteLine(r6);
             Console.WriteLine();
             Console.WriteLine(q7);
             Console.WriteLine();
+            var r7 = _store.ParseRunSparql(q7).ToCommaSeparatedValues();            
             Console.WriteLine(r7);
+            Console.WriteLine();
+            Console.WriteLine(q8);
+            Console.WriteLine();
+            var r8 = _store.ParseRunSparql(q8).ToCommaSeparatedValues();
+            Console.WriteLine(r8);
             Console.WriteLine();
         }
 
         private static void test(Store store)
         {
-            var sparqlQuery = SparqlQueryParser.Parse(store, "Select *  { ?s ?p \"kl\"@ru . Filter( ?s > 0 ) }");
+            var sparqlQuery = SparqlQueryParser.ParseSparql(store, "Select *  { ?s ?p \"kl\"@ru . Filter( ?s > 0 ) }");
 
             Console.WriteLine("parse ok");
 
