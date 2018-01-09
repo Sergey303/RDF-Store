@@ -54,9 +54,11 @@ namespace RDFStore
             OnAddPortion += po_index.index_arr.FillPortion;
             OnAddPortion += ps_index.index_arr.FillPortion;
             OnAddPortion += textObjectIndex.FillPortion;
-            NodeGenerator = NodeGeneratorInt.Create(new NameTableDictionaryRam()); //new NametableLinearBuffered(path));
+            NodeGenerator = NodeGeneratorInt.Create(new NameTableDictionaryRam(path)); //new NametableLinearBuffered(path));
             _ng = NodeGenerator as NodeGeneratorInt;
             _ng.coding_table.Expand((int) 10000 / 3 + 1, Enumerable.Repeat(SpecialTypesClass.RdfType, 1));
+
+            Start();
         }
 
         public string Name { get; set; }
@@ -109,16 +111,18 @@ namespace RDFStore
 
         public void BuildIndexes()
         {
-            _ng.coding_table.Save();
-            _ng.coding_table.FreeMemory();
+         //   _ng.coding_table.Save();
+          //  _ng.coding_table.FreeMemory();
 
             System.Diagnostics.Stopwatch sw = new System.Diagnostics.Stopwatch();
-            sw.Start();
             if (!table.TableCell.Root.Elements().Any())
             {
                 Console.WriteLine("table empty!");
                 return;
             }
+            sw.Start();
+
+            NodeGenerator.Build();
 
             sw.Stop();
             Console.WriteLine("Load data and nametable ok. Duration={0}", sw.ElapsedMilliseconds);
@@ -134,10 +138,10 @@ namespace RDFStore
             po_index.Build();
 
             sw.Stop();
-            Console.WriteLine("Build index ok. Duration={0}", sw.ElapsedMilliseconds);
+            Console.WriteLine("po_index Build index ok. Duration={0}", sw.ElapsedMilliseconds);
             sw.Restart();
 
-            NodeGenerator.Build();
+            Start();
         }
 
         [Obsolete]
@@ -185,13 +189,13 @@ namespace RDFStore
             ps_index.Build();
 
             sw.Stop();
-            Console.WriteLine("ps_index.Build() ok. Duration={0}", sw.ElapsedMilliseconds);
+            Console.WriteLine("ps_index Build() ok. Duration={0}", sw.ElapsedMilliseconds);
             sw.Restart();
 
             po_index.Build();
 
             sw.Stop();
-            Console.WriteLine("Build index ok. Duration={0}", sw.ElapsedMilliseconds);
+            Console.WriteLine("po_index Build index ok. Duration={0}", sw.ElapsedMilliseconds);
             sw.Restart();
         }
 

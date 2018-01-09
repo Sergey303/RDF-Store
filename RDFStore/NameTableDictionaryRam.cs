@@ -1,38 +1,62 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.IO;
+using System.Linq;
 using System.Text;
+using RDFCommon;
 using RDFCommon.Interfaces;
 
 namespace RDFStore
 {
     class NameTableDictionaryRam: INametable, IGetDictionaryLong<string, int>
     {
-        private Dictionary<string, int> code=new Dictionary<string, int>();
-        private List<string> decode = new List<string>();
+        private readonly Dictionary<string, int> _code=new Dictionary<string, int>();
+        private readonly List<string> _decode;
+        private readonly string _decodeFilePath;
+        private int _countSavedStrings = 0;
+
+        public NameTableDictionaryRam(): this(Config.DatabaseFolder) { }
+        public NameTableDictionaryRam(string decodeFileDirectoryPath)
+        {
+            _decodeFilePath = decodeFileDirectoryPath + "name table strings.txt";
+            if (!File.Exists(_decodeFilePath))
+            {
+                File.Create(_decodeFilePath).Close();
+            }
+            _decode = File.ReadAllLines(_decodeFilePath).ToList();
+            _countSavedStrings = _decode.Count;
+            for (int i = 0; i < _countSavedStrings; i++)
+            {
+                _code.Add(_decode[i], i);
+            }
+        }
+
         public void Clear()
         {
-            code.Clear();
-            decode.Clear();
+            _code.Clear();
+            _decode.Clear();
+            File.Delete(_decodeFilePath);
+            _countSavedStrings = 0;
         }
 
         public int Capacity { get; set; }
         public int GetCode(string s)
         {
-            return code[s];
+            return _code[s];
         }
 
         public string GetString(int c)
         {
-            return decode[c];
+            return _decode[c];
         }
 
         public int GetSetCode(string s)
         {
             int c;
-            if (!code.TryGetValue(s, out c))
+            if (!_code.TryGetValue(s, out c))
             {
-                code.Add(s, c=decode.Count);
-                decode.Add(s);
+                _code.Add(s, c=_decode.Count);
+                _decode.Add(s);
             }
             return c;
         }
@@ -44,12 +68,18 @@ namespace RDFStore
 
         public void Save()
         {
-          
+            using (StreamWriter writer=new StreamWriter(_decodeFilePath))
+            {
+                while (_countSavedStrings<_decode.Count)
+                {
+                    writer.WriteLine(_decode[_countSavedStrings++]);
+                }
+            }
         }
 
         public int this[string key]
         {
-            get { return code[key]; }
+            get { return _code[key]; }
         }
 
         public IGetLongStream<string> Keys { get; }
@@ -63,7 +93,7 @@ namespace RDFStore
 
         public bool TryGetValue(string key, out int value)
         {
-            return code.TryGetValue(key, out value);
+            return _code.TryGetValue(key, out value);
         }
 
         public void FreeMemory()

@@ -155,11 +155,10 @@ namespace ConsoleSparqlCore
                 sw.Restart();
                 //var stor = new Store(mag_path);
                 stor.ReloadFrom(mag_data);
-                ((Store)stor).BuildIndexes();
+                stor.BuildIndexes();
                 sw.Stop();
                 Console.WriteLine($"data {nelements} load ok. duration={sw.ElapsedMilliseconds}");
             }
-
             int nprobe = 100;
 
             sw.Restart();
