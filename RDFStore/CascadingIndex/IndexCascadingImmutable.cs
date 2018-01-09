@@ -160,6 +160,7 @@ namespace RDFStore.CascadingIndex
         public void CreateDiscaleDictionary()
         {
             gr_discale = new Dictionary<int, Tuple<Diapason, ScaleInMemory>>();
+            if (Table.Count() == 0) return;
             PaEntry entry = Table.Element(0);
             long start0 = -1;
             long start = -1;
