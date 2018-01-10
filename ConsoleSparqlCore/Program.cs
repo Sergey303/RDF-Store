@@ -1,7 +1,11 @@
 ﻿using System;
+using System.Collections.Generic;
+using System.Diagnostics;
 using System.IO;
+using System.Linq;
 using System.Xml.Serialization;
 using RDFCommon;
+using RDFCommon.Interfaces;
 using RDFStore;
 using SparqlQuery.SparqlClasses;
 
@@ -11,11 +15,18 @@ namespace ConsoleSparqlCore
     {
         private static string _dataDirectory;
         private static Store _store;
+        private static readonly Stopwatch T = new Stopwatch();
+        private static readonly Random Random = new Random();
 
         static void Main(string[] args)
         {
             //Main1(args);
-            Main2(args);
+          //  Main2(args);
+
+            var path = "..\\"+ Config.DatabaseFolder;
+            Directory.CreateDirectory(path);
+            TestNameTable(new NameTableDictionaryRam(path));
+            Directory.Delete(path, true);
         }
         static void Main1(string[] args)
         {
@@ -121,7 +132,7 @@ namespace ConsoleSparqlCore
 
         public static void Main2(string[] args)
         {
-            Random rnd = new Random();
+            Random rnd = Random;
             System.Diagnostics.Stopwatch sw = new System.Diagnostics.Stopwatch();
             Console.WriteLine("Start RDF-Store Main2()");
             string mag_path = "mag_data/";
@@ -170,6 +181,125 @@ namespace ConsoleSparqlCore
             }
             sw.Stop();
             Console.WriteLine($"{nprobe} selects from {nelements} elements. duration={sw.ElapsedMilliseconds}");
+        }
+
+        static void TestNameTable(INametable nt)
+        {
+           // int startCapacity=1000*1000;
+            int allCount = 1000 * 1000;//startCapacity+1000;//1001000
+            //int firstPortionSize = 1000;
+            //int portionSize = 100*1000;
+            //int portionsCount = 10;
+            int lastPortionAddByGetset = allCount;//1000;
+
+            var allStrings = new List<string>(allCount);
+
+            List<string> RandomStringsList(int count)
+            {
+                return Enumerable.Repeat(Guid.NewGuid().ToString(), count)
+                    .ToList();
+            }
+
+            //tect Expand 1000
+           // var firstPortion = RandomStringsList(firstPortionSize);
+
+           // T.Start();
+           //nt.Expand(startCapacity, firstPortion);
+           // T.Stop();
+           // Console.WriteLine($"first expand {firstPortionSize} strings time {T.ElapsedMilliseconds}");
+
+
+           // //test InsertPortion 10 раз по 100 000
+            
+           // for (int i = 0; i < portionsCount; i++)
+           // {
+           //     var strings = RandomStringsList(portionSize);
+           //     T.Start();
+           //     var res = nt.InsertPortion(strings);
+           //     T.Stop();
+           //     Console.WriteLine($" insert portion of {portionSize} strings time {T.ElapsedMilliseconds}");
+                
+           //     allStrings.AddRange(strings);
+           // }
+
+
+            // добавляем по одной GetSetCode остальные строки до Allcount 1000
+;
+            var newstrings = RandomStringsList(lastPortionAddByGetset);
+            allStrings.AddRange(newstrings);
+            T.Start();
+            foreach (var newstring in newstrings)
+            {
+                var code = nt.GetSetCode(newstring);
+            }
+            T.Stop();
+            Console.WriteLine($" get set {newstrings.Count} codes for new strings time {T.ElapsedMilliseconds}");
+
+
+            //get code test
+            int getCodeCalls = 10*1000;
+            var randomExistingStrings = Enumerable.Range(0, getCodeCalls)
+                .Select(j=>Random.Next(getCodeCalls))
+                .Select(randomI => allStrings[randomI])
+                .ToList();
+
+            T.Start();
+            for (int j = 0; j < getCodeCalls; j++)
+            {
+                nt.GetCode(randomExistingStrings[j]);
+            }
+            T.Stop();
+            Console.WriteLine($" get {newstrings.Count} existing codes time {T.ElapsedMilliseconds}");
+
+            var randomNotExistingStrings = RandomStringsList(getCodeCalls);
+
+            T.Start();
+            for (int j = 0; j < getCodeCalls; j++)
+            {
+                nt.GetCode(randomNotExistingStrings[j]);
+            }
+            T.Stop();
+            Console.WriteLine($" get {newstrings.Count} not existing codes time {T.ElapsedMilliseconds}");
+          
+
+            //get string test
+            int getStringCalls = 10 * 1000;
+            var randomExistingCodes = Enumerable.Range(0, getCodeCalls)
+                .Select(j => Random.Next(getCodeCalls))
+                .Select(randomI => allStrings[randomI])
+                .Select(nt.GetCode)
+                .ToList();
+
+            T.Start();
+            for (int j = 0; j < getCodeCalls; j++)
+            {
+                nt.GetCode(randomExistingStrings[j]);
+            }
+            T.Stop();
+            Console.WriteLine($" get {newstrings.Count} existing strings time {T.ElapsedMilliseconds}");
+
+            // TODO  not existing string fails
+            //var randomNotExistingCodes = new List<int>();
+            //while (randomNotExistingCodes.Count< getStringCalls)
+            //{
+            //    var r = Random.Next();
+            //    if (nt.GetString(r)==null)
+            //    {
+            //    }
+            //}
+
+            //T.Start();
+            //for (int j = 0; j < getCodeCalls; j++)
+            //{
+            //    nt.GetCode(randomNotExistingStrings[j]);
+            //}
+            //T.Stop();
+            //Console.WriteLine($" insert {newstrings.Count} strings time {T.ElapsedMilliseconds}");
+
+
+
+
+
         }
     }
 }

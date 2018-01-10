@@ -8,7 +8,7 @@ using RDFCommon.Interfaces;
 
 namespace RDFStore
 {
-    class NameTableDictionaryRam: INametable, IGetDictionaryLong<string, int>
+    public class NameTableDictionaryRam: INametable, IGetDictionaryLong<string, int>
     {
         private readonly Dictionary<string, int> _code=new Dictionary<string, int>();
         private readonly List<string> _decode;
@@ -42,12 +42,12 @@ namespace RDFStore
         public int Capacity { get; set; }
         public int GetCode(string s)
         {
-            return _code[s];
+            return _code.TryGetValue(s, out var c) ? c : int.MinValue;
         }
 
         public string GetString(int c)
         {
-            return _decode[c];
+            return 0 <= c && _decode.Count < c ? _decode[c] : null;
         }
 
         public int GetSetCode(string s)
