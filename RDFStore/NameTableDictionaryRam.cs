@@ -103,13 +103,14 @@ namespace RDFStore
 
         public ulong Count { get; }
 
-        public IGetDictionaryLong<string, int> InsertPortion(IEnumerable<string> unsorted)
+        public Dictionary<string, int> InsertPortion(IEnumerable<string> unsorted)
         {
+            throw new NotImplementedException();
             foreach (var s in unsorted)
             {
                 GetSetCode(s);
             }
-            return this;
+            return null;
         }
     }
 }

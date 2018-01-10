@@ -21,13 +21,33 @@ namespace ConsoleSparqlCore
         static void Main(string[] args)
         {
             //Main1(args);
-          //  Main2(args);
+            //  Main2(args);
+            // TestNameTableDictionaryRam();
 
-            var path = "..\\"+ Config.DatabaseFolder;
+            TestMag_Nametable();
+        }
+
+        private static void TestMag_Nametable()
+        {
+            var path = "..\\" + Config.DatabaseFolder;
+            Directory.CreateDirectory(path);
+            using (var stream1 = File.Open(path + "name table ids.pa", FileMode.OpenOrCreate))
+            using (var stream2 = File.Open(path + "name table off.pa", FileMode.OpenOrCreate))
+            {
+                TestNameTable(new Mag_Nametable(stream1, stream2));
+            }
+
+            Directory.Delete(path, true);
+        }
+
+        private static void TestNameTableDictionaryRam()
+        {
+            var path = "..\\" + Config.DatabaseFolder;
             Directory.CreateDirectory(path);
             TestNameTable(new NameTableDictionaryRam(path));
             Directory.Delete(path, true);
         }
+
         static void Main1(string[] args)
         {
             //Config.Load(args);

@@ -56,7 +56,7 @@ namespace RDFStore
             OnAddPortion += textObjectIndex.FillPortion;
             NodeGenerator = NodeGeneratorInt.Create(new NameTableDictionaryRam(path)); //new NametableLinearBuffered(path));
             _ng = NodeGenerator as NodeGeneratorInt;
-            _ng.coding_table.Expand((int) 10000 / 3 + 1, Enumerable.Repeat(SpecialTypesClass.RdfType, 1));
+            ((NameTableDictionaryRam)_ng.coding_table).Expand((int) 10000 / 3 + 1, Enumerable.Repeat(SpecialTypesClass.RdfType, 1));
 
             Start();
         }
@@ -156,7 +156,7 @@ namespace RDFStore
             table.Clear();
             table.Fill(new object[0]);
             var ng = NodeGenerator as NodeGeneratorInt;
-            ng.coding_table.Expand((int) nodesCount, Enumerable.Repeat(SpecialTypesClass.RdfType, 1));
+            ((NameTableDictionaryRam)_ng.coding_table).Expand((int) nodesCount, Enumerable.Repeat(SpecialTypesClass.RdfType, 1));
             //((NameTableUniversal)ng.coding_table).BuildIndexes();
             //((NameTableUniversal)ng.coding_table).BuildScale();
             List<TripleStrOV> buff = new List<TripleStrOV>();
@@ -172,13 +172,13 @@ namespace RDFStore
             }
             if (buff.Count > 0) ProcessPortion(buff);
             table.TableCell.Flush();
-            ng.coding_table.Save();
+            ((NameTableDictionaryRam)_ng.coding_table).Save();
 
 
             po_index.index_arr.FillFinish();
             ps_index.index_arr.FillFinish();
 
-            ng.coding_table.FreeMemory();
+            ((NameTableDictionaryRam)_ng.coding_table).FreeMemory();
             GC.Collect();
             GC.WaitForPendingFinalizers();
 

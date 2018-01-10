@@ -5,6 +5,7 @@ using System.Text;
 using Polar.DB;
 using Polar.Cells;
 using Polar.CellIndexes;
+using RDFCommon.Interfaces;
 
 namespace ConsoleSparqlCore
 {
@@ -12,8 +13,8 @@ namespace ConsoleSparqlCore
     /// Таблица имен. Самый простой вариант: stream1 - последовательность различных строк, stream2 - офсеты начал строк, 
     /// stream3 - множество пар {хеш_строки, офсет_строки}, dic - словарь пар {строка, код}
     /// </summary>
-    public class Mag_Nametable
-    {
+    public class Mag_Nametable : INametable
+     {
         private UniversalSequence<int> ids, offs;
         private Dictionary<string, int> dic = new Dictionary<string, int>();
         public Mag_Nametable(Stream stream1, Stream stream2)
@@ -41,7 +42,12 @@ namespace ConsoleSparqlCore
         // Код, означающий отсутствие кода
         public const int Empty = Int32.MinValue;
         // Получение кода по строке
-        public int GetCode(string s)
+         public void Clear()
+         {
+             throw new NotImplementedException();
+         }
+
+         public int GetCode(string s)
         {
             int nom;
             if (dic.TryGetValue(s, out nom))
@@ -63,5 +69,10 @@ namespace ConsoleSparqlCore
             }
             return nom;
         }
-    }
+
+         public Dictionary<string, int> InsertPortion(IEnumerable<string> unsortedNames)
+         {
+             throw new NotImplementedException();
+         }
+     }
 }

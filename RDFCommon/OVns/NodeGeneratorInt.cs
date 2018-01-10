@@ -21,7 +21,7 @@ namespace RDFCommon.OVns
         public override void Build()
         {
                 SpecialTypes = new SpecialTypesClass(this);
-            coding_table.Save();
+            //((NameTableDictionaryRam)_ng.coding_table).Save();
             //coding_table.InsertPortion(SpecialTypesClass.GetAll());
 
             //  coding_table.BuildScale();
