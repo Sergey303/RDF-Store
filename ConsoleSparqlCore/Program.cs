@@ -22,22 +22,23 @@ namespace ConsoleSparqlCore
         {
             //Main1(args);
             //  Main2(args);
-            // TestNameTableDictionaryRam();
+             TestNameTableDictionaryRam();
 
             TestMag_Nametable();
         }
 
         private static void TestMag_Nametable()
         {
-            var path = "..\\" + Config.DatabaseFolder;
-            Directory.CreateDirectory(path);
+            //var path = "..\\" + Config.DatabaseFolder;
+            //Directory.CreateDirectory(path);
+            string path = "mag_data/";
             using (var stream1 = File.Open(path + "name table ids.pa", FileMode.OpenOrCreate))
             using (var stream2 = File.Open(path + "name table off.pa", FileMode.OpenOrCreate))
             {
                 TestNameTable(new Mag_Nametable(stream1, stream2));
             }
 
-            Directory.Delete(path, true);
+            //Directory.Delete(path, true);
         }
 
         private static void TestNameTableDictionaryRam()
@@ -216,35 +217,12 @@ namespace ConsoleSparqlCore
 
             List<string> RandomStringsList(int count)
             {
-                return Enumerable.Repeat(Guid.NewGuid().ToString(), count)
+                return Enumerable.Repeat(0, count).Select(i => Guid.NewGuid().ToString())
                     .ToList();
             }
 
-            //tect Expand 1000
-           // var firstPortion = RandomStringsList(firstPortionSize);
-
-           // T.Start();
-           //nt.Expand(startCapacity, firstPortion);
-           // T.Stop();
-           // Console.WriteLine($"first expand {firstPortionSize} strings time {T.ElapsedMilliseconds}");
-
-
-           // //test InsertPortion 10 раз по 100 000
-            
-           // for (int i = 0; i < portionsCount; i++)
-           // {
-           //     var strings = RandomStringsList(portionSize);
-           //     T.Start();
-           //     var res = nt.InsertPortion(strings);
-           //     T.Stop();
-           //     Console.WriteLine($" insert portion of {portionSize} strings time {T.ElapsedMilliseconds}");
-                
-           //     allStrings.AddRange(strings);
-           // }
-
-
             // добавляем по одной GetSetCode остальные строки до Allcount 1000
-;
+
             var newstrings = RandomStringsList(lastPortionAddByGetset);
             allStrings.AddRange(newstrings);
             T.Start();

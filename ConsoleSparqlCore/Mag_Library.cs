@@ -66,6 +66,7 @@ namespace ConsoleSparqlCore
                 nom = (int)ids.Count();
                 long off = ids.AppendElement(s);
                 offs.AppendElement(off);
+                dic.Add(s, nom);
             }
             return nom;
         }
