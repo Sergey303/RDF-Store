@@ -22,8 +22,10 @@ namespace ConsoleSparqlCore
         {
             //Main1(args);
             //  Main2(args);
-             TestNameTableDictionaryRam();
-
+            Console.WriteLine("TestNameTableDictionaryRam");
+            TestNameTableDictionaryRam();
+            Console.WriteLine();
+            Console.WriteLine("TestMag_Nametable");
             TestMag_Nametable();
         }
 
@@ -207,7 +209,7 @@ namespace ConsoleSparqlCore
         static void TestNameTable(INametable nt)
         {
            // int startCapacity=1000*1000;
-            int allCount = 1000 * 1000;//startCapacity+1000;//1001000
+            int allCount = 10*1000 * 1000;//startCapacity+1000;//1001000
             //int firstPortionSize = 1000;
             //int portionSize = 100*1000;
             //int portionsCount = 10;
@@ -221,11 +223,9 @@ namespace ConsoleSparqlCore
                     .ToList();
             }
 
-            // добавляем по одной GetSetCode остальные строки до Allcount 1000
-
             var newstrings = RandomStringsList(lastPortionAddByGetset);
             allStrings.AddRange(newstrings);
-            T.Start();
+            T.Restart();
             foreach (var newstring in newstrings)
             {
                 var code = nt.GetSetCode(newstring);
@@ -235,13 +235,13 @@ namespace ConsoleSparqlCore
 
 
             //get code test
-            int getCodeCalls = 10*1000;
+            int getCodeCalls = 1000*1000;
             var randomExistingStrings = Enumerable.Range(0, getCodeCalls)
                 .Select(j=>Random.Next(getCodeCalls))
                 .Select(randomI => allStrings[randomI])
                 .ToList();
 
-            T.Start();
+            T.Restart();
             for (int j = 0; j < getCodeCalls; j++)
             {
                 nt.GetCode(randomExistingStrings[j]);
@@ -251,7 +251,7 @@ namespace ConsoleSparqlCore
 
             var randomNotExistingStrings = RandomStringsList(getCodeCalls);
 
-            T.Start();
+            T.Restart();
             for (int j = 0; j < getCodeCalls; j++)
             {
                 nt.GetCode(randomNotExistingStrings[j]);
@@ -261,14 +261,14 @@ namespace ConsoleSparqlCore
           
 
             //get string test
-            int getStringCalls = 10 * 1000;
+            int getStringCalls = 1000 * 1000;
             var randomExistingCodes = Enumerable.Range(0, getCodeCalls)
                 .Select(j => Random.Next(getCodeCalls))
                 .Select(randomI => allStrings[randomI])
                 .Select(nt.GetCode)
                 .ToList();
 
-            T.Start();
+            T.Restart();
             for (int j = 0; j < getCodeCalls; j++)
             {
                 nt.GetCode(randomExistingStrings[j]);
@@ -286,18 +286,13 @@ namespace ConsoleSparqlCore
             //    }
             //}
 
-            //T.Start();
+            //T.Restart();
             //for (int j = 0; j < getCodeCalls; j++)
             //{
             //    nt.GetCode(randomNotExistingStrings[j]);
             //}
             //T.Stop();
             //Console.WriteLine($" insert {newstrings.Count} strings time {T.ElapsedMilliseconds}");
-
-
-
-
-
-        }
+            }
     }
 }
