@@ -20,13 +20,28 @@ namespace ConsoleSparqlCore
 
         static void Main(string[] args)
         {
+            string path;
+
             //Main1(args);
             //  Main2(args);
-            Console.WriteLine("TestNameTableDictionaryRam");
-            TestNameTableDictionaryRam();
-            Console.WriteLine();
+
+            Action<INametable> testNT;
+            //testNT = TestNameTable;
+            testNT = Mag_Nametable.TestNameTable;
+
             Console.WriteLine("TestMag_Nametable");
-            TestMag_Nametable();
+            path = "mag_data/";
+            using (var stream1 = File.Open(path + "name table ids.pa", FileMode.OpenOrCreate))
+            using (var stream2 = File.Open(path + "name table off.pa", FileMode.OpenOrCreate))
+            {
+                testNT(new Mag_Nametable(stream1, stream2));
+            }
+
+            Console.WriteLine("TestNameTableDictionaryRam");
+            path = "..\\" + Config.DatabaseFolder;
+            Directory.CreateDirectory(path);
+            testNT(new NameTableDictionaryRam(path));
+            Directory.Delete(path, true);
         }
 
         private static void TestMag_Nametable()
@@ -247,7 +262,7 @@ namespace ConsoleSparqlCore
                 nt.GetCode(randomExistingStrings[j]);
             }
             T.Stop();
-            Console.WriteLine($" get {newstrings.Count} existing codes time {T.ElapsedMilliseconds}");
+            Console.WriteLine($" get {getCodeCalls} existing codes time {T.ElapsedMilliseconds}");
 
             var randomNotExistingStrings = RandomStringsList(getCodeCalls);
 
@@ -257,11 +272,11 @@ namespace ConsoleSparqlCore
                 nt.GetCode(randomNotExistingStrings[j]);
             }
             T.Stop();
-            Console.WriteLine($" get {newstrings.Count} not existing codes time {T.ElapsedMilliseconds}");
+            Console.WriteLine($" get {getCodeCalls} not existing codes time {T.ElapsedMilliseconds}");
           
 
             //get string test
-            int getStringCalls = 1000 * 1000;
+            //int getStringCalls = 1000 * 1000;
             var randomExistingCodes = Enumerable.Range(0, getCodeCalls)
                 .Select(j => Random.Next(getCodeCalls))
                 .Select(randomI => allStrings[randomI])
@@ -274,25 +289,8 @@ namespace ConsoleSparqlCore
                 nt.GetCode(randomExistingStrings[j]);
             }
             T.Stop();
-            Console.WriteLine($" get {newstrings.Count} existing strings time {T.ElapsedMilliseconds}");
+            Console.WriteLine($" get {getCodeCalls} existing strings time {T.ElapsedMilliseconds}");
 
-            // TODO  not existing string fails
-            //var randomNotExistingCodes = new List<int>();
-            //while (randomNotExistingCodes.Count< getStringCalls)
-            //{
-            //    var r = Random.Next();
-            //    if (nt.GetString(r)==null)
-            //    {
-            //    }
-            //}
-
-            //T.Restart();
-            //for (int j = 0; j < getCodeCalls; j++)
-            //{
-            //    nt.GetCode(randomNotExistingStrings[j]);
-            //}
-            //T.Stop();
-            //Console.WriteLine($" insert {newstrings.Count} strings time {T.ElapsedMilliseconds}");
             }
     }
 }

@@ -14,5 +14,6 @@ namespace RDFCommon.Interfaces
      //  void FreeMemory();
       //  IGetDictionaryLong<string, int> InsertPortion(IEnumerable<string> unsorted);
         Dictionary<string, int> InsertPortion(IEnumerable<string> unsortedNames);
+        long LongCount();
     }
 }

@@ -30,7 +30,7 @@ namespace RDFStore
                 _code.Add(_decode[i], i);
             }
         }
-
+        public long LongCount() { return _decode.Count; }
         public void Clear()
         {
             _code.Clear();
