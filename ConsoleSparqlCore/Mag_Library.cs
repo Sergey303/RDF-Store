@@ -198,7 +198,7 @@ namespace ConsoleSparqlCore
     public class Mag_Store //: IStore // - Слишком сложный интерфейс 
     {
         // Есть таблица имен для хранения строк IRI
-        private Mag_Nametable nametable;
+        private Mag_Nametable nametable; // пока не используется
         
         // Тип Object Variants
         PType tp_ov = new PTypeUnion(
@@ -248,6 +248,17 @@ namespace ConsoleSparqlCore
             table.ClearIndexes();
             table.AddPortion(triples);
             table.BuildIndexes();
+        }
+
+        public IEnumerable<object> GetTriplesBySubject(int subj)
+        {
+            var q = index_spo.GetAllByLevel((PaEntry ent) =>
+            {
+                object[] rec = (object[])((object[])((object[])ent.Get()))[1];
+                return ((int)rec[0]).CompareTo(subj);
+            }).Select(ent => ((object[])ent.Get())[1])
+            .ToArray();
+            return q;
         }
     }
 

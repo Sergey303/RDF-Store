@@ -8,6 +8,7 @@ using RDFCommon;
 using RDFCommon.Interfaces;
 using RDFStore;
 using SparqlQuery.SparqlClasses;
+using Polar.DB;
 
 namespace ConsoleSparqlCore
 {
@@ -21,12 +22,28 @@ namespace ConsoleSparqlCore
         static void Main(string[] args)
         {
             //Main1(args);
-            //  Main2(args);
+            //Main2(args);
 
             //TestNametables();
 
+            Test_Mag_Store();
+        }
+
+        private static void Test_Mag_Store()
+        {
             string path = "mag_data/";
             Console.WriteLine("Start mag Store test");
+            PType tp_ov = new PTypeUnion(
+                new NamedType("dummy", new PType(PTypeEnumeration.none)),
+                new NamedType("iri", new PType(PTypeEnumeration.integer)),
+                new NamedType("str", new PType(PTypeEnumeration.sstring)));
+            // Тип триплепта
+            PType tp_triple = new PTypeRecord(
+                //new NamedType("id", new PType(PTypeEnumeration.integer)), // Возможно, это временное решение
+                new NamedType("subj", new PType(PTypeEnumeration.integer)),
+                new NamedType("pred", new PType(PTypeEnumeration.integer)),
+                new NamedType("obj", tp_ov));
+
             using (var table = File.Open(path + "triples.pac", FileMode.OpenOrCreate))
             using (var index1 = File.Open(path + "index1.pac", FileMode.OpenOrCreate))
             using (var index2 = File.Open(path + "index2.pac", FileMode.OpenOrCreate))
@@ -43,7 +60,25 @@ namespace ConsoleSparqlCore
                 }).ToArray();
                 store.Load(flow);
                 T.Stop();
-                Console.WriteLine($"Load of {nrecords*2} triples ok. Duration={T.ElapsedMilliseconds}");
+                Console.WriteLine($"Load of {nrecords * 2} triples ok. Duration={T.ElapsedMilliseconds}");
+
+                var query = store.GetTriplesBySubject(nrecords * 2 / 3).ToArray();
+                //Console.WriteLine(query.Count());
+                foreach (var q in query)
+                {
+                    Console.WriteLine(tp_triple.Interpret(q));
+                }
+
+                int nprobes = 1000;
+                Random rnd = new Random();
+                T.Restart();
+                for (int i = 0; i < nprobes; i++)
+                {
+                    int code = rnd.Next(nrecords);
+                    store.GetTriplesBySubject(code).Count();
+                }
+                T.Stop();
+                Console.WriteLine($"GetTriplesBySubject {nprobes} times. Duration={T.ElapsedMilliseconds}");
             }
         }
 
