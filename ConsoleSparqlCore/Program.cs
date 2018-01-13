@@ -15,16 +15,41 @@ namespace ConsoleSparqlCore
     {
         private static string _dataDirectory;
         private static Store _store;
-        private static readonly Stopwatch T = new Stopwatch();
+        private static Stopwatch T = new Stopwatch();
         private static readonly Random Random = new Random();
 
         static void Main(string[] args)
         {
-            string path;
-
             //Main1(args);
             //  Main2(args);
 
+            //TestNametables();
+
+            string path = "mag_data/";
+            Console.WriteLine("Start mag Store test");
+            using (var table = File.Open(path + "triples.pac", FileMode.OpenOrCreate))
+            using (var index1 = File.Open(path + "index1.pac", FileMode.OpenOrCreate))
+            using (var index2 = File.Open(path + "index2.pac", FileMode.OpenOrCreate))
+            {
+                Mag_Store store = new Mag_Store(table, index1, index2);
+                int nrecords = 1_000_000;
+                T.Restart();
+                // codes: 0 - <type>, 1 - <person>, 2 - <name>, 3... persons
+                var flow = Enumerable.Range(0, nrecords).SelectMany(i => new object[]
+                {
+                    // субъект, предикат, объект
+                    new object[] { i+3, 0, new object[] {1, 1} },
+                    new object[] { i+3, 2, new object[] {2, "Pupkin" + i} },
+                }).ToArray();
+                store.Load(flow);
+                T.Stop();
+                Console.WriteLine($"Load of {nrecords*2} triples ok. Duration={T.ElapsedMilliseconds}");
+            }
+        }
+
+        private static void TestNametables()
+        {
+            string path;
             Action<INametable> testNT;
             //testNT = TestNameTable;
             testNT = Mag_Nametable.TestNameTable;
@@ -41,28 +66,6 @@ namespace ConsoleSparqlCore
             path = "..\\" + Config.DatabaseFolder;
             Directory.CreateDirectory(path);
             testNT(new NameTableDictionaryRam(path));
-            Directory.Delete(path, true);
-        }
-
-        private static void TestMag_Nametable()
-        {
-            //var path = "..\\" + Config.DatabaseFolder;
-            //Directory.CreateDirectory(path);
-            string path = "mag_data/";
-            using (var stream1 = File.Open(path + "name table ids.pa", FileMode.OpenOrCreate))
-            using (var stream2 = File.Open(path + "name table off.pa", FileMode.OpenOrCreate))
-            {
-                TestNameTable(new Mag_Nametable(stream1, stream2));
-            }
-
-            //Directory.Delete(path, true);
-        }
-
-        private static void TestNameTableDictionaryRam()
-        {
-            var path = "..\\" + Config.DatabaseFolder;
-            Directory.CreateDirectory(path);
-            TestNameTable(new NameTableDictionaryRam(path));
             Directory.Delete(path, true);
         }
 

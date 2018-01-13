@@ -47,7 +47,7 @@ namespace RDFStore
 
         public string GetString(int c)
         {
-            return 0 <= c && _decode.Count < c ? _decode[c] : null;
+            return 0 <= c && _decode.Count > c ? _decode[c] : null;
         }
 
         public int GetSetCode(string s)
@@ -112,5 +112,7 @@ namespace RDFStore
             }
             return null;
         }
+
+        public int EmptyCode { get { return Int32.MinValue; } }
     }
 }

@@ -43,7 +43,7 @@ namespace ConsoleSparqlCore
         }
 
         // Код, означающий отсутствие кода
-        public const int Empty = Int32.MinValue;
+        public int EmptyCode { get { return Int32.MinValue; } }
         // Получение кода по строке
          public void Clear()
          {
@@ -57,7 +57,7 @@ namespace ConsoleSparqlCore
             {
                 return nom;
             }
-            return Empty;
+            return EmptyCode;
         }
         // Запись кода по строке
         public int GetSetCode(string s)
@@ -100,6 +100,7 @@ namespace ConsoleSparqlCore
 
 
             int nprobes = 1_000_000;
+
             T.Restart();
             int unknown = 0;
             for (int j = 0; j < nprobes; j++)
@@ -111,34 +112,143 @@ namespace ConsoleSparqlCore
             T.Stop();
             Console.WriteLine($" get {nprobes} codes. time {T.ElapsedMilliseconds}. {unknown} are unknown");
 
-            //var randomNotExistingStrings = RandomStringsList(getCodeCalls);
-
-            //T.Restart();
-            //for (int j = 0; j < getCodeCalls; j++)
-            //{
-            //    nt.GetCode(randomNotExistingStrings[j]);
-            //}
-            //T.Stop();
-            //Console.WriteLine($" get {getCodeCalls} not existing codes time {T.ElapsedMilliseconds}");
-
-
-            ////get string test
-            ////int getStringCalls = 1000 * 1000;
-            //var randomExistingCodes = Enumerable.Range(0, getCodeCalls)
-            //    .Select(j => Random.Next(getCodeCalls))
-            //    .Select(randomI => allStrings[randomI])
-            //    .Select(nt.GetCode)
-            //    .ToList();
-
-            //T.Restart();
-            //for (int j = 0; j < getCodeCalls; j++)
-            //{
-            //    nt.GetCode(randomExistingStrings[j]);
-            //}
-            //T.Stop();
-            //Console.WriteLine($" get {getCodeCalls} existing strings time {T.ElapsedMilliseconds}");
+            T.Restart();
+            unknown = 0;
+            int maxcode = (int)nt.LongCount() * 11 / 10; // лишние для тестирования отсутствующих кодов
+            for (int j = 0; j < nprobes; j++)
+            {
+                int code = rnd.Next(maxcode);
+                string scode = nt.GetString(code);
+                if (scode == null) unknown++;
+            }
+            T.Stop();
+            Console.WriteLine($" get {nprobes} string from codes. time {T.ElapsedMilliseconds}. {unknown} are unknown");
 
         }
-
     }
+
+    // Класс объектных вариантов: или new object[] {1, iri} или object[] {2, "stroka"}
+    public struct OV : IComparable
+    {
+        private object ob;
+        public OV(object o) { ob = o; }
+        public int CompareTo(object obj)
+        {
+            OV ov2 = (OV)obj;
+            int t1 = (int)((object[])ob)[0];
+            int t2 = (int)((object[])ov2.ob)[0];
+            int cmp1 = t1.CompareTo(t2);
+            if (cmp1 != 0) return cmp1;
+            if (t1 == 1)
+            {
+                var v1 = (int)((object[])ob)[1];
+                var v2 = (int)((object[])(ov2.ob))[1];
+                return v1.CompareTo(v2);
+            }
+            else if (t1 == 2)
+            {
+                return ((string)((object[])ob)[1]).CompareTo((string)((object[])ov2.ob)[1]);
+            }
+            else throw new Exception("Err: 2988743");
+        }
+    }
+    // Класс триплетов (объектное представление): object[] {subj, pred, obj} Все поля - OV.
+    public class spo : IComparable
+    {
+        private int s, p; 
+        private OV o;
+        public spo(object ob) { object[] tri = (object[])ob; s = (int)tri[0]; p = (int)tri[1]; o = new OV(tri[2]); } 
+        // В этом представлении сравнение идет по приоритету s, p, o
+        public int CompareTo(object obj)
+        {
+            spo tr2 = (spo)obj;
+            int s2 = tr2.s, p2 = tr2.p;
+            OV o2 = tr2.o;
+            
+            int cmp1 = s.CompareTo(s2);
+            if (cmp1 != 0) return cmp1;
+            int cmp2 = p.CompareTo(p2);
+            if (cmp2 != 0) return cmp2;
+            return o.CompareTo(o2);
+        }
+    }
+    // другой Класс триплетов (объектное представление): object[] {subj, pred, obj} Все поля - OV.
+    public class ops : IComparable
+    {
+        private int s, p;
+        private OV o;
+        public ops(object ob) { object[] tri = (object[])ob; s = (int)tri[0]; p = (int)tri[1]; o = new OV(tri[2]); }
+        // В этом представлении сравнение идет по приоритету o, p, s
+        public int CompareTo(object obj)
+        {
+            ops tr2 = (ops)obj;
+            int s2 = tr2.s, p2 = tr2.p;
+            OV o2 = tr2.o;
+
+            int cmp1 = o.CompareTo(o2);
+            if (cmp1 != 0) return cmp1;
+            int cmp2 = p.CompareTo(p2);
+            if (cmp2 != 0) return cmp2;
+            return s.CompareTo(s2);
+        }
+    }
+
+
+    // Хранилище
+    public class Mag_Store //: IStore // - Слишком сложный интерфейс 
+    {
+        // Есть таблица имен для хранения строк IRI
+        private Mag_Nametable nametable;
+        
+        // Тип Object Variants
+        PType tp_ov = new PTypeUnion(
+            new NamedType("dummy", new PType(PTypeEnumeration.none)),
+            new NamedType("iri", new PType(PTypeEnumeration.integer)),
+            new NamedType("str", new PType(PTypeEnumeration.sstring)));
+        // Тип триплепта
+        PType tp_triple;
+        // Основная таблица - таблица триплетов
+        TableView table;
+        // Индексы
+        IndexDynamic<spo, IndexViewImmutable<spo>> index_spo;
+        IndexDynamic<ops, IndexViewImmutable<ops>> index_ops;
+
+        // Конструктор
+        public Mag_Store(Stream tab_stream, Stream index1, Stream index2)
+        {
+            tp_triple = new PTypeRecord(
+                //new NamedType("id", new PType(PTypeEnumeration.integer)), // Возможно, это временное решение
+                new NamedType("subj", new PType(PTypeEnumeration.integer)),
+                new NamedType("pred", new PType(PTypeEnumeration.integer)),
+                new NamedType("obj", tp_ov));
+            table = new TableView(tab_stream, tp_triple);
+            IndexViewImmutable<spo> index_spo_i = new IndexViewImmutable<spo>(index1)
+            {
+                KeyProducer = ob => new spo(((object[])ob)[1]),
+                Table = table,
+                Scale = null,
+                tosort = true
+            };
+            index_spo = new IndexDynamic<spo, IndexViewImmutable<spo>>(true, index_spo_i);
+            table.RegisterIndex(index_spo);
+            IndexViewImmutable<ops> index_ops_i = new IndexViewImmutable<ops>(index2)
+            {
+                KeyProducer = ob => new ops(((object[])ob)[1]),
+                Table = table,
+                Scale = null,
+                tosort = true
+            };
+            index_ops = new IndexDynamic<ops, IndexViewImmutable<ops>>(true, index_ops_i);
+            table.RegisterIndex(index_ops);
+        }
+
+        public void Load(IEnumerable<object> triples)
+        {
+            table.Clear();
+            table.ClearIndexes();
+            table.AddPortion(triples);
+            table.BuildIndexes();
+        }
+    }
+
 }
