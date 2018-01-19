@@ -95,8 +95,7 @@ namespace RDFCommon.OVns
             blankNodeString = blankNodeString.Substring(2);
             if (graph != null) blankNodeString = graph + "/" + blankNodeString;
 
-            return 
-            "http://iis.nsk.su/.well-known/genid/blank/"+ blankNodeString;
+            return "http://iis.nsk.su/.well-known/genid/blank/"+ blankNodeString;
         }
         public ObjectVariants CreateBlankNode()
         {

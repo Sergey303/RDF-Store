@@ -199,7 +199,7 @@ namespace ConsoleSparqlCore
     {
         // Есть таблица имен для хранения строк IRI
         private Mag_Nametable nametable; // пока не используется
-        
+
         // Тип Object Variants
         PType tp_ov = new PTypeUnion(
             new NamedType("dummy", new PType(PTypeEnumeration.none)),

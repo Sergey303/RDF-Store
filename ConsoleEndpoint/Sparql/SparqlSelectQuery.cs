@@ -3,10 +3,10 @@ using System.Linq;
 using SparqlQuery.SparqlClasses.GraphPattern;
 using SparqlQuery.SparqlClasses.Query.Result;
 using SparqlQuery.SparqlClasses.SolutionModifier;
-using System.Xml;
 
 namespace SparqlQuery.SparqlClasses.Query
 {
+    using System.Xml;
 
     [Serializable]
     public class SparqlSelectQuery : SparqlQuery

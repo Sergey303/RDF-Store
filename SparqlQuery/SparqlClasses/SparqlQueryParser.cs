@@ -1,6 +1,5 @@
 ﻿using System.IO;
 using Antlr4.Runtime;
-using RDFCommon;
 using RDFCommon.Interfaces;
 using SparqlQuery.SparqlClasses.Query.Result;
 

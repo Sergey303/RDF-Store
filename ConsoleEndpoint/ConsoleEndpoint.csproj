@@ -6,18 +6,16 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Compile Remove="examples\**" />
-    <EmbeddedResource Remove="examples\**" />
-    <None Remove="examples\**" />
+    <Compile Remove="pacs\**" />
+    <Compile Remove="SparqlClasses\**" />
+    <EmbeddedResource Remove="pacs\**" />
+    <EmbeddedResource Remove="SparqlClasses\**" />
+    <None Remove="pacs\**" />
+    <None Remove="SparqlClasses\**" />
   </ItemGroup>
 
   <ItemGroup>
     <PackageReference Include="Polar.CellIndexes" Version="1.0.0" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <ProjectReference Include="..\RDFStore\RDFStore.csproj" />
-    <ProjectReference Include="..\SparqlQuery\SparqlQuery.csproj" />
   </ItemGroup>
 
 </Project>
