@@ -80,7 +80,7 @@ namespace SparqlQuery.SparqlClasses.Expressions
                                 .Change(o => ((string) o).Replace((string)this.patternExpression.Operator(res),
                                     (string)this.replacementExpression.Const.Content));
                         break;
-                    case ~NT.FirstNotNull:
+                     case ~NT.FirstNotNull:
                         this.Operator = res =>
                             ((string)this.stringExpression.Operator(res)).Replace(
                                 (string)this.patternExpression.Const.Content,

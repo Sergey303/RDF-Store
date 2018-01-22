@@ -1,7 +1,6 @@
 ﻿using System;
 using RDFCommon.OVns;
 using SparqlQuery.SparqlClasses.GraphPattern.Triples;
-using SparqlQuery.SparqlClasses.GraphPattern.Triples.Path;
 
 namespace SparqlQuery.SparqlClasses.GraphPattern
 {
@@ -11,11 +10,12 @@ namespace SparqlQuery.SparqlClasses.GraphPattern
     public class SparqlGraphPattern : SparqlQuadsPattern
     {
 
-        internal void CreateTriple( ObjectVariants subj, ObjectVariants predicate, ObjectVariants obj, RdfQuery11Translator q)
+        internal void CreateTriple(ObjectVariants subj, ObjectVariants predicate, ObjectVariants obj, RdfQuery11Translator q)
         {
-            var pathTranslator = predicate as SparqlPathTranslator;
-            if(pathTranslator != null) this.AddRange(pathTranslator.CreateTriple(subj, obj, q));
-            else this.Add(new SparqlTriple(subj, predicate, obj, q));
+           // var pathTranslator = predicate as SparqlPathTranslator;
+           // if(pathTranslator != null) this.AddRange(pathTranslator.CreateTriple(subj, obj, q));
+          //  else
+                this.Add(new SparqlTriple(subj, predicate, obj, q));
         }
 
         public virtual void WriteXml(XmlWriter writer)

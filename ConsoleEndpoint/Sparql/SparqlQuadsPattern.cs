@@ -15,7 +15,7 @@ namespace SparqlQuery.SparqlClasses.GraphPattern
             return this.Aggregate(variableBindings, (current, pattern) => pattern.Run(current));
         }
 
-        public virtual SparqlGraphPatternType PatternType { get{return SparqlGraphPatternType.ListOfPatterns;} }
+        //public virtual SparqlGraphPatternType PatternType { get{return SparqlGraphPatternType.ListOfPatterns;} }
         public virtual XmlSchema GetSchema()
         {
             return null;

@@ -7,6 +7,6 @@ namespace SparqlQuery.SparqlClasses.GraphPattern
     public interface ISparqlGraphPattern   : IXmlSerializable
     {
         IEnumerable<SparqlResult> Run(IEnumerable<SparqlResult> variableBindings);
-        SparqlGraphPatternType PatternType { get; }
+       // SparqlGraphPatternType PatternType { get; }
     }
 }

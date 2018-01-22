@@ -18,33 +18,33 @@ namespace SparqlQuery.SparqlClasses.SolutionModifier
         }
         private RdfQuery11Translator q;
 
-        private SparqlSolutionModifierLimit LimitOffset;
+        //private SparqlSolutionModifierLimit LimitOffset;
         
-        private SparqlSolutionModifierGroup Group;
+        //private SparqlSolutionModifierGroup Group;
         public SparqlSelect Select;
-        private SparqlSolutionModifierHaving sparqlSolutionModifierHaving;
-        private SparqlSolutionModifierOrder sparqlSolutionModifierOrder;
+        //private SparqlSolutionModifierHaving sparqlSolutionModifierHaving;
+        //private SparqlSolutionModifierOrder sparqlSolutionModifierOrder;
 
-        internal void Add(SparqlSolutionModifierLimit sparqlSolutionModifierLimit)
-        {
-            this.LimitOffset = sparqlSolutionModifierLimit;
-        }
+        //internal void Add(SparqlSolutionModifierLimit sparqlSolutionModifierLimit)
+        //{
+        //    this.LimitOffset = sparqlSolutionModifierLimit;
+        //}
 
-        internal void Add(SparqlSolutionModifierOrder sparqlSolutionModifierOrder)
-        {
-            this.sparqlSolutionModifierOrder = sparqlSolutionModifierOrder;
-        }
+        //internal void Add(SparqlSolutionModifierOrder sparqlSolutionModifierOrder)
+        //{
+        //    this.sparqlSolutionModifierOrder = sparqlSolutionModifierOrder;
+        //}
 
-        internal void Add(SparqlSolutionModifierHaving sparqlSolutionModifierHaving, RdfQuery11Translator q)
-        {
-            this.sparqlSolutionModifierHaving = sparqlSolutionModifierHaving;
-            this.q = q;
-        }
+        //internal void Add(SparqlSolutionModifierHaving sparqlSolutionModifierHaving, RdfQuery11Translator q)
+        //{
+        //    this.sparqlSolutionModifierHaving = sparqlSolutionModifierHaving;
+        //    this.q = q;
+        //}
 
-        internal void Add(SparqlSolutionModifierGroup sparqlSolutionModifierGroup)
-        {
-            this.Group = sparqlSolutionModifierGroup;
-        }
+        //internal void Add(SparqlSolutionModifierGroup sparqlSolutionModifierGroup)
+        //{
+        //    this.Group = sparqlSolutionModifierGroup;
+        //}
 
         internal void Add(SparqlSelect projection)
         {
@@ -53,36 +53,36 @@ namespace SparqlQuery.SparqlClasses.SolutionModifier
 
         public IEnumerable<SparqlResult> Run( IEnumerable<SparqlResult> results, SparqlResultSet sparqlResultSet)
         {
-            if (this.Group != null)
+            //if (this.Group != null)
+            //{
+            //    var groupedResults = this.Group.Group(results.Select(r => r.Clone()));
+            //    if (this.sparqlSolutionModifierHaving != null)
+            //        groupedResults= this.sparqlSolutionModifierHaving.Having4CollectionGroups(groupedResults, this.q);
+
+            //    if (this.sparqlSolutionModifierOrder != null)
+            //        groupedResults= this.sparqlSolutionModifierOrder.Order4Grouped(groupedResults).Cast<SparqlGroupOfResults>();
+
+            //    var res = groupedResults.Cast<SparqlResult>();
+            //    if (this.Select != null)
+            //        res = this.Select.Run(res, sparqlResultSet, true);
+
+            //    if (this.LimitOffset != null)
+            //        res = this.LimitOffset.LimitOffset(res);
+            //    return res;
+            //}
+            //else
             {
-                var groupedResults = this.Group.Group(results.Select(r => r.Clone()));
-                if (this.sparqlSolutionModifierHaving != null)
-                    groupedResults= this.sparqlSolutionModifierHaving.Having4CollectionGroups(groupedResults, this.q);
+                //if (this.sparqlSolutionModifierHaving != null)
+                //    results = this.sparqlSolutionModifierHaving.Having(results, this.q);
 
-                if (this.sparqlSolutionModifierOrder != null)
-                    groupedResults= this.sparqlSolutionModifierOrder.Order4Grouped(groupedResults).Cast<SparqlGroupOfResults>();
-
-                var res = groupedResults.Cast<SparqlResult>();
-                if (this.Select != null)
-                    res = this.Select.Run(res, sparqlResultSet, true);
-
-                if (this.LimitOffset != null)
-                    res = this.LimitOffset.LimitOffset(res);
-                return res;
-            }
-            else
-            {
-                if (this.sparqlSolutionModifierHaving != null)
-                    results = this.sparqlSolutionModifierHaving.Having(results, this.q);
-
-                if (this.sparqlSolutionModifierOrder != null)
-                    results = this.sparqlSolutionModifierOrder.Order(results.Select(r => r.Clone()));
+                //if (this.sparqlSolutionModifierOrder != null)
+                //    results = this.sparqlSolutionModifierOrder.Order(results.Select(r => r.Clone()));
 
                 if (this.Select != null)
                     results = this.Select.Run(results, sparqlResultSet, false);
 
-                if (this.LimitOffset != null)
-                    results = this.LimitOffset.LimitOffset(results);
+                //if (this.LimitOffset != null)
+                //    results = this.LimitOffset.LimitOffset(results);
                 return results;
             }
         }
@@ -96,21 +96,21 @@ namespace SparqlQuery.SparqlClasses.SolutionModifier
         {
             var modify = Query.SparqlQuery.CreateByTypeAttribute(reader);
             
-            this.LimitOffset=modify as SparqlSolutionModifierLimit;
+            //this.LimitOffset=modify as SparqlSolutionModifierLimit;
 
-            this.Group = modify as SparqlSolutionModifierGroup;
+            //this.Group = modify as SparqlSolutionModifierGroup;
             this.Select = modify as SparqlSelect;
-            this.sparqlSolutionModifierHaving = modify as SparqlSolutionModifierHaving;
-            this.sparqlSolutionModifierOrder = modify as SparqlSolutionModifierOrder;
+            //this.sparqlSolutionModifierHaving = modify as SparqlSolutionModifierHaving;
+            //this.sparqlSolutionModifierOrder = modify as SparqlSolutionModifierOrder;
         }
 
         public void WriteXml(XmlWriter writer)
         {
             this.Select?.WriteXml(writer);
-            sparqlSolutionModifierHaving?.WriteXml(writer);
-        sparqlSolutionModifierOrder?.WriteXml(writer);
-        LimitOffset?.WriteXml(writer);
-        Group?.WriteXml(writer);
+        //    sparqlSolutionModifierHaving?.WriteXml(writer);
+        //sparqlSolutionModifierOrder?.WriteXml(writer);
+        //LimitOffset?.WriteXml(writer);
+        //Group?.WriteXml(writer);
 
     }
 }
