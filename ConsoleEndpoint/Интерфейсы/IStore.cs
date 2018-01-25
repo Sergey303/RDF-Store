@@ -1,28 +1,30 @@
-﻿namespace ConsoleEndpoint
+﻿namespace ConsoleEndpoint.Interface
 {
     using System.Collections.Generic;
+    using System.Diagnostics.Contracts;
 
+    [ContractClass(typeof(Contract4IStore))]
     public interface IStore
     {
-        void Load(IEnumerable<(string s, string p, OV o)> tripleFlow);
+        void Load(IEnumerable<object> tripleFlow);
 
         #region one graph gets
 
-        bool Contains(int s, int p, OV o);
+        bool Contains(object[] s, object[] p, object[] o);
 
-        IEnumerable<OV> spO(int s, int p);
+        IEnumerable<object[]> spO(object[] s, object[] p);
 
-        IEnumerable<int> sPo(int s, OV o);
+        IEnumerable<object[]> sPo(object[] s, object[] o);
 
-        IEnumerable<int> Spo(int p, OV o);
+        IEnumerable<object[]> Spo(object[] p, object[] o);
 
-        IEnumerable<(int s, OV o)> SpO(int p);
+        IEnumerable<object[]> SpO(object[] p);
 
-        IEnumerable<(int p, OV o)> sPO(int s);
+        IEnumerable<object[]> sPO(object[] s);
 
-        IEnumerable<(int s, int p)> SPo(OV o);
+        IEnumerable<object[]> SPo(object[] o);
 
-        IEnumerable<(int s, int p, OV o)> SPO();
+        IEnumerable<object[]> SPO();
 
         #endregion
     }

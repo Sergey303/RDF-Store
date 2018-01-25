@@ -2,24 +2,33 @@
 {
     using System;
 
+    using ConsoleEndpoint.Comparers;
+
     public struct ops : IComparable<ops>, IComparable
     {
-        private (OV o, int p, int s) triple;
+        private object[] o;
 
-        public ops((int s, int p, OV o) triple)
+        private int p;
+
+        private int s;
+
+        public ops((int s, int p, object[] o) t)
         {
-            this.triple = (triple.o, triple.p, triple.s);
+            (this.s, this.p, this.o) = t;
         }
 
-        // В этом представлении сравнение идет по приоритету o, p, s
         public int CompareTo(ops other)
         {
-            return this.triple.CompareTo(other.triple);
+            var oComparison = ObjectVariantComparer.Default.Compare(this.o, other.o); 
+            if (oComparison != 0) return oComparison;
+            var pComparison = this.p.CompareTo(other.p);
+            if (pComparison != 0) return pComparison;
+            return this.s.CompareTo(other.s);
         }
 
         public int CompareTo(object obj)
         {
-            return ((IComparable)this.triple).CompareTo(obj);
+            return this.CompareTo((ops)obj);
         }
     }
 }

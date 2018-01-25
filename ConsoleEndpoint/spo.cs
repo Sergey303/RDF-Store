@@ -2,19 +2,19 @@
 {
     using System;
 
+    using ConsoleEndpoint.Comparers;
+
     public struct spo : IComparable<spo>, IComparable
     {
         public int s;
 
         public int p;
 
-        public OV o;
+        public object[] o;
 
-        public spo((int s, int p, OV o) triple)
+        public spo((int s, int p, object[] o) triple)
         {
-            this.s =triple.s;
-            this.p = triple.p;
-            this.o = triple.o;
+            (this.s, this.p, this.o) = triple;
         }
 
         // В этом представлении сравнение идет по приоритету s, p, o
@@ -24,7 +24,7 @@
             if (sComparison != 0) return sComparison;
             var pComparison = this.p.CompareTo(other.p);
             if (pComparison != 0) return pComparison;
-            return this.o.CompareTo(other.o);
+            return ObjectVariantComparer.Default.Compare(this.o, other.o);
         }
 
         public int CompareTo(object obj)

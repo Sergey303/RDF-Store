@@ -11,8 +11,31 @@ namespace ConsoleEndpoint
 
     public static class PolarExtension
     {
+        /// <summary>
+        /// Рекурсивно создаёт PType в соответсвии с указанынм типом-аргументом:
+        /// int -> PTypeEnumeration.integer
+        /// int -> PTypeEnumeration.integer
+        /// bool -> PTypeEnumeration.boolean
+        /// double || float -> PTypeEnumeration.real
+        /// string -> PTypeEnumeration.sstring
+        /// char[] -> PTypeEnumeration.fstring
+        /// byte -> PTypeEnumeration.@byte
+        /// ISequence&lt;тип элемента &gt; -> PTypeSequence(GetPolarType( тип элемента ))
+        /// IUnion&lt;тип элемента &gt; -> PTypeUnion(GetPolarType( тип элемента ), ...) элементы получают названия - названия типа. 
+        /// Пустой вариант всегда добавляется.
+        /// IRecord&lt;типы элементов &gt; -> PTypeRecord(GetPolarType( тип элемента ), ...) элементы получают названия - названия типа.
+        /// Произвольный тип -> PTypeRecord. Свойства типа используются для элементов записи с такими же именами и типами.
+        /// 
+        /// Пример использования
+        /// PType t= typeof(IRecord&lt;bool, IUnion&lt;string, int&gt;, string, ISequence&lt;IUnion&lt;string&gt;&gt;).GetPolarType();
+        /// PolarExtension.GetPolarType&lt;IRecord&lt;bool, IUnion&lt;string, int&gt;, string, ISequence&lt;IUnion&lt;string&gt;&gt;&gt;();
+        /// Не может создать рекурсивные типы, вложенные в себя, например, t= IUnion &lt; t &gt;
+        /// </summary>
+        /// <param name="type"></param>
+        /// <returns></returns>
         public static PType GetPolarType(this Type type)
         {
+            
             if (type == typeof(int))
                 return new PType(PTypeEnumeration.integer);
             if (type == typeof(long))
@@ -69,231 +92,47 @@ namespace ConsoleEndpoint
         }
 
         /// <summary>
-        /// Создаёт PType по типу-параметру.
-        /// Тип параметер <code>ISequence<ElementType> </code> созает последовательность <code> PTypeSequence </code>
-        /// Тип параметер <code>IUnion<SubType1, ...> </code> созает альтернативные варианты <code> PTypeUnion </code>
-        /// Тип параметер <code>IRecord<SubType1, ...> </code> или класс, не соответсвующий ни одному поляровскому типу созают запись <code> PTypeRecord</code>
-        /// В последнем случае используются типы и имена свойств класса.
+        /// Рекурсивно создаёт PType в соответсвии с указанынм типом-аргументом:
+        /// int -> PTypeEnumeration.integer
+        /// int -> PTypeEnumeration.integer
+        /// bool -> PTypeEnumeration.boolean
+        /// double || float -> PTypeEnumeration.real
+        /// string -> PTypeEnumeration.sstring
+        /// char[] -> PTypeEnumeration.fstring
+        /// byte -> PTypeEnumeration.@byte
+        /// ISequence&lt;тип элемента &gt; -> PTypeSequence(GetPolarType( тип элемента ))
+        /// IUnion&lt;тип элемента &gt; -> PTypeUnion(GetPolarType( тип элемента ), ...) элементы получают названия - названия типа. 
+        /// Пустой вариант всегда добавляется.
+        /// IRecord&lt;типы элементов &gt; -> PTypeRecord(GetPolarType( тип элемента ), ...) элементы получают названия - названия типа.
+        /// Произвольный тип -> PTypeRecord. Свойства типа используются для элементов записи с такими же именами и типами.
+        /// 
+        /// Пример использования
+        /// PType t= typeof(IRecord&lt;bool, IUnion&lt;string, int&gt;, string, ISequence&lt;IUnion&lt;string&gt;&gt;).GetPolarType();
+        /// PolarExtension.GetPolarType&lt;IRecord&lt;bool, IUnion&lt;string, int&gt;, string, ISequence&lt;IUnion&lt;string&gt;&gt;&gt;();
+        /// Не может создать рекурсивные типы, вложенные в себя, например, t= IUnion &lt; t &gt;
         /// </summary>
-        /// <typeparam name="T"></typeparam>
+        /// <param name="type"></param>
         /// <returns></returns>
         public static PType GetPolarType<T>()
         {
             return GetPolarType(typeof(T));
         }
 
-        #region Cast
-
         /// <summary>
-        /// обычное небезопасное приведение, просто чтобы избедать множества скобок в коде.
+        /// Вызывает GetAllByLevel, отсеивает удалённые строки где row[0] = false и возвращает содержимое row[1].
         /// </summary>
-        /// <typeparam name="T"></typeparam>
-        /// <param name="o"></param>
+        /// <typeparam name="Tkey"></typeparam>
+        /// <typeparam name="IndexImmut"></typeparam>
+        /// <param name="index"></param>
+        /// <param name="levelFunc">Функция применяется к содержимому таблицы row[1] </param>
         /// <returns></returns>
-        public static T CastFromOneRow<T>(this object o)
-        {
-            var type = typeof(T);
-            if (type.IsInstanceOfType(o) || o.GetType().IsAssignableFrom(type))
-                return (T)o;
-            if (type.IsEnum)
-                return (T)Enum.ToObject(type, o);
-
-            if (o is object[] row)
-            {
-                Type[] genericArguments;
-                if (typeof(ITuple).IsAssignableFrom(type))
-                    genericArguments = type.GetGenericArguments();
-                else
-                    genericArguments = type.GetProperties().Select(p => p.PropertyType).ToArray();
-                // if (genericArguments.Length == row.Length)
-                {
-                    return (T)type.GetConstructor(genericArguments).Invoke(
-                        row.Select(
-                            (o1, i) => typeof(PolarExtension).GetMethod("CastFromOneRow")
-                                .MakeGenericMethod(genericArguments[i]).Invoke(null, new[] { row[i] })).ToArray());
-
-                    // if (row.Length != genericArguments.Length) throw new Exception("4534534");
-                }
-            }
-
-            return (T)Convert.ChangeType(o, type);
-        }
-
-        /// <summary>
-        /// К каждому объектьу в потоке применяет <code>CastRow &lt; T1&gt;()</code>, 
-        /// </summary>
-        /// <typeparam name="T1"></typeparam>
-        /// <param name="flow">поток массивов, приведенных к типу <code>object</code></param>
-        /// <returns></returns>
-        public static IEnumerable<T1> CastAllRows<T1>(this IEnumerable<object> flow) =>
-            flow.Select(o => o.CastFromOneRow<T1>());
-
-        /// <summary>
-        /// К каждому объектьу в потоке применяет <code>CastRow &lt; T1, T2&gt;()</code>, 
-        /// </summary>
-        /// <typeparam name="T1"></typeparam>
-        /// <typeparam name="T2"></typeparam>
-        /// <param name="flow">поток массивов, приведенных к типу <code>object</code></param>
-        /// <returns></returns>
-        public static IEnumerable<(T1, T2)> CastAllRows<T1, T2>(this IEnumerable<object> flow) =>
-            flow.Select(o => o.CastRow<T1, T2>());
-
-        /// <summary>
-        /// К каждому объектьу в потоке применяет <code> CastRow&lt;T1, T2, T3&gt;()</code>, 
-        /// </summary>
-        /// <typeparam name="T1"></typeparam>
-        /// <typeparam name="T2"></typeparam>
-        /// <typeparam name="T3"></typeparam>
-        /// <param name="flow">поток массивов, приведенных к типу <code>object</code></param>
-        /// <returns></returns>
-        public static IEnumerable<(T1, T2, T3)> CastAllRows<T1, T2, T3>(this IEnumerable<object> flow) =>
-            flow.Select(o => o.CastRow<T1, T2, T3>());
-
-        /// <summary>
-        /// К каждому объектьу в потоке применяет <code> CastRow&lt;T1, T2, T3, T4&gt;()</code>, 
-        /// </summary>
-        /// <typeparam name="T1"></typeparam>
-        /// <typeparam name="T2"></typeparam>
-        /// <typeparam name="T3"></typeparam>
-        /// <typeparam name="T4"></typeparam>
-        /// <param name="flow">поток массивов, приведенных к типу <code>object</code></param>
-        /// <returns></returns>
-        public static IEnumerable<(T1, T2, T3, T4)> CastAllRows<T1, T2, T3, T4>(this IEnumerable<object> flow) =>
-            flow.Select(o => o.CastRow<T1, T2, T3, T4>());
-
-        /// <summary>
-        /// К каждому объектьу в потоке применяет <code> CastRow&lt;T1, T2, T3, T4, T5&gt;()</code>, 
-        /// </summary>
-        /// <typeparam name="T1"></typeparam>
-        /// <typeparam name="T2"></typeparam>
-        /// <typeparam name="T3"></typeparam>
-        /// <typeparam name="T4"></typeparam>
-        /// <typeparam name="T5"></typeparam>
-        /// <param name="flow">поток массивов, приведенных к типу <code>object</code></param>
-        /// <returns></returns>
-        public static IEnumerable<(T1, T2, T3, T4, T5)>
-            CastAllRows<T1, T2, T3, T4, T5>(this IEnumerable<object> flow) =>
-            flow.Select(o => o.CastRow<T1, T2, T3, T4, T5>());
-
-        /// <summary>
-        /// Превращает объект-массив объектов в кортеж, где элементы кортежа соответсвуют элементам массива.
-        /// </summary>
-        /// <typeparam name="T1">тип первого элемента кортежа</typeparam>
-        /// <typeparam name="T2">тип второго элемента кортежа</typeparam>
-        /// <param name="o">массив объектов</param>
-        /// <returns>кортеж из элементов массива</returns>
-        public static (T1, T2) CastRow<T1, T2>(this object o)
-        {
-            var row = (object[])o;
-            return (row[0].CastFromOneRow<T1>(), row[1].CastFromOneRow<T2>());
-        }
-
-        public static void Deconstruct(this object[] array, out object element1)
-        {
-            element1 = array[0];
-        }
-
-        public static void Deconstruct(this object[] array, out object element1, out object element2)
-        {
-            element1 = array[0];
-            element2 = array[1];
-        }
-
-        public static void Deconstruct(
-            this object[] array,
-            out object element1,
-            out object element2,
-            out object element3)
-        {
-            element1 = array[0];
-            element2 = array[1];
-            element3 = array[2];
-        }
-
-        public static void Deconstruct(
-            this object[] array,
-            out object element1,
-            out object element2,
-            out object element3,
-            out object element4)
-        {
-            element1 = array[0];
-            element2 = array[1];
-            element3 = array[2];
-            element4 = array[3];
-        }
-
-        public static void Deconstruct(
-            this object[] array,
-            out object element1,
-            out object element2,
-            out object element3,
-            out object element4,
-            out object element5)
-        {
-            element1 = array[0];
-            element2 = array[1];
-            element3 = array[2];
-            element4 = array[3];
-            element5 = array[4];
-        }
-
-        /// <summary>
-        /// Превращает объект-массив объектов в кортеж, где элементы кортежа соответсвуют элементам массива.
-        /// </summary>
-        /// <typeparam name="T1">тип первого элемента кортежа</typeparam>
-        /// <typeparam name="T2">тип второго элемента кортежа</typeparam>
-        /// <typeparam name="T3">тип третьего элемента кортежа</typeparam>
-        /// <param name="o">массив объектов</param>
-        /// <returns>кортеж из элементов массива</returns>
-        public static (T1, T2, T3) CastRow<T1, T2, T3>(this object o)
-        {
-            var row = (object[])o;
-            return (row[0].CastFromOneRow<T1>(), row[1].CastFromOneRow<T2>(), row[2].CastFromOneRow<T3>());
-        }
-
-        /// <summary>
-        /// Превращает объект-массив объектов в кортеж, где элементы кортежа соответсвуют элементам массива.
-        /// </summary>
-        /// <typeparam name="T1">тип первого элемента кортежа</typeparam>
-        /// <typeparam name="T2">тип второго элемента кортежа</typeparam>
-        /// <typeparam name="T3">тип третьего элемента кортежа</typeparam>
-        /// <typeparam name="T4">тип четвертого элемента кортежа</typeparam>
-        /// <param name="o">массив объектов</param>
-        /// <returns>кортеж из элементов массива</returns>
-        public static (T1, T2, T3, T4) CastRow<T1, T2, T3, T4>(this object o)
-        {
-            var row = (object[])o;
-            return (row[0].CastFromOneRow<T1>(), row[1].CastFromOneRow<T2>(), row[2].CastFromOneRow<T3>(), row[3]
-                .CastFromOneRow<T4>());
-        }
-
-        /// <summary>
-        /// Превращает объект-массив объектов в кортеж, где элементы кортежа соответсвуют элементам массива.
-        /// </summary>
-        /// <typeparam name="T1">тип первого элемента кортежа</typeparam>
-        /// <typeparam name="T2">тип второго элемента кортежа</typeparam>
-        /// <typeparam name="T3">тип третьего элемента кортежа</typeparam>
-        /// <typeparam name="T4">тип четвертого элемента кортежа</typeparam>
-        /// <typeparam name="T5">тип пятого элемента кортежа</typeparam>
-        /// <param name="o">массив объектов</param>
-        /// <returns>кортеж из элементов массива</returns>
-        public static (T1, T2, T3, T4, T5) CastRow<T1, T2, T3, T4, T5>(this object o)
-        {
-            var row = (object[])o;
-            return (row[0].CastFromOneRow<T1>(), row[1].CastFromOneRow<T2>(), row[2].CastFromOneRow<T3>(),
-                row[3].CastFromOneRow<T4>(), row[4].CastFromOneRow<T5>());
-        }
-
-        #endregion
-
         public static IEnumerable<object[]> GetAllUndeletedByLevel<Tkey, IndexImmut>(
             this IndexDynamic<Tkey, IndexImmut> index,
             Func<object[], int> levelFunc)
             where IndexImmut : IIndexImmutable<Tkey> =>
-            index.GetAllByLevel(ent => levelFunc((object[])ent.Get()))
+            index.GetAllByLevel(ent => levelFunc(ent.Get().CastRow<object, object[]>().Item2))
                 .Select(ent => (object[])ent.Get())
-                .Where(row => (bool)row[0])
+                .Where(row => !(bool)row[0])
                 .Select(row => (object[])row[1]);
     
     // public static Type Get(PType pt)

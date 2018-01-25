@@ -3,6 +3,8 @@
     using System.Collections.Generic;
     using System.IO;
 
+    using ConsoleEndpoint.Interface;
+
     using Polar.DB;
 
     public class Nametable : INametable
@@ -51,8 +53,9 @@
         ///  Получение кода по строке
         /// </summary>
         /// <param name="s"></param>
+        /// <param name="exists"></param>
         /// <returns></returns>
-        public int GetCode(string s) => this.buffer.TryGetValue(s, out int nom) ? nom : this.EmptyCode();
+        public int GetCode(string s, out bool exists) => (exists = this.buffer.TryGetValue(s, out int nom)) ? nom : 0;
 
         /// <summary>
         ///  Запись кода по строке

@@ -1,8 +1,8 @@
-﻿namespace ConsoleEndpoint
+﻿namespace ConsoleEndpoint.Interface
 {
     public interface INametable
     {
-        int GetCode(string s);
+        int GetCode(string s, out bool exists);
 
         string GetString(int c);
 
