@@ -59,7 +59,7 @@ namespace ConsoleEndpoint
                 
 
                 Console.WriteLine("sPO (nrecords * 2 / 3)");
-                var query = store.sPO(new object[] { OVT.iri, nrecords * 2 / 3 }).ToArray();
+                var query = store.sPO(nrecords * 2 / 3).ToArray();
                 foreach (var q in query)
                 {
                     //вызывается метод Deconstruct для object[]
@@ -70,7 +70,7 @@ namespace ConsoleEndpoint
                 Console.WriteLine("sPO (nrecords * 2 / 3) + 1->50");
                 for (int i = 0; i < 50; i++)
                 {
-                    Console.WriteLine(store.sPO(new object[] { OVT.iri, (nrecords * 2 / 3) + i }).ToArray().Length);
+                    Console.WriteLine(store.sPO((nrecords * 2 / 3) + i).ToArray().Length);
                 }
 
                 int nprobes = 1000;
@@ -79,7 +79,7 @@ namespace ConsoleEndpoint
                 for (int i = 0; i < nprobes; i++)
                 {
                     int code = rnd.Next(nrecords);
-                    store.sPO(new object[]{ OVT.iri, code }).Count();
+                    store.sPO(code ).Count();
                 }
                 T.Stop();
                 Console.WriteLine($"GetTriplesBySubject {nprobes} times. Duration={T.ElapsedMilliseconds}");

@@ -93,10 +93,8 @@
             Console.WriteLine("build " + t.ElapsedMilliseconds);
         }
 
-        public IEnumerable<object[]> spO(object[] sObjVariant, object[] pObjVariant)
+        public IEnumerable<object[]> spO(int sCode, int pCode)
         {
-            int sCode = (int)sObjVariant[1];
-            int pCode = (int)pObjVariant[1];
             return this.index_spo.GetAllUndeletedByLevel(
                 row =>
                     {
@@ -106,9 +104,8 @@
                     });
         }
 
-        public IEnumerable<object[]> sPo(object[] sObjVariant, object[] oObjVariant)
+        public IEnumerable<object[]> sPo(int sCode, object[] oObjVariant)
         {
-            int sCode = (int)sObjVariant[1];
             return this.index_spo.GetAllUndeletedByLevel(
                 row =>
                     {
@@ -118,9 +115,8 @@
                     });
         }
 
-        public IEnumerable<object[]> Spo(object[] pObjVariant, object[] oObjVariant)
+        public IEnumerable<object[]> Spo(int pCode, object[] oObjVariant)
         {
-            int pCode = (int)pObjVariant[1];
             return this.index_ops.GetAllUndeletedByLevel(
                 row =>
                     {
@@ -130,16 +126,14 @@
                     });
         }
 
-        public IEnumerable<object[]> SpO(object[] pObjVariant)
+        public IEnumerable<object[]> SpO(int pCode)
         {
-            int pCode = (int)pObjVariant[1];
             return this.index_spo.GetAllUndeletedByLevel(
                 row => row.CastRow<object, int, object>().Item2.CompareTo(pCode));
         }
 
-        public IEnumerable<object[]> sPO(object[] sObjVariant)
+        public IEnumerable<object[]> sPO(int sCode)
         {
-            int sCode = (int)sObjVariant[1];
             return this.index_spo.GetAllUndeletedByLevel(
                 row => row.CastRow<int, object, object>().Item1.CompareTo(sCode));
         }
@@ -153,10 +147,8 @@
         {
             return this.index_spo.GetAllUndeletedByLevel(objects => 0);
         }
-        public bool Contains(object[] sObjVariant, object[] pObjVariant, object[] oObjVariant)
+        public bool Contains(int sCode, int pCode, object[] oObjVariant)
         {
-            int sCode = (int)sObjVariant[1];
-            int pCode = (int)pObjVariant[1];
             return this.index_spo.GetAllUndeletedByLevel(
                 row =>
                     {

@@ -10,17 +10,17 @@
 
         #region one graph gets
 
-        bool Contains(object[] s, object[] p, object[] o);
+        bool Contains(int s, int p, object[] o);
 
-        IEnumerable<object[]> spO(object[] s, object[] p);
+        IEnumerable<object[]> spO(int s, int p);
 
-        IEnumerable<object[]> sPo(object[] s, object[] o);
+        IEnumerable<object[]> sPo(int s, object[] o);
 
-        IEnumerable<object[]> Spo(object[] p, object[] o);
+        IEnumerable<object[]> Spo(int p, object[] o);
 
-        IEnumerable<object[]> SpO(object[] p);
+        IEnumerable<object[]> SpO(int p);
 
-        IEnumerable<object[]> sPO(object[] s);
+        IEnumerable<object[]> sPO(int s);
 
         IEnumerable<object[]> SPo(object[] o);
 

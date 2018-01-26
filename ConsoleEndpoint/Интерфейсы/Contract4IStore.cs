@@ -11,72 +11,47 @@
         public void Load(IEnumerable<object> tripleFlow)
         {
             Contract.Requires(tripleFlow.GetType().GetGenericArguments()[0].IsArray);
-            // todo array of array of OVT and ints ...
+            // todo array of array of OVT 
         }
 
-        public bool Contains(object[] s, object[] p, object[] o)
+        public bool Contains(int s, int p, object[] o)
         {
-            RequeresIri(s);
-            RequeresIri(p);
             RequeresObjectVariant(o);
-            return default(bool);
+            return false;
         }
 
+        public IEnumerable<object[]> spO(int s, int p)
+        {
+            return null;
+        }
+
+        public IEnumerable<object[]> sPo(int s, object[] o)
+        {
+            RequeresObjectVariant(o);
+            return null;
+        }
+
+        public IEnumerable<object[]> Spo(int p, object[] o)
+        {
+            RequeresObjectVariant(o);
+            return null;
+        }
+
+        public IEnumerable<object[]> SpO(int p)
+        {
+            return null;
+        }
+
+        public IEnumerable<object[]> sPO(int s)
+        {
+            return null;
+        }
+      
         private static void RequeresObjectVariant(object[] ov)
         {
             Contract.Requires(ov != null);
             Contract.Requires(ov.Length == 2);
             Contract.Requires(ov[0] is int);
-        }
-
-        private static void RequeresIri(object[] iri)
-        {
-            Contract.Requires(iri != null);
-            Contract.Requires(iri.Length == 2);
-            Contract.Requires(iri[0] is int i);
-            Contract.Requires(i == IriVid);
-        }
-
-        public IEnumerable<object[]> spO(object[] s, object[] p)
-        {
-            RequeresIri(s);
-            RequeresIri(p);
-            return null;
-        }
-
-        public IEnumerable<object[]> sPo(object[] s, object[] o)
-        {
-            RequeresIri(s);
-            RequeresObjectVariant(o);
-            return null;
-        }
-
-        public IEnumerable<object[]> Spo(object[] p, object[] o)
-        {
-
-            RequeresIri(p);
-            RequeresObjectVariant(o);
-            return null;
-        }
-
-        public IEnumerable<object[]> SpO(object[] p)
-        {
-
-            RequeresIri(p);
-            return null;
-        }
-
-        public IEnumerable<object[]> sPO(object[] s)
-        {
-            RequeresIri(s);
-            return null;
-        }
-
-        public IEnumerable<object[]> SPo(object[] o)
-        {
-
-            RequeresObjectVariant(o);
-            return null;
         }
 
         public IEnumerable<object[]> SPO()

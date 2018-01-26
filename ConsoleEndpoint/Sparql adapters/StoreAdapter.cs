@@ -52,8 +52,8 @@
         public bool Contains(ObjectVariants subject, ObjectVariants predicate, ObjectVariants obj)
         {
            return newStore.Contains(
-                new object[] { 1, subject.WritableValue },
-                new object[] { 1, predicate.WritableValue },
+               (int)subject.WritableValue,
+               (int)predicate.WritableValue,
                 new[] { obj.Variant == ObjectVariantEnum.IriInt ? 1 : 2, obj.WritableValue });
         }
 
