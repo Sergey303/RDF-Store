@@ -38,8 +38,8 @@
         {
             var (xVid, xValue) = x;
             var (yVid, yValue) = y;
-            var xOVT = (int)xVid;
-            var vidComparison = xOVT.CompareTo((int)yVid);
+            var xOVT = xVid;
+            var vidComparison = xOVT.CompareTo(yVid);
             if (vidComparison != 0)
                 return vidComparison;
             switch ((OVT)xOVT)

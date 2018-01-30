@@ -1,3 +1,5 @@
+using ConsoleEndpoint;
+
 static internal class ArrayOfObjectsDeconstruct
 {
     /// <summary>
@@ -8,15 +10,16 @@ static internal class ArrayOfObjectsDeconstruct
     /// </summary>
     /// <param name="array"></param>
     /// <param name="element1"></param>
-    public static void Deconstruct(this object[] array, out object element1)
+    /// <param name="element2"></param>
+    public static void Deconstruct(this object[] array, out OVT element1, out object element2)
     {
-        element1 = array[0];
+        element1 = (OVT)array[0];
+        element2 = array[1];
     }
 
-    public static void Deconstruct(this object[] array, out object element1, out object element2)
+    public static (T1, T2) Cast<T1, T2>(this (object, object) tuple)
     {
-        element1 = array[0];
-        element2 = array[1];
+        return ((T1)tuple.Item1, (T2)tuple.Item2);
     }
 
     public static void Deconstruct(

@@ -1,60 +1,45 @@
-﻿using System;
-using System.Linq;
-using SparqlQuery.SparqlClasses.GraphPattern;
+﻿using SparqlQuery.SparqlClasses.GraphPattern;
 using SparqlQuery.SparqlClasses.Query.Result;
-using SparqlQuery.SparqlClasses.SolutionModifier;
 
 namespace SparqlQuery.SparqlClasses.Query
 {
-    using System.Xml;
+    using System.Collections.Generic;
+    using System.Linq;
 
-    [Serializable]
+    using ConsoleEndpoint.Interface;
+
+    using RDFCommon;
+
     public class SparqlSelectQuery : SparqlQuery
     {
-        /// 4 serialization only
-        public SparqlSelectQuery()
-        {
-            
-        }
-    
-        public SparqlSelectQuery(RdfQuery11Translator q) : base(q)
-        {
-            this.ResultSet.ResultType = ResultType.Select;
-          
-        }
 
-        internal void Create( SparqlGraphPattern sparqlWhere, SparqlSolutionModifier sparqlSolutionModifier)
+          readonly SparqlSelectResultSet SelectResultSet;
+
+        public SparqlSelectQuery(
+            ISparqlGraphPattern[] sparqlWhere, 
+            bool isReduced = false, 
+            bool isDistinct = false, 
+            List<string> @select = null, 
+            Prologue prolog = null)
+            : base(sparqlWhere)
         {
-            this.sparqlWhere = sparqlWhere;
-            this.SparqlSolutionModifier = sparqlSolutionModifier;
-
-            // this.sparqlSolutionModifier.IsDistinct=sparqlSelect.IsDistinct;
-            // if (this.sparqlSolutionModifier.IsDistinct)
-            // sparqlSelect.IsDistinct = false;
+            this.SelectResultSet = new SparqlSelectResultSet(
+                new HashSet<string>(sparqlWhere.SelectMany(pattern => pattern.Variables)),
+                isReduced,
+                isDistinct,
+                @select,
+                prolog);
         }
+      
+        public SparqlSelectResultSet Run(IStore store) => Run<SparqlSelectResultSet>(store);
 
-        public override SparqlResultSet Run()
+        public override T Run<T>(IStore store)
         {
-            this.ResultSet.Variables = this.q.Variables;
-            this.ResultSet.Results=Enumerable.Repeat(new SparqlResult(this.q), 1);
-            this.ResultSet.Results = this.sparqlWhere.Run(this.ResultSet.Results);
-            
-            if (this.SparqlSolutionModifier != null ) this.ResultSet.Results = this.SparqlSolutionModifier.Run(this.ResultSet.Results, this.ResultSet);
-          
-            return this.ResultSet;
+            this.SelectResultSet.Results = this.sparqlWhere.Aggregate(
+                Enumerable.Repeat<SparqlResult>(new SparqlResult(), 1),
+                (current, pattern) => pattern.Run(current, store));
+            this.SelectResultSet.Run();
+            return this.SelectResultSet as T;
         }
-  
-        public override void WriteXml(XmlWriter writer)
-        {
-            writer.WriteStartElement("selectQuery");
-
-            base.WriteXml(writer);
-
-            writer.WriteEndElement();
-        }
-        // public override SparqlQueryTypeEnum QueryType
-        // {
-        // get { return SparqlQueryTypeEnum.Select; }
-        // }
     }
 }

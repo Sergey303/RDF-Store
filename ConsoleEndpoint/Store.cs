@@ -3,7 +3,6 @@
     using System;
     using System.Collections.Generic;
     using System.Diagnostics;
-    using System.Diagnostics.Contracts;
     using System.IO;
     using System.Linq;
 
@@ -93,6 +92,8 @@
             Console.WriteLine("build " + t.ElapsedMilliseconds);
         }
 
+        public INametable Nametable => this.nametable;
+
         public IEnumerable<object[]> spO(int sCode, int pCode)
         {
             return this.index_spo.GetAllUndeletedByLevel(
@@ -129,24 +130,28 @@
         public IEnumerable<object[]> SpO(int pCode)
         {
             return this.index_spo.GetAllUndeletedByLevel(
-                row => row.CastRow<object, int, object>().Item2.CompareTo(pCode));
+                row => ((int)row[1]).CompareTo(pCode));
         }
 
         public IEnumerable<object[]> sPO(int sCode)
         {
             return this.index_spo.GetAllUndeletedByLevel(
-                row => row.CastRow<int, object, object>().Item1.CompareTo(sCode));
+                row => ((int)row[0]).CompareTo(sCode));
         }
 
-        public IEnumerable<object[]> SPo(object[] oObjVariant)
+        public IEnumerable<object[]> SPo(object[] oObjVariant) => this.index_ops
+            .GetAllUndeletedByLevel(row => 
+                ObjectVariantComparer.Default.Compare(
+                    (object[])row[2], 
+                    oObjVariant));
+
+        public IEnumerable<object[]> SPO() => this.index_spo.GetAllUndeletedByLevel(objects => 0);
+
+        public bool ContainsObject(object[] o)
         {
-            return this.index_ops.GetAllUndeletedByLevel(row => ObjectVariantComparer.Default.Compare(row.CastRow<object, object, object[]>().Item3, oObjVariant));
+           return this.index_ops.GetAllUndeletedByLevel(row => ObjectVariantComparer.Default.Compare((object[])row[2], o)).Any();
         }
 
-        public IEnumerable<object[]> SPO()
-        {
-            return this.index_spo.GetAllUndeletedByLevel(objects => 0);
-        }
         public bool Contains(int sCode, int pCode, object[] oObjVariant)
         {
             return this.index_spo.GetAllUndeletedByLevel(

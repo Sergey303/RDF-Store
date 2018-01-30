@@ -40,6 +40,41 @@ namespace SparqlQuery.SparqlClasses.Expressions
                 switch (
                     NullableTripleExt.Get(this.stringExpression.Const, this.patternExpression.Const, this.replacementExpression.Const))
                 {
+                    case NT.FirstNotNull | NT.SecondNotNull | NT.ThirdNotNull:
+                        this.Const = this.stringExpression.Const
+                            .Change(o => ((string)o).Replace((string)this.patternExpression.Const.Content,
+                                (string)this.replacementExpression.Const.Content));
+                        break;
+                    case NT.SecondNotNull | NT.ThirdNotNull:
+                        this.Operator = res =>
+                            ((string)this.stringExpression.Operator(res)).Replace(
+                                (string)this.patternExpression.Const.Content,
+                                (string)this.replacementExpression.Const.Content);
+                        this.TypedOperator =
+                            res => this.stringExpression.TypedOperator(res)
+                                .Change(o => ((string)o).Replace((string)this.patternExpression.Const.Content,
+                                    (string)this.replacementExpression.Const.Content));
+                        break;
+                    case NT.FirstNotNull | NT.ThirdNotNull:
+                        this.Operator = res =>
+                            ((string)this.stringExpression.Const.Content).Replace(
+                                (string)this.patternExpression.Operator(res),
+                                (string)this.replacementExpression.Const.Content);
+                        this.TypedOperator =
+                            res => this.stringExpression.Const
+                                .Change(o => ((string)o).Replace((string)this.patternExpression.Operator(res),
+                                    (string)this.replacementExpression.Const.Content));
+                        break;
+                    case NT.FirstNotNull | NT.SecondNotNull:
+                        this.Operator = res =>
+                            ((string)this.stringExpression.Const.Content).Replace(
+                                (string)this.patternExpression.Const.Content,
+                                (string)this.replacementExpression.Operator(res));
+                        this.TypedOperator =
+                            res => this.stringExpression.Const
+                                .Change(o => ((string)o).Replace((string)this.patternExpression.Const.Content,
+                                    (string)this.replacementExpression.Operator(res)));
+                        break;
                     case NT.AllNull:
                         this.Operator = res =>
                             ((string)this.stringExpression.Operator(res)).Replace(
@@ -79,41 +114,6 @@ namespace SparqlQuery.SparqlClasses.Expressions
                             res => this.stringExpression.TypedOperator(res)
                                 .Change(o => ((string) o).Replace((string)this.patternExpression.Operator(res),
                                     (string)this.replacementExpression.Const.Content));
-                        break;
-                     case ~NT.FirstNotNull:
-                        this.Operator = res =>
-                            ((string)this.stringExpression.Operator(res)).Replace(
-                                (string)this.patternExpression.Const.Content,
-                                (string)this.replacementExpression.Const.Content);
-                        this.TypedOperator =
-                            res => this.stringExpression.TypedOperator(res)
-                                .Change(o => ((string) o).Replace((string)this.patternExpression.Const.Content,
-                                    (string)this.replacementExpression.Const.Content));
-                        break;
-                    case ~NT.SecondNotNull:
-                        this.Operator = res =>
-                            ((string)this.stringExpression.Const.Content).Replace(
-                                (string)this.patternExpression.Operator(res),
-                                (string)this.replacementExpression.Const.Content);
-                        this.TypedOperator =
-                            res => this.stringExpression.Const
-                                .Change(o => ((string) o).Replace((string)this.patternExpression.Operator(res),
-                                    (string)this.replacementExpression.Const.Content));
-                        break;
-                    case ~NT.ThirdNotNull:
-                        this.Operator = res =>
-                            ((string)this.stringExpression.Const.Content).Replace(
-                                (string)this.patternExpression.Const.Content,
-                                (string)this.replacementExpression.Operator(res));
-                        this.TypedOperator =
-                            res => this.stringExpression.Const
-                                .Change(o => ((string) o).Replace((string)this.patternExpression.Const.Content,
-                                    (string)this.replacementExpression.Operator(res)));
-                        break;
-                    case ~NT.AllNull:
-                        this.Const = this.stringExpression.Const
-                            .Change(o => ((string) o).Replace((string)this.patternExpression.Const.Content,
-                                (string)this.replacementExpression.Const.Content));
                         break;
                     default:
                         throw new ArgumentOutOfRangeException();
@@ -174,7 +174,7 @@ namespace SparqlQuery.SparqlClasses.Expressions
                                         (string)this.replacementExpression.Const.Content,
                                         flags));
                             break;
-                        case ~NT.FirstNotNull:
+                        case NT.SecondNotNull | NT.ThirdNotNull:
                             this.Operator = res => Regex.Replace(
                                 (string)this.stringExpression.Operator(res),
                                 (string)this.patternExpression.Const.Content,
@@ -186,7 +186,7 @@ namespace SparqlQuery.SparqlClasses.Expressions
                                         (string)this.replacementExpression.Const.Content,
                                         flags));
                             break;
-                        case ~NT.SecondNotNull:
+                        case NT.FirstNotNull | NT.ThirdNotNull:
                             this.Operator = res => Regex.Replace(
                                 (string)this.stringExpression.Const.Content,
                                 (string)this.patternExpression.Operator(res),
@@ -197,7 +197,7 @@ namespace SparqlQuery.SparqlClasses.Expressions
                                         (string)this.replacementExpression.Const.Content,
                                         flags));
                             break;
-                        case ~NT.ThirdNotNull:
+                        case NT.FirstNotNull | NT.SecondNotNull:
                             this.Operator = res => Regex.Replace(
                                 (string)this.stringExpression.Const.Content,
                                 (string)this.patternExpression.Const.Content,
@@ -209,7 +209,7 @@ namespace SparqlQuery.SparqlClasses.Expressions
                                         (string)this.replacementExpression.Operator(res),
                                         flags));
                             break;
-                        case ~NT.AllNull:
+                        case NT.FirstNotNull | NT.SecondNotNull | NT.ThirdNotNull:
                             this.Const = this.stringExpression.Const
                                 .Change(o => Regex.Replace((string) o, (string)this.patternExpression.Const.Content,
                                     (string)this.replacementExpression.Const.Content,
@@ -264,7 +264,7 @@ namespace SparqlQuery.SparqlClasses.Expressions
                                     .Change(o => Regex.Replace((string)o, (string)this.patternExpression.Operator(res),
                                         (string)this.replacementExpression.Const.Content, this.patternExpression.Operator(res)));
                             break;
-                        case ~NT.FirstNotNull:
+                        case NT.SecondNotNull | NT.ThirdNotNull:
                             this.Operator = res => Regex.Replace(
                                 (string)this.stringExpression.Operator(res),
                                 (string)this.patternExpression.Const.Content,
@@ -274,7 +274,7 @@ namespace SparqlQuery.SparqlClasses.Expressions
                                     .Change(o => Regex.Replace((string)o, (string)this.patternExpression.Const.Content,
                                         (string)this.replacementExpression.Const.Content, this.patternExpression.Operator(res)));
                             break;
-                        case ~NT.SecondNotNull:
+                        case NT.FirstNotNull | NT.ThirdNotNull:
                             this.Operator = res => Regex.Replace(
                                 (string)this.stringExpression.Const.Content,
                                 (string)this.patternExpression.Operator(res),
@@ -284,7 +284,7 @@ namespace SparqlQuery.SparqlClasses.Expressions
                                     .Change(o => Regex.Replace((string)o, (string)this.patternExpression.Operator(res),
                                         (string)this.replacementExpression.Const.Content, this.patternExpression.Operator(res)));
                             break;
-                        case ~NT.ThirdNotNull:
+                        case NT.FirstNotNull | NT.SecondNotNull:
                             this.Operator = res => Regex.Replace(
                                 (string)this.stringExpression.Const.Content,
                                 (string)this.patternExpression.Const.Content,
@@ -294,7 +294,7 @@ namespace SparqlQuery.SparqlClasses.Expressions
                                     .Change(o => Regex.Replace((string)o, (string)this.patternExpression.Const.Content,
                                         (string)this.replacementExpression.Operator(res), this.patternExpression.Operator(res)));
                             break;
-                        case ~NT.AllNull:
+                        case NT.FirstNotNull | NT.SecondNotNull | NT.ThirdNotNull:
                             this.Operator = res => 
                                 Regex.Replace((string)this.stringExpression.Const.Content, (string)this.patternExpression.Const.Content,
                                     (string)this.replacementExpression.Const.Content, this.patternExpression.Operator(res));

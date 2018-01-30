@@ -9,7 +9,7 @@ namespace RDFCommon
         public Dictionary<string, string> namspace2Prefix = new Dictionary<string, string>();
         public Dictionary<string, string> prefix2Namspace = new Dictionary<string, string>();
           
-        public static Regex PrefixNSSlpit = new Regex("^([^:]*:)(.*)$");
+        public static readonly Regex PrefixNSSlpit = new Regex("^([^:]*:)(.*)$");
         private string baseUri;
         public string StringRepresentationOfProlog;
 
@@ -19,8 +19,7 @@ namespace RDFCommon
                 return GetFromIri(p); 
             var uriPrefixed = SplitPrefixed(p);
             // if(prefix=="_")   throw new NotImplementedException();
-            string fullNamespace;
-            if (!prefix2Namspace.TryGetValue(uriPrefixed.prefix, out fullNamespace))
+            if (!prefix2Namspace.TryGetValue(uriPrefixed.prefix, out var fullNamespace))
                 throw new Exception("prefix " + uriPrefixed.prefix);
             
             return fullNamespace + uriPrefixed.localname;
@@ -50,8 +49,7 @@ namespace RDFCommon
             var prefix = match.Groups[1].Value;
            
           //  if (prefix == "_" ) throw new NotImplementedException();
-            string fullNamespace;
-            if (!prefix2Namspace.TryGetValue(prefix, out fullNamespace)) throw new Exception("prefix " + prefix);
+            if (!this.prefix2Namspace.TryGetValue(prefix, out var fullNamespace)) throw new Exception("prefix " + prefix);
             return fullNamespace;
         }
 
@@ -59,20 +57,20 @@ namespace RDFCommon
         {
             if (p.StartsWith("<") && p.EndsWith(">"))
             {
-                return GetFromIri(p);
+                return this.GetFromIri(p);
             }
             if (p.StartsWith("http://") || p.StartsWith("mailto:"))
             {
                 return p;
             }
-            return GetUriFromPrefixed(p);
+            return this.GetUriFromPrefixed(p);
         }
 
         public string GetFromIri(string p)
         {      
             if(p.StartsWith("<") && p.EndsWith(">"))           
             p = p.Substring(1, p.Length - 2);
-            return baseUri == null ? p : baseUri + p;
+            return this.baseUri == null ? p : this.baseUri + p;
         }
 
 
@@ -128,6 +126,6 @@ namespace RDFCommon
             this.localname = localname;
         }
 
-         public string FullName { get { return @namespace + localname; } }
+         public string FullName { get { return this.@namespace + this.localname; } }
     }
 }

@@ -19,7 +19,7 @@ namespace SparqlQuery
     /// Nullable Triple
     /// </summary>
     [Flags]
-    public enum NT : byte { AllNull = 0, FirstNotNull = 1, SecondNotNull = 2, ThirdNotNull = 3 }
+    public enum NT : byte { AllNull = 0, FirstNotNull = 1, SecondNotNull = 2, ThirdNotNull = 4 }
 
     public static class NullableTripleExt
     {
