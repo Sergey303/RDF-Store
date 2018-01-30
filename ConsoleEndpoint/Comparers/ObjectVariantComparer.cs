@@ -36,16 +36,17 @@
 
         public int Compare(object[] x, object[] y)
         {
-            var (xVid, xValue) = x;
-            var (yVid, yValue) = y;
-            var xOVT = xVid;
-            var vidComparison = xOVT.CompareTo(yVid);
+            var(xVid, xValue) = x;
+            var(yVid, yValue) = y;
+            var xInt = (int)xVid;
+            var yInt = (int)yVid;
+            var vidComparison = xInt.CompareTo(yInt);
             if (vidComparison != 0)
                 return vidComparison;
-            switch ((OVT)xOVT)
+            switch ((OVT)xInt)
             {
                 case OVT.iri:
-                    return ((int)xValue).CompareTo(yValue);
+                    return ((int)xValue).CompareTo((int)yValue);
                 case OVT.@string:
                     return StringComparer.Default.Compare((string)xValue, (string)yValue);
                 default:

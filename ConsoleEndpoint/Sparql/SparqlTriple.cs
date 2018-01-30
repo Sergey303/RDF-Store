@@ -49,14 +49,13 @@ namespace ConsoleEndpoint.Sparql_adapters
             string oVarName = null,
             string subjectSource = null,
             string predicateSource = null,
-            string objectSource = null,
             int? subject = null,
             int? predicate = null,
             object[] o = null)
         {
             this.subjectSource = subjectSource;
             this.predicateSource = predicateSource;
-            this.objectVarName = objectSource;
+            
             this.subjectVarName = sVarName;
             this.predicateVarName = pVarName;
             this.objectVarName = oVarName;
@@ -160,10 +159,10 @@ namespace ConsoleEndpoint.Sparql_adapters
 
             if (!this.isObjectVariable && !this.isPredicateCoded)
             {
-                if (((OVT)this._object[0]) == OVT.iri)
+                var(vid, ov) = this._object;
+                if ((OVT)(int)vid == OVT.iri)
                 {
-                    this._object[1] = store.Nametable.GetCode(
-                        (string)this._object[1], out this._constTriplePartExistsInStore);
+                    this._object[1] = store.Nametable.GetCode((string)ov, out this._constTriplePartExistsInStore);
                 }
                 else
                 {
@@ -234,7 +233,7 @@ namespace ConsoleEndpoint.Sparql_adapters
                     case HasValue.Subject | HasValue.Object:
                         foreach (var row in store.sPo(s, o))
                         {
-                            variableBinding[this.predicateSource] = (int)row[1];
+                            variableBinding[this.predicateVarName] = (int)row[1];
                             yield return variableBinding;
                         }
 
@@ -242,7 +241,7 @@ namespace ConsoleEndpoint.Sparql_adapters
                     case HasValue.Predicate | HasValue.Object:
                         foreach (var row in store.Spo(p, o))
                         {
-                            variableBinding[this.subjectSource] = (int)row[0];
+                            variableBinding[this.subjectVarName] = (int)row[0];
                             yield return variableBinding;
                         }
 
@@ -250,7 +249,7 @@ namespace ConsoleEndpoint.Sparql_adapters
                     case HasValue.Subject:
                         foreach (var row in store.sPO(s))
                         {
-                            variableBinding[this.predicateSource] = (int)row[1];
+                            variableBinding[this.predicateVarName] = (int)row[1];
                             variableBinding[this.objectVarName] = (object[])row[2];
                             yield return variableBinding;
                         }
@@ -259,7 +258,7 @@ namespace ConsoleEndpoint.Sparql_adapters
                     case HasValue.Predicate:
                         foreach (var row in store.SpO(p))
                         {
-                            variableBinding[this.subjectSource] = (int)row[0];
+                            variableBinding[this.subjectVarName] = (int)row[0];
                             variableBinding[this.objectVarName] = (object[])row[2];
                             yield return variableBinding;
                         }
@@ -268,8 +267,8 @@ namespace ConsoleEndpoint.Sparql_adapters
                     case HasValue.Object:
                         foreach (var row in store.SPo(o))
                         {
-                            variableBinding[this.subjectSource] = (int)row[0];
-                            variableBinding[this.predicateSource] = (int)row[1];
+                            variableBinding[this.subjectVarName] = (int)row[0];
+                            variableBinding[this.predicateVarName] = (int)row[1];
                             yield return variableBinding;
                         }
 
@@ -277,8 +276,8 @@ namespace ConsoleEndpoint.Sparql_adapters
                     case HasValue.None:
                         foreach (var row in store.SPO())
                         {
-                            variableBinding[this.subjectSource] = (int)row[0];
-                            variableBinding[this.predicateSource] = (int)row[1];
+                            variableBinding[this.subjectVarName] = (int)row[0];
+                            variableBinding[this.predicateVarName] = (int)row[1];
                             variableBinding[this.objectVarName] = (object[])row[2];
                             yield return variableBinding;
                         }

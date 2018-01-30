@@ -13,7 +13,7 @@ static internal class ArrayOfObjectsDeconstruct
     /// <param name="element2"></param>
     public static void Deconstruct(this object[] array, out OVT element1, out object element2)
     {
-        element1 = (OVT)array[0];
+        element1 = (OVT)(int)array[0];
         element2 = array[1];
     }
 

@@ -8,6 +8,11 @@ using SparqlQuery.SparqlClasses.Query;
 
 namespace ConsoleEndpoint
 {
+    using System.Xml.Linq;
+
+    using ConsoleEndpoint.XML_Serialization;
+
+    using SparqlQuery = SparqlQuery.SparqlClasses.Query.SparqlQuery;
 
     class Program
     {
@@ -42,7 +47,7 @@ namespace ConsoleEndpoint
                              }).ToArray();
 
                 T.Restart();
-                store.Load(flow);
+               // store.Load(flow);
                 T.Stop();
                 Console.WriteLine($"Load of {nrecords * 2} triples ok. Duration={T.ElapsedMilliseconds}");
 
@@ -56,6 +61,18 @@ namespace ConsoleEndpoint
                                                                    });
                  SparqlSelectResultSet sparqlResultSet = query.Run(store);
                 Console.WriteLine("sr" + sparqlResultSet.ToCommaSeparatedValues());
+
+                SparqlQuery serializedQuery = new XElement(
+                    "SparqlSelectQuery",
+                    new XElement(
+                        "triple",
+                        new XAttribute("sv", "?s"),
+                        new XAttribute("pv", "?p"),
+                        new XAttribute("o", "500"),
+                        new XAttribute("otype", "1")))
+                    .Serialize();
+                var selectQuery = (SparqlSelectQuery)serializedQuery;
+                Console.WriteLine("2 query: "+selectQuery.Run(store).ToCommaSeparatedValues());
             }
         }
 
