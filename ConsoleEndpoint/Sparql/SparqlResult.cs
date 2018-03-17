@@ -1,4 +1,4 @@
-namespace SparqlQuery.SparqlClasses.Query.Result
+namespace ConsoleEndpoint.Sparql
 {
     using System;
     using System.Collections.Generic;
@@ -49,7 +49,7 @@ namespace SparqlQuery.SparqlClasses.Query.Result
             }
         }
 
-        public bool Contains(string varName) => this._bindings.ContainsKey(varName);
+        public bool Contains(string varName) => this._bindings.ContainsKey(varName) && this._bindings[varName] != null;
     }
 
     //public interface ISparqlResult

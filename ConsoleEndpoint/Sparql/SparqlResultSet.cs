@@ -1,8 +1,7 @@
-﻿using System.Collections.Generic;
-using RDFCommon;
-
-namespace SparqlQuery.SparqlClasses.Query.Result
+﻿namespace ConsoleEndpoint.Sparql
 {
+    using System.Collections.Generic;
+
     public abstract class SparqlResultSet
     {
         public IEnumerable<SparqlResult> Results;

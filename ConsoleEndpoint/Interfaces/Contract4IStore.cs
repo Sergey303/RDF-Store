@@ -1,4 +1,4 @@
-﻿namespace ConsoleEndpoint.Interface
+﻿namespace ConsoleEndpoint.Interfaces
 {
     using System.Collections.Generic;
     using System.Diagnostics.Contracts;

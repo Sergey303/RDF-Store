@@ -7,7 +7,7 @@
     using System.Linq;
 
     using ConsoleEndpoint.Comparers;
-    using ConsoleEndpoint.Interface;
+    using ConsoleEndpoint.Interfaces;
 
     using Polar.CellIndexes;
 
@@ -43,7 +43,6 @@
                                     .CastRow<int, int, object[]>()),
                         Table = this.table,
                         Scale = null,
-                        tosort = true
                     };
             this.index_spo = new IndexDynamic<spo, IndexViewImmutable<spo>>(true, index_spo_i);
             this.table.RegisterIndex(this.index_spo);
@@ -57,7 +56,6 @@
                                     .CastRow<int, int, object[]>()),
                         Table = this.table,
                         Scale = null,
-                        tosort = true
                     };
             this.index_ops = new IndexDynamic<ops, IndexViewImmutable<ops>>(true, index_ops_i);
             this.table.RegisterIndex(this.index_ops);
@@ -68,11 +66,14 @@
                         KeyProducer =
                             ob => (int)ob.CastRow<object, object[]>().Item2[1],
                         Table = this.table,
-                        Scale = null,
-                        tosort = true
+                        Scale = null
                     };
             this.index_p = new IndexDynamic<int, IndexViewImmutable<int>>(true, index_p_i);
             this.table.RegisterIndex(this.index_p);
+            if (this.table.Count() > 0)
+            {
+                this.table.BuildIndexes();
+            }
         }
 
         public void Load(IEnumerable<object> tripleFlow)
@@ -99,7 +100,7 @@
             return this.index_spo.GetAllUndeletedByLevel(
                 row =>
                     {
-                        var (s1, p1, _) = row.CastRow<int, int, object>();
+                        var(s1, p1, _) = row.CastRow<int, int, object>();
                         var comparisonS = s1.CompareTo(sCode);
                         return comparisonS != 0 ? comparisonS : p1.CompareTo(pCode);
                     });
@@ -110,7 +111,7 @@
             return this.index_spo.GetAllUndeletedByLevel(
                 row =>
                     {
-                        var (s1, _, o1) = row.CastRow<int, object, object[]>();
+                        var(s1, _, o1) = row.CastRow<int, object, object[]>();
                         var comparisonS = s1.CompareTo(sCode);
                         return comparisonS != 0 ? comparisonS : ObjectVariantComparer.Default.Compare(o1, oObjVariant);
                     });
@@ -121,7 +122,7 @@
             return this.index_ops.GetAllUndeletedByLevel(
                 row =>
                     {
-                        var (_, p1, o1) = row.CastRow<object, int, object[]>();
+                        var(_, p1, o1) = row.CastRow<object, int, object[]>();
                         var comparisonO = ObjectVariantComparer.Default.Compare(o1, oObjVariant);
                         return comparisonO != 0 ? comparisonO : p1.CompareTo(pCode);
                     });
@@ -129,7 +130,7 @@
 
         public IEnumerable<object[]> SpO(int pCode)
         {
-            return this.index_spo.GetAllUndeletedByLevel(
+            return this.index_p.GetAllUndeletedByLevel(
                 row => ((int)row[1]).CompareTo(pCode));
         }
 
@@ -157,7 +158,7 @@
             return this.index_spo.GetAllUndeletedByLevel(
                 row =>
                     {
-                        var (s1, p1, o1) = row.CastRow<int, int, object[]>();
+                        var(s1, p1, o1) = row.CastRow<int, int, object[]>();
                         var comparisonS = s1.CompareTo(sCode);
                         if (comparisonS != 0) return comparisonS;
                         else

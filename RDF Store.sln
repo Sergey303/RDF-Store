@@ -19,6 +19,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UnitTestSparqlStoreCore", "
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConsoleEndpoint", "ConsoleEndpoint\ConsoleEndpoint.csproj", "{DE0273AF-A5A6-4FDF-8E42-E1A66559AC84}"
 EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "ConsloeEndpointF", "ConsloeEndpointF\ConsloeEndpointF.fsproj", "{8408AE3F-B7BB-4A30-820F-71B7D9B5037A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -91,6 +93,14 @@ Global
 		{DE0273AF-A5A6-4FDF-8E42-E1A66559AC84}.Release|Any CPU.Build.0 = Release|Any CPU
 		{DE0273AF-A5A6-4FDF-8E42-E1A66559AC84}.Release|x86.ActiveCfg = Release|Any CPU
 		{DE0273AF-A5A6-4FDF-8E42-E1A66559AC84}.Release|x86.Build.0 = Release|Any CPU
+		{8408AE3F-B7BB-4A30-820F-71B7D9B5037A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8408AE3F-B7BB-4A30-820F-71B7D9B5037A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8408AE3F-B7BB-4A30-820F-71B7D9B5037A}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{8408AE3F-B7BB-4A30-820F-71B7D9B5037A}.Debug|x86.Build.0 = Debug|Any CPU
+		{8408AE3F-B7BB-4A30-820F-71B7D9B5037A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8408AE3F-B7BB-4A30-820F-71B7D9B5037A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8408AE3F-B7BB-4A30-820F-71B7D9B5037A}.Release|x86.ActiveCfg = Release|Any CPU
+		{8408AE3F-B7BB-4A30-820F-71B7D9B5037A}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

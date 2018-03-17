@@ -1,6 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Text;
 
 namespace ConsoleEndpoint.XML_Serialization
 {
@@ -8,10 +6,7 @@ namespace ConsoleEndpoint.XML_Serialization
     using System.Linq;
     using System.Xml.Linq;
 
-    using ConsoleEndpoint.Sparql_adapters;
-
-    using SparqlQuery.SparqlClasses.GraphPattern;
-    using SparqlQuery.SparqlClasses.Query;
+    using ConsoleEndpoint.Sparql;
 
     public static class XMLSparqlSerialize
     {
@@ -30,9 +25,9 @@ namespace ConsoleEndpoint.XML_Serialization
             switch (xNode.Name.ToString())
             {
                 case "triple":
-                    return new SparqlTriple(sVarName:xNode.Attribute("sv")?.Value,
-                        pVarName: xNode.Attribute("pv")?.Value,
-                        oVarName: xNode.Attribute("ov")?.Value,
+                    return new SparqlTriple(sVar:xNode.Attribute("sv")?.Value,
+                        pVar: xNode.Attribute("pv")?.Value,
+                        oVar: xNode.Attribute("ov")?.Value,
                         subjectSource: xNode.Attribute("s")?.Value,
                         predicateSource: xNode.Attribute("p")?.Value,
                         o: new object []{ SerializeOVT(xNode), xNode.Attribute("o")?.Value });

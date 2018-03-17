@@ -1,9 +1,9 @@
-using System;
-using System.Collections.Generic;
-using System.Text.RegularExpressions;
-
-namespace RDFCommon
+namespace ConsoleEndpoint.Sparql
 {
+    using System;
+    using System.Collections.Generic;
+    using System.Text.RegularExpressions;
+
     public class Prologue
     {
         public Dictionary<string, string> namspace2Prefix = new Dictionary<string, string>();
@@ -16,10 +16,10 @@ namespace RDFCommon
         public string GetUriFromPrefixed(string p)
         {
             if (p.StartsWith("<") && p.EndsWith(">"))
-                return GetFromIri(p); 
+                return this.GetFromIri(p); 
             var uriPrefixed = SplitPrefixed(p);
             // if(prefix=="_")   throw new NotImplementedException();
-            if (!prefix2Namspace.TryGetValue(uriPrefixed.prefix, out var fullNamespace))
+            if (!this.prefix2Namspace.TryGetValue(uriPrefixed.prefix, out var fullNamespace))
                 throw new Exception("prefix " + uriPrefixed.prefix);
             
             return fullNamespace + uriPrefixed.localname;
@@ -78,14 +78,14 @@ namespace RDFCommon
 
         public void SetBase(string p)
         {
-            baseUri = p;
+            this.baseUri = p;
         }
 
         public void AddPrefix(string prefix, string ns)
         {
             ns = ns.Substring(1, ns.Length - 2);
-            prefix2Namspace.Add(prefix, ns);
-            namspace2Prefix.Add(ns, prefix);
+            this.prefix2Namspace.Add(prefix, ns);
+            this.namspace2Prefix.Add(ns, prefix);
         }
 
 

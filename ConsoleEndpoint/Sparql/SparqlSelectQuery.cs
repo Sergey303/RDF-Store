@@ -1,19 +1,14 @@
-﻿using SparqlQuery.SparqlClasses.GraphPattern;
-using SparqlQuery.SparqlClasses.Query.Result;
-
-namespace SparqlQuery.SparqlClasses.Query
+﻿namespace ConsoleEndpoint.Sparql
 {
     using System.Collections.Generic;
     using System.Linq;
 
-    using ConsoleEndpoint.Interface;
-
-    using RDFCommon;
+    using ConsoleEndpoint.Interfaces;
 
     public class SparqlSelectQuery : SparqlQuery
     {
 
-          readonly SparqlSelectResultSet SelectResultSet;
+          readonly  SparqlSelectResultSet SelectResultSet;
 
         public SparqlSelectQuery(
             ISparqlGraphPattern[] sparqlWhere, 
@@ -31,7 +26,7 @@ namespace SparqlQuery.SparqlClasses.Query
                 prolog);
         }
       
-        public SparqlSelectResultSet Run(IStore store) => Run<SparqlSelectResultSet>(store);
+        public SparqlSelectResultSet Run(IStore store) => this.Run<SparqlSelectResultSet>(store);
 
         public override T Run<T>(IStore store)
         {

@@ -15,7 +15,25 @@
   </ItemGroup>
 
   <ItemGroup>
-    <PackageReference Include="Polar.CellIndexes" Version="1.0.0" />
+    <Folder Include="Mag Store\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\RDFCommon\RDFCommon.csproj" />
+    <ProjectReference Include="..\RDFStore\RDFStore.csproj" />
+    <ProjectReference Include="..\SparqlQuery\SparqlQuery.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="Polar.CellIndexes">
+      <HintPath>Polar.CellIndexes.dll</HintPath>
+    </Reference>
+    <Reference Include="Polar.Cells">
+      <HintPath>Polar.Cells.dll</HintPath>
+    </Reference>
+    <Reference Include="Polar.DB">
+      <HintPath>Polar.DB.dll</HintPath>
+    </Reference>
   </ItemGroup>
 
 </Project>

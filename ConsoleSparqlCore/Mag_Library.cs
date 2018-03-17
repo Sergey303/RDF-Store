@@ -226,8 +226,7 @@ namespace ConsoleSparqlCore
             {
                 KeyProducer = ob => new spo(((object[])ob)[1]),
                 Table = table,
-                Scale = null,
-                tosort = true
+                Scale = null
             };
             index_spo = new IndexDynamic<spo, IndexViewImmutable<spo>>(true, index_spo_i);
             table.RegisterIndex(index_spo);
@@ -235,8 +234,7 @@ namespace ConsoleSparqlCore
             {
                 KeyProducer = ob => new ops(((object[])ob)[1]),
                 Table = table,
-                Scale = null,
-                tosort = true
+                Scale = null
             };
             index_ops = new IndexDynamic<ops, IndexViewImmutable<ops>>(true, index_ops_i);
             table.RegisterIndex(index_ops);

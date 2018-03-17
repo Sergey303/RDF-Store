@@ -1,12 +1,8 @@
-﻿namespace SparqlQuery.SparqlClasses.Query
-{
+﻿namespace ConsoleEndpoint.Sparql
+{ 
     using System;
     using System.Collections.Generic;
     using System.Linq;
-
-    using global::SparqlQuery.SparqlClasses.Query.Result;
-
-    using RDFCommon;
 
     public class SparqlSelectResultSet : SparqlResultSet
     {
@@ -31,12 +27,12 @@
             this.isDistinct = isDistinct;
             this.Variables = sparqlWhereVariables;
         }
-        
+
 
         private IEnumerable<TRow> Transform<T, TRow>(
             Func<IEnumerable<T>, TRow> rowAggregate,
             Func<string, object, T> oneVarSelect) =>
-            this.Results.Select(result => rowAggregate(this.Selection.Select(var => oneVarSelect(var, result[var]))));
+            this.Results.Select(result => rowAggregate(this.Selection.Where(var => result.Contains(var)).Select(var => oneVarSelect(var, result[var]))));
 
         public List<string> Selection { get; set; }
 

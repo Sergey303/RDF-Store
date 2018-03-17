@@ -1,10 +1,8 @@
-﻿using ConsoleEndpoint.Interface;
-using SparqlQuery.SparqlClasses.GraphPattern;
-using SparqlQuery.SparqlClasses.Query.Result;
-
-namespace SparqlQuery.SparqlClasses.Query
+﻿namespace ConsoleEndpoint.Sparql
 {
     using System.Collections.Generic;
+
+    using ConsoleEndpoint.Interfaces;
 
     public abstract class SparqlQuery 
     {

@@ -1,14 +1,11 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace ConsoleEndpoint.Sparql_adapters
+namespace ConsoleEndpoint.Sparql
 {
-    using ConsoleEndpoint.Interface;
+    using ConsoleEndpoint.Interfaces;
 
-    using SparqlQuery.SparqlClasses.GraphPattern;
-    using SparqlQuery.SparqlClasses.Query.Result;
-
-    class SparqlTriple : ISparqlGraphPattern
+   public class SparqlTriple : ISparqlGraphPattern
     {
 
         private readonly string subjectSource;
@@ -21,34 +18,36 @@ namespace ConsoleEndpoint.Sparql_adapters
 
         private bool isObjectCoded;
 
-        private readonly bool isSubjectVariable;
+        public readonly bool isSubjectVariable;
 
-        private readonly bool isPredicateVariable;
+        public readonly bool isPredicateVariable;
 
-        private readonly bool isObjectVariable;
+        public readonly bool isObjectVariable;
 
-        private readonly string subjectVarName;
+        public readonly string subjectVarName;
 
-        private readonly string predicateVarName;
+        public readonly string predicateVarName;
 
-        private readonly string objectVarName;
+        public readonly string objectVarName;
 
-        private int subject;
+        public int subject;
 
-        private int predicate;
+        public int predicate;
 
-        private object[] _object;
+        public object[] _object;
 
         private bool _constTriplePartExistsInStore = true;
 
         private readonly HashSet<string> variables=new HashSet<string>();
 
         public SparqlTriple(
-            string sVarName = null,
-            string pVarName = null,
-            string oVarName = null,
+            string sVar = null,
+            string pVar = null,
+            string oVar = null,
             string subjectSource = null,
             string predicateSource = null,
+            string objectSource = null,
+            OVT objectType=OVT.iri,
             int? subject = null,
             int? predicate = null,
             object[] o = null)
@@ -56,13 +55,13 @@ namespace ConsoleEndpoint.Sparql_adapters
             this.subjectSource = subjectSource;
             this.predicateSource = predicateSource;
             
-            this.subjectVarName = sVarName;
-            this.predicateVarName = pVarName;
-            this.objectVarName = oVarName;
-            if (sVarName != null)
+            this.subjectVarName = sVar;
+            this.predicateVarName = pVar;
+            this.objectVarName = oVar;
+            if (sVar != null)
             {
                 this.isSubjectVariable = true;
-                this.variables.Add(sVarName);
+                this.variables.Add(sVar);
             }
             else
             {
@@ -83,10 +82,10 @@ namespace ConsoleEndpoint.Sparql_adapters
                 }
             }
 
-            if (pVarName != null)
+            if (pVar != null)
             {
                 this.isPredicateVariable = true;
-                this.variables.Add(pVarName);
+                this.variables.Add(pVar);
             }
             else
             {
@@ -107,10 +106,10 @@ namespace ConsoleEndpoint.Sparql_adapters
                 }
             }
 
-            if (oVarName != null)
+            if (oVar != null)
             {
                 this.isObjectVariable = true;
-                this.variables.Add(oVarName);
+                this.variables.Add(oVar);
             }
             else
             {
@@ -118,6 +117,10 @@ namespace ConsoleEndpoint.Sparql_adapters
                 if (o != null)
                 {
                     this._object = o;
+                }
+                else if (objectSource != null)
+                {
+                    this._object = new object[] { objectType, objectSource };
                 }
                 else
                 {
@@ -157,7 +160,7 @@ namespace ConsoleEndpoint.Sparql_adapters
                 }
             }
 
-            if (!this.isObjectVariable && !this.isPredicateCoded)
+            if (!this.isObjectVariable && !this.isObjectCoded)
             {
                 var(vid, ov) = this._object;
                 if ((OVT)(int)vid == OVT.iri)
@@ -169,7 +172,7 @@ namespace ConsoleEndpoint.Sparql_adapters
                     this._constTriplePartExistsInStore = store.ContainsObject(this._object);
                 }
 
-                this.isSubjectCoded = true;
+                this.isObjectCoded = true;
                 if (!this._constTriplePartExistsInStore)
                 {
                     return false;
@@ -188,27 +191,43 @@ namespace ConsoleEndpoint.Sparql_adapters
 
             foreach (var variableBinding in variableBindings)
             {
+                int s=0, p;
+                object[] o;
                 var hasValueCase = HasValue.None;
-                hasValueCase |= this.isSubjectVariable && !variableBinding.Contains(this.subjectVarName)
-                                    ? HasValue.None
-                                    : HasValue.Subject;
-                hasValueCase |= this.isPredicateVariable && !variableBinding.Contains(this.predicateVarName)
-                                    ? HasValue.None
-                                    : HasValue.Predicate;
+                if (!this.isSubjectVariable)
+                {
+                    hasValueCase |= HasValue.Subject;
+                    s = this.subject;
+                }
+                else if (variableBinding.Contains(this.subjectVarName))
+                {
+                    hasValueCase |= HasValue.Subject;
+                    s = variableBinding.GetAsIri(this.subjectVarName);
+                }
+                else
+                {
+                    hasValueCase |= HasValue.None;
+                }
+
+                if (this.isPredicateVariable && !variableBinding.Contains(this.predicateVarName))
+                {
+                    hasValueCase |= HasValue.None;
+                }
+                else
+                {
+                    hasValueCase |= HasValue.Predicate;
+                }
+
                 hasValueCase |= this.isObjectVariable && !variableBinding.Contains(this.objectVarName)
                                     ? HasValue.None
                                     : HasValue.Object;
-                int s = this.isSubjectVariable
-                            ? (hasValueCase & HasValue.Subject) != 0
-                                  ? variableBinding.GetAsIri(this.subjectVarName)
-                                  : 0
-                            : this.subject;
-                int p = this.isPredicateVariable
+                
+                 p = this.isPredicateVariable
                             ? (hasValueCase & HasValue.Predicate) != 0
                                   ? variableBinding.GetAsIri(this.predicateVarName)
                                   : 0
                             : this.predicate;
-                object[] o = this.isObjectVariable
+                o = this.isObjectVariable
                                  ? (hasValueCase & HasValue.Object) != 0
                                        ? variableBinding.GetAsOV(this.objectVarName)
                                        : null
@@ -289,7 +308,26 @@ namespace ConsoleEndpoint.Sparql_adapters
             }
         }
 
-        public HashSet<string> Variables => variables;
+        public IEnumerable<string> Variables
+        {
+            get
+            {
+                if (this.isSubjectVariable)
+                {
+                    yield return this.subjectVarName;
+                }
+
+                if (this.isPredicateVariable)
+                {
+                    yield return this.predicateVarName;
+                }
+
+                if (this.isObjectVariable)
+                {
+                    yield return this.objectVarName;
+                }
+            }
+        }
 
         /// <summary>
         /// The variables in triple.

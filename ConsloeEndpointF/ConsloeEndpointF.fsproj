@@ -1,0 +1,37 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Include="SparqlOptimise.fs" />
+    <Compile Include="MagStore.fs" />
+    <Compile Include="Program.fs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="Polar.DB.dll" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Polar.CellIndexes" Version="1.0.1" />
+    <PackageReference Include="Polar.Cells" Version="1.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ConsoleEndpoint\ConsoleEndpoint.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="Polar.DB">
+      <HintPath>Polar.DB.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Update="FSharp.Core" Version="4.3.4" />
+  </ItemGroup>
+
+</Project>

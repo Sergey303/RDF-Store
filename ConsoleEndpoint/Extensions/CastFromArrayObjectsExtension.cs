@@ -20,11 +20,9 @@ static internal class CastFromArrayObjectsExtension
             return (T)Enum.ToObject(type, o);
         if (o is object[] row)
         {
-            Type[] genericArguments;
-            if (typeof(ITuple).IsAssignableFrom(type))
-                genericArguments = type.GetGenericArguments();
-            else
-                genericArguments = type.GetProperties().Select(p => p.PropertyType).ToArray();
+            var genericArguments = typeof(ITuple).IsAssignableFrom(type)
+                                       ? type.GetGenericArguments()
+                                       : type.GetProperties().Select(p => p.PropertyType).ToArray();
             // if (genericArguments.Length == row.Length)
             {
                 return (T)type.GetConstructor(genericArguments).Invoke(

@@ -1,15 +1,13 @@
-using System.Collections.Generic;
-
-using SparqlQuery.SparqlClasses.Query.Result;
-
-namespace SparqlQuery.SparqlClasses.GraphPattern
+namespace ConsoleEndpoint.Sparql
 {
-    using ConsoleEndpoint.Interface;
+    using System.Collections.Generic;
+
+    using ConsoleEndpoint.Interfaces;
 
     public interface ISparqlGraphPattern 
     {
         IEnumerable<SparqlResult> Run(IEnumerable<SparqlResult> variableBindings, IStore store);
        // SparqlGraphPatternType PatternType { get; }
-        HashSet<string> Variables { get; }
+        IEnumerable<string> Variables { get; }
     }
 }

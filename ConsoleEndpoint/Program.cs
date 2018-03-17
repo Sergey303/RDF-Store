@@ -2,17 +2,15 @@
 using System.Diagnostics;
 using System.IO;
 using System.Linq;
-using ConsoleEndpoint.Sparql_adapters;
-using SparqlQuery.SparqlClasses.GraphPattern;
-using SparqlQuery.SparqlClasses.Query;
 
 namespace ConsoleEndpoint
 {
     using System.Xml.Linq;
 
+    using ConsoleEndpoint.Sparql;
     using ConsoleEndpoint.XML_Serialization;
 
-    using SparqlQuery = SparqlQuery.SparqlClasses.Query.SparqlQuery;
+    using SparqlQuery = ConsoleEndpoint.Sparql.SparqlQuery;
 
     class Program
     {
@@ -47,19 +45,18 @@ namespace ConsoleEndpoint
                              }).ToArray();
 
                 T.Restart();
-               // store.Load(flow);
+                // store.Load(flow);
                 T.Stop();
-                Console.WriteLine($"Load of {nrecords * 2} triples ok. Duration={T.ElapsedMilliseconds}");
+                Console.WriteLine($"Load of {store.table.Count()} triples OK. Duration={T.ElapsedMilliseconds}");
 
                 T.Restart();
                 store.table.Warmup();
                 T.Stop();
-                Console.WriteLine($"warm up of {nrecords * 2} triples ok. Duration={T.ElapsedMilliseconds}");
+                Console.WriteLine($"warm up of {store.table.Count()} triples OK. Duration={T.ElapsedMilliseconds}");
 
-                var query = new SparqlSelectQuery(new[] {
-                    new SparqlTriple(subjectSource: "555", predicateSource: "1", oVarName: "?o")
-                                                                   });
-                 SparqlSelectResultSet sparqlResultSet = query.Run(store);
+                var query = new SparqlSelectQuery(
+                    new[] { new SparqlTriple(subjectSource: "555", predicateSource: "1", oVar: "?o") });
+                SparqlSelectResultSet sparqlResultSet = query.Run(store);
                 Console.WriteLine("sr" + sparqlResultSet.ToCommaSeparatedValues());
 
                 SparqlQuery serializedQuery = new XElement(
@@ -69,10 +66,53 @@ namespace ConsoleEndpoint
                         new XAttribute("sv", "?s"),
                         new XAttribute("pv", "?p"),
                         new XAttribute("o", "500"),
-                        new XAttribute("otype", "1")))
-                    .Serialize();
+                        new XAttribute("otype", "1"))).Serialize();
                 var selectQuery = (SparqlSelectQuery)serializedQuery;
-                Console.WriteLine("2 query: "+selectQuery.Run(store).ToCommaSeparatedValues());
+                Console.WriteLine("2 query: " + selectQuery.Run(store).ToCommaSeparatedValues());
+                var queryOptional = new SparqlSelectQuery(
+                    new ISparqlGraphPattern[]
+                        {
+                            new SparqlTriple(
+                                subjectSource: "12",
+                                predicateSource: "1",
+                                oVar: "?o"),
+                            new Optional(
+                                new SparqlTriple(
+                                    sVar: "?s",
+                                    predicateSource: "2",
+                                    oVar: "?o"),
+                                new SparqlTriple(
+                                    sVar: "?s",
+                                    predicateSource: "1",
+                                    oVar: "?o"))
+                            ,new Optional(new SparqlTriple(
+                                sVar: "?s1",
+                                predicateSource: "2",
+                                oVar: "?o")), 
+                        });
+                Console.WriteLine("optional query: " + queryOptional.Run(store).ToCommaSeparatedValues());
+                var queryUmion = new SparqlSelectQuery(
+                    new ISparqlGraphPattern[]
+                        {
+                            new SparqlTriple(
+                                sVar: "?s",
+                                predicateSource: "1",
+                                objectSource: "435"),
+                            new Union(
+                                new SparqlTriple(
+                                    sVar: "?s",
+                                    predicateSource: "1",
+                                    oVar: "?o"),
+                                new SparqlTriple(
+                                    sVar: "?s",
+                                    predicateSource: "2",
+                                    oVar: "?o")),
+                            new SparqlTriple(
+                                sVar: "?s",
+                                pVar: "?p",
+                                oVar: "?o1")
+                        });
+                Console.WriteLine("union query: " + queryUmion.Run(store).ToCommaSeparatedValues());
             }
         }
 
